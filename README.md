@@ -21,16 +21,14 @@ The Open-Source Interactive Maps that the [Beta GeoPlatform](https://beta.geopla
 
 TerriaJS is a library for building rich, web-based geospatial data explorers, used to drive [National Map](http://nationalmap.gov.au), [AREMI](http://nationalmap.gov.au/renewables) and [NEII Viewer](http://neii.gov.au/viewer/).  It uses [Cesium](https://cesiumjs.org) and WebGL for a full 3D globe in the browser with no plugins.  It gracefully falls back to 2D with [Leaflet](http://leafletjs.com/) on systems that can't run Cesium. It can handle catalogs of thousands of layers, with dozens of geospatial file and web service types supported. It is almost entirely JavaScript in the browser, meaning it can even be deployed as a static website, making it simple and cheap to host.
 
-#### Quick Install
+**Quick Install**
+
 If you're fimilar with node, this is a quick install. If you work on mulitiple projects with node, I recommend [nodev](https://github.com/nodenv/nodenv) to mange node versions.
 
 ```sh
 git clone https://github.com/TerriaJS/TerriaMap.git
-
 cd TerriaMap
-
 npm install && npm run gulp && npm start
-
 # Open at http://localhost:3001
 ```
 
