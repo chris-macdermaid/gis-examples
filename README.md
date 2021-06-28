@@ -54,3 +54,5 @@ GeoServer implements industry standard OGC protocols such as Web Feature Service
 # GIS Documentation
 
 ## [Unlocking the Mysteries of the Bounding Box](https://archive.ph/20120721210709/http://purl.oclc.org/coordinates/a2.htm)
+
+Few geospatial data representations are more basic than the bounding box; a rectangle surrounding a geographic feature or dataset. Bounding boxes are a key component of geospatial metadata and lie at the heart of many computational geometry algorithms as well as spatial indexing systems. Despite their ubiquity and common use, bounding boxes are more complicated than they first appear. The phrase that ‘spatial is special’ applies to this humble representation as well as to more sophisticated geospatial representations. This paper explores the nuances of correctly understanding, using, and interpreting bounding boxes.
