@@ -53,4 +53,4 @@ GeoServer implements industry standard OGC protocols such as Web Feature Service
 
 # GIS Documentation
 
-## [Unlocking the Mysteries of the Bounding Box](http://purl.oclc.org/coordinates/a2.htm)
+## [Unlocking the Mysteries of the Bounding Box](https://archive.ph/20120721210709/http://purl.oclc.org/coordinates/a2.htm)
