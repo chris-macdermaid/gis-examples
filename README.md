@@ -49,3 +49,8 @@ GeoServer is an open source server for sharing geospatial data.
 Designed for interoperability, it publishes data from any major spatial data source using open standards.
 
 GeoServer implements industry standard OGC protocols such as Web Feature Service (WFS), Web Map Service (WMS), and Web Coverage Service (WCS). Additional formats and publication options are available as extensions including Web Processing Service (WPS), and Web Map Tile Service (WMTS).
+
+
+# GIS Documentation
+
+## [Unlocking the Mysteries of the Bounding Box](http://purl.oclc.org/coordinates/a2.htm)
