@@ -7,7 +7,7 @@
 
   "keywords": ["topographic", "orthoimage"],
 
-  "license": "Although these data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data. It is strongly recommended that these data are directly acquired from a U.S. Geological Survey server, and not indirectly through other sources which may have changed the data in some way. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data. The U.S. Geological Survey shall not be held liable for improper or incorrect use of the data described and/or contained herein. ",
+  "license": "Map services and data downloaded from The National Map are free and in the public domain. There are no restrictions; however, we request that the following acknowledgment statement of the originating agency be included in products and data derived from our map services when citing, copying, or reprinting: \"Map services and data available from U.S. Geological Survey, National Geospatial Program.\"",
 
   "providers": [
     {
