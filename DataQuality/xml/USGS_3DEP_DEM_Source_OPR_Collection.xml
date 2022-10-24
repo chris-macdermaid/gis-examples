@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE metadata SYSTEM "https://thor-f5.er.usgs.gov/ngtoc/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey</origin>
+        <pubdate>2022</pubdate>
+        <title>Original Product Resolution (OPR) Source Digital Elevation Models (DEMs) - USGS National Map 3DEP
+          Downloadable Data Collection</title>
+        <geoform>raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://www.usgs.gov/core-science-systems/ngp/3dep</onlink>
+        <onlink>https://apps.nationalmap.gov/downloader/</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data collection is the Original Product Resolution (OPR) Digital Elevation
+        Model (DEM) as provided to the USGS. This DEM is delivered in the original resolution, with
+        the original spatial reference. All elevation units have been converted to meters. These
+        data may be used as the source of updates to the 3D Elevation Program (3DEP), which
+        serves as the elevation layer of the National Map.</abstract>
+      <purpose>This data serves as the elevation layer of The National Map, and provides basic
+        elevation information for earth science studies and mapping applications in the United
+        States. The data are utilized by the scientific and resource management communities for
+        global change research, hydrologic modeling, resource monitoring, mapping and
+        visualization, and many other applications.</purpose>
+      <supplinf>The DEMs available in this collection have been mosaicked into one file per project
+        area. These are the original source resolution DEMs. The geographic area of coverage is
+        limited to areas of where high-resolution elevation data are available. Additional
+        information for the 3D Elevation Program (3DEP) may be found on https://www.usgs.gov/core-science-systems/ngp/3dep. Data may be
+        downloaded through The National Map Viewer: 
+https://apps.nationalmap.gov/downloader/. Direct
+        links for direct access by automated services are provided in the Distribution section of
+        this metadata.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>2010</begdate>
+          <enddate>present</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As Needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-180</westbc>
+        <eastbc>-60</eastbc>
+        <northbc>72</northbc>
+        <southbc>13</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:1004ada7-1e9f-4fcf-adfb-677868b7317c</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>elevation</themekey>
+      </theme>
+	<theme>
+		<themekt>3D Elevation Program (3DEP)</themekt>
+		<themekey>3D Elevation Program</themekey>
+		<themekey>3DEP</themekey>
+		<themekey>National Elevation Dataset</themekey>
+		<themekey>NED</themekey>
+		<themekey>Elevation</themekey>
+		<themekey>Light Detection and Ranging</themekey>
+		<themekey>LIDAR</themekey>
+		<themekey>High Resolution</themekey>
+		<themekey>Topographic Surface</themekey>
+		<themekey>Topography</themekey>
+		<themekey>Bare Earth</themekey>
+		<themekey>Hydro-Flattened</themekey>
+		<themekey>Terrain Elevation</themekey>
+		<themekey>Cartography</themekey>
+		<themekey>DEM</themekey>
+		<themekey>Digital Elevation Model</themekey>
+		<themekey>Digital Mapping</themekey>
+		<themekey>Digital Terrain Model</themekey>
+		<themekey>Geodata</themekey>
+		<themekey>GIS</themekey>
+		<themekey>Mapping</themekey>
+		<themekey>Raster</themekey>
+		<themekey>USGS</themekey>
+		<themekey>U.S. Geological Survey</themekey>
+	</theme>
+      <place>
+        <placekt>Geographic Names Information System</placekt>
+        <placekey>US</placekey>
+        <placekey>United States</placekey>
+      </place>
+    </keywords>
+    <accconst>None. Any downloading and use of these data signifies a user's agreement to
+      comprehension and compliance of the USGS Standard Disclaimer. Insure all portions of metadata
+      are read and clearly understood before using these data in order to protect both user and USGS
+      interests.</accconst>
+    <useconst>There is no guarantee or warranty concerning the accuracy of the data. Users should be
+      aware that temporal changes may have occurred since these data were collected and that some
+      parts of these data may no longer represent actual surface conditions. Users should not use
+      these data for critical applications without a full awareness of its limitations.
+      Acknowledgement of the originating agencies would be appreciated in products derived from
+      these data. Any user who modifies the data is obligated to describe the types of modifications
+      they perform. User specifically agrees not to misrepresent the data, nor to imply that changes
+      made were approved or endorsed by the USGS. Please refer to https://www.usgs.gov/privacy.html
+      for the USGS disclaimer.</useconst>
+    <browse>
+      <browsen>https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/collections/browse/dem_opr_col_thumbnail.jpg</browsen>
+      <browsed>Thumbnail JPG image</browsed>
+      <browset>JPEG</browset>
+    </browse>
+    <datacred>Acknowledgement of the originating agencies would be appreciated in products derived
+      from these data.</datacred>
+  </idinfo>
+  <dataqual>
+		<logic>Please refer to the copy of the original product metadata file within the delivered folder if one was provided.</logic>
+		<complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+		<posacc>
+			<vertacc>
+			<vertaccr>Please refer to the copy of the original product metadata file if one was provided.</vertaccr>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdesc>Original project data were provided to the National Geospatial Technical Operations Center (NGTOC) in Rolla, MO and/or Denver, CO. The data were reviewed for quality and accuracy before publication. Data are provided in the original source resolution and spatial reference.</procdesc>
+				<procdate>2022</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+  </spdoinfo>
+  <eainfo>
+    <overview>
+      <eaover> The attribute summary can be found in the data dictionary.</eaover>
+      <eadetcit>A link to the 3DEP Data Dictionary describing information that is included in the
+        spatial metadata shapefiles acquired with the DEM is provided at the end of the Metadata
+        Section of this document.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>USGS National Geospatial Program Office</address>
+          <address>12201 Sunrise Valley Drive</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>tnm_help@usgs.gov</cntemail>
+        <hours>Monday through Friday 8:00 AM to 4:00 PM Eastern Time Zone USA</hours>
+        <cntinst>Please visit https://answers.usgs.gov/, call 1-888-ASK-USGS or email tnm_help@usgs.gov to contact us.</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>Although these data have been processed successfully on a computer system at the U.S.
+      Geological Survey, no warranty, expressed or implied, is made by either regarding the utility
+      of the data on any system, nor shall the act of distribution constitute any such warranty. The
+      USGS will warranty the delivery of this product in computer-readable format and will offer
+      appropriate adjustment of credit when the product is determined unreadable by correctly
+      adjusted computer peripherals, or when the physical medium is delivered in damaged condition.
+      Requests for adjustments of credit must be made within 90 days from the date of this shipment
+      from the ordering site.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>WAF</formname>
+          <formcont>Web Accessible Folder</formcont>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/elevation/opr_dem/</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Downloads</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/Elevation/OPR/</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>NONE</fees>
+    </stdorder>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>3DEP Elevation Index Map Server (ArcGIS)</formname>
+          <formvern>10.71</formvern>
+          <formspec>https://www.geoplatform.gov/spec/esri-map-rest</formspec>
+          <formcont>An ArcGIS Map Service for visualizing availability of Elevation
+            products.</formcont>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://index.nationalmap.gov/arcgis/rest/services/3DEPElevationIndex/MapServer</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>NONE</fees>
+    </stdorder>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>3DEP Elevation Index Map Server (OGC WMS)</formname>
+          <formvern>1.3.0</formvern>
+          <formspec> https://opengis.net/spec/wms</formspec>
+          <formcont>An OGC WMS Map Service for visualizing availability of Elevation
+            products.</formcont>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://index.nationalmap.gov/arcgis/services/3DEPElevationIndex/MapServer/WMSServer?request=GetCapabilities&amp;service=WMS</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>NONE</fees>
+    </stdorder>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>3DEP Elevation Bare Earth DEM Image Server (ArcGIS)</formname>
+          <formvern>10.71</formvern>
+          <formspec>https://www.geoplatform.gov/spec/esri-image-rest</formspec>
+          <formcont>An ArcGIS Image Service for visualizing bare earth DEM Elevation products.</formcont>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>NONE</fees>
+    </stdorder>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>3DEP Elevation Bare Earth DEM Image Server (OGC WMS)</formname>
+          <formvern>1.3.0</formvern>
+          <formspec> https://opengis.net/spec/wms</formspec>
+          <formcont>An OGC WMS Map Service for visualizing availability of Elevation products.</formcont>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://elevation.nationalmap.gov/arcgis/services/3DEPElevation/ImageServer/WMSServer?request=GetCapabilities&amp;service=WMS</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>NONE</fees>
+    </stdorder>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>3DEP Elevation Bare Earth DEM Image Server (OGC WCS)</formname>
+          <formvern>2.0.1</formvern>
+          <formspec> https://opengis.net/spec/wcs</formspec>
+          <formcont>An OGC WCS Map Service for extracting bare earth DEM Elevation data.</formcont>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://elevation.nationalmap.gov/arcgis/services/3DEPElevation/ImageServer/WCSServer?request=GetCapabilities&amp;service=WCS</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>NONE</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20220725</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>USGS National Geospatial Program Office</address>
+          <address>12201 Sunrise Valley Drive</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>tnm_help@usgs.gov</cntemail>
+        <hours>Monday through Friday 8:00 AM to 4:00 PM Eastern Time Zone USA</hours>
+        <cntinst>Please visit https://answers.usgs.gov/, call 1-888-ASK-USGS or email tnm_help@usgs.gov to contact us.</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metextns>
+      <onlink>https://www.usgs.gov/media/files/3dep-spatial-metadata-glossary</onlink>
+      <metprof>3D Elevation Program (3DEP) Data Dictionary Access</metprof>
+    </metextns>
+  </metainfo>
+</metadata>
