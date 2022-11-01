@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MD_Metadata xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xalan="http://xml.apache.org/xalan" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns="http://www.isotc211.org/2005/gmd">
+    <fileIdentifier>
+        <gco:CharacterString>b292ef96fb734f44b26569e75516e216</gco:CharacterString>
+    </fileIdentifier>
+    <characterSet>
+        <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+    </characterSet>
+    <hierarchyLevel>
+        <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+    </hierarchyLevel>
+    <hierarchyLevelName>
+        <gco:CharacterString>dataset</gco:CharacterString>
+    </hierarchyLevelName>
+    <contact>
+        <CI_ResponsibleParty>
+            <role>
+                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</CI_RoleCode>
+            </role>
+        </CI_ResponsibleParty>
+    </contact>
+    <dateStamp>
+        <gco:Date>2018-10-10</gco:Date>
+    </dateStamp>
+    <metadataStandardName>
+        <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+    </metadataStandardName>
+    <metadataStandardVersion>
+        <gco:CharacterString>2007</gco:CharacterString>
+    </metadataStandardVersion>
+    <identificationInfo>
+        <MD_DataIdentification>
+            <citation>
+                <CI_Citation>
+                    <title>
+                        <gco:CharacterString>Monitoring Trends in Burn Severity Conterminous United States</gco:CharacterString>
+                    </title>
+                    <date gco:nilReason="missing"/>
+                    <citedResponsibleParty>
+                        <CI_ResponsibleParty>
+                            <role>
+                                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
+                            </role>
+                        </CI_ResponsibleParty>
+                    </citedResponsibleParty>
+                </CI_Citation>
+            </citation>
+            <abstract>
+                <gco:CharacterString>Burn severity layers are thematic images depicting severity as unburned to low, low, moderate, high, and increased greenness (increased post-fire vegetation response). The layer may also have a sixth class representing a mask for clouds, shadows, large water bodies, or other features on the landscape that erroneously affect the severity classification. This data has been prepared as part of the Monitoring Trends in Burn Severity (MTBS) project. Due to the lack of comprehensive fire reporting information and quality Landsat imagery, burn severity for all targeted MTBS fires are not available. Additionally, the availability of burn severity data for fires occurring in the current and previous calendar year is variable since these data are currently in production and released on an intermittent basis by the MTBS project. Direct Download</gco:CharacterString>
+            </abstract>
+            <purpose>
+                <gco:CharacterString>Burn Severity CONUS</gco:CharacterString>
+            </purpose>
+            <credit>
+                <gco:CharacterString>USDA-FS-RSAC; USGS-EROS</gco:CharacterString>
+            </credit>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Geospatial</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NGDA</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>National Geospatial Data Asset</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Land Use Land Cover Theme</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Geospatial</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NGDA</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>National Geospatial Data Asset</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Land Use Land Cover Theme</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Geospatial</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NGDA</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>National Geospatial Data Asset</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Land Use Land Cover Theme</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Geospatial</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NGDA</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>National Geospatial Data Asset</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Land Use Land Cover Theme</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <resourceConstraints>
+                <MD_Constraints>
+                    <useLimitation>
+                        <gco:CharacterString>The USDA Forest Service makes no warranty, expressed or implied, including the warranties of merchantability and fitness for a particular purpose, nor assumes any legal liability or responsibility for the accuracy, reliability, completeness or utility of these geospatial data, or for the improper or incorrect use of these geospatial data. These geospatial data and related maps or graphics are not legal documents and are not intended to be used as such. The data and maps may not be used to determine title, ownership, legal descriptions or boundaries, legal jurisdiction, or restrictions that may be in place on either public or private land. Natural hazards may or may not be depicted on the data and maps, and land users should exercise due caution. The data are dynamic and may change over time. The user is responsible to verify the limitations of the geospatial data and to use the data accordingly. Additionally, The U.S. Forest Service waives copyright and related rights in the work worldwide through the CC0 1.0 Universal Public Domain Dedication (which can be found at https://creativecommons.org/publicdomain/zero/1.0/).</gco:CharacterString>
+                    </useLimitation>
+                </MD_Constraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <accessConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </accessConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <useConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </useConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <accessConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </accessConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <useConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </useConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <language gco:nilReason="missing"/>
+            <characterSet>
+                <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+            </characterSet>
+            <extent>
+                <EX_Extent>
+                    <geographicElement>
+                        <EX_GeographicBoundingBox>
+                            <westBoundLongitude>
+                                <gco:Decimal>-127.0349999999957</gco:Decimal>
+                            </westBoundLongitude>
+                            <eastBoundLongitude>
+                                <gco:Decimal>-73.9489999999975</gco:Decimal>
+                            </eastBoundLongitude>
+                            <southBoundLatitude>
+                                <gco:Decimal>24.366999999999166</gco:Decimal>
+                            </southBoundLatitude>
+                            <northBoundLatitude>
+                                <gco:Decimal>50.40104284992864</gco:Decimal>
+                            </northBoundLatitude>
+                        </EX_GeographicBoundingBox>
+                    </geographicElement>
+                </EX_Extent>
+            </extent>
+        </MD_DataIdentification>
+    </identificationInfo>
+    <distributionInfo>
+        <MD_Distribution>
+            <transferOptions>
+                <MD_DigitalTransferOptions>
+                    <onLine>
+                        <CI_OnlineResource>
+                            <linkage>
+                                <URL>https://apps.fs.usda.gov/arcx/rest/services/RDW_Wildfire/MTBS_CONUS/MapServer</URL>
+                            </linkage>
+                            <applicationProfile>
+                                <gco:CharacterString>Esri Rest API</gco:CharacterString>
+                            </applicationProfile>
+                            <name>
+                                <gco:CharacterString>Esri REST Service</gco:CharacterString>
+                            </name>
+                            <description>
+                                <gco:CharacterString>Esri REST Service</gco:CharacterString>
+                            </description>
+                            <function>
+                                <CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search" codeSpace="ISOTC211/19115">search</CI_OnLineFunctionCode>
+                            </function>
+                        </CI_OnlineResource>
+                    </onLine>
+                    <onLine>
+                        <CI_OnlineResource>
+                            <linkage>
+                                <URL>https://data-usfs.hub.arcgis.com/datasets/b292ef96fb734f44b26569e75516e216</URL>
+                            </linkage>
+                            <applicationProfile>
+                                <gco:CharacterString>Web Page</gco:CharacterString>
+                            </applicationProfile>
+                            <name>
+                                <gco:CharacterString>ArcGIS Hub Dataset</gco:CharacterString>
+                            </name>
+                            <description>
+                                <gco:CharacterString>ArcGIS Hub Dataset</gco:CharacterString>
+                            </description>
+                            <function>
+                                <CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search" codeSpace="ISOTC211/19115">search</CI_OnLineFunctionCode>
+                            </function>
+                        </CI_OnlineResource>
+                    </onLine>
+                    <onLine>
+                        <CI_OnlineResource>
+                            <linkage>
+                                <URL>https://www.mtbs.gov/direct-download</URL>
+                            </linkage>
+                            <name>
+                                <gco:CharacterString>Direct Data Download</gco:CharacterString>
+                            </name>
+                            <description>
+                                <gco:CharacterString>Direct Data Download</gco:CharacterString>
+                            </description>
+                            <function>
+                                <CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download" codeSpace="ISOTC211/19115">download</CI_OnLineFunctionCode>
+                            </function>
+                        </CI_OnlineResource>
+                    </onLine>
+                    <onLine>
+                        <CI_OnlineResource>
+                            <linkage>
+                                <URL>https://usfs.maps.arcgis.com/sharing/rest/content/items/b292ef96fb734f44b26569e75516e216/info/metadata/metadata.xml?format=iso19139</URL>
+                            </linkage>
+                            <protocol>
+                                <gco:CharacterString>XML</gco:CharacterString>
+                            </protocol>
+                            <applicationProfile>
+                                <gco:CharacterString>text/xml</gco:CharacterString>
+                            </applicationProfile>
+                            <name>
+                                <gco:CharacterString>USFS-flavored ISO-19139 metadata</gco:CharacterString>
+                            </name>
+                            <description>
+                                <gco:CharacterString>The geospatial metadata description of this dataset.</gco:CharacterString>
+                            </description>
+                            <function>
+                                <CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information" codeSpace="ISOTC211/19115">information</CI_OnLineFunctionCode>
+                            </function>
+                        </CI_OnlineResource>
+                    </onLine>
+                </MD_DigitalTransferOptions>
+            </transferOptions>
+        </MD_Distribution>
+    </distributionInfo>
+</MD_Metadata>

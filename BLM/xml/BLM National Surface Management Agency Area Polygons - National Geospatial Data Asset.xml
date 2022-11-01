@@ -1,0 +1,2729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MD_Metadata xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xalan="http://xml.apache.org/xalan" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns="http://www.isotc211.org/2005/gmd">
+    <fileIdentifier>
+        <gco:CharacterString>1649357879362r3254991474445734</gco:CharacterString>
+    </fileIdentifier>
+    <language>
+        <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+    </language>
+    <characterSet>
+        <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+    </characterSet>
+    <hierarchyLevel>
+        <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+    </hierarchyLevel>
+    <hierarchyLevelName>
+        <gco:CharacterString>dataset</gco:CharacterString>
+    </hierarchyLevelName>
+    <contact>
+        <CI_ResponsibleParty>
+            <individualName>
+                <gco:CharacterString>Mark Ames</gco:CharacterString>
+            </individualName>
+            <organisationName>
+                <gco:CharacterString>Bureau of Land Management, Division of Lands Realty and Cadastral Survey (WO-350)</gco:CharacterString>
+            </organisationName>
+            <positionName>
+                <gco:CharacterString>Realty Specialist</gco:CharacterString>
+            </positionName>
+            <contactInfo>
+                <CI_Contact>
+                    <phone>
+                        <CI_Telephone>
+                            <voice>
+                                <gco:CharacterString>9706442603</gco:CharacterString>
+                            </voice>
+                        </CI_Telephone>
+                    </phone>
+                    <address>
+                        <CI_Address>
+                            <deliveryPoint>
+                                <gco:CharacterString>Denver Federal Center</gco:CharacterString>
+                            </deliveryPoint>
+                            <city>
+                                <gco:CharacterString>Denver</gco:CharacterString>
+                            </city>
+                            <administrativeArea>
+                                <gco:CharacterString>CO</gco:CharacterString>
+                            </administrativeArea>
+                            <postalCode>
+                                <gco:CharacterString>80225</gco:CharacterString>
+                            </postalCode>
+                            <country>
+                                <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                            </country>
+                            <electronicMailAddress>
+                                <gco:CharacterString>mames@blm.gov</gco:CharacterString>
+                            </electronicMailAddress>
+                        </CI_Address>
+                    </address>
+                </CI_Contact>
+            </contactInfo>
+            <role>
+                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</CI_RoleCode>
+            </role>
+        </CI_ResponsibleParty>
+    </contact>
+    <dateStamp>
+        <gco:Date>2022-07-18</gco:Date>
+    </dateStamp>
+    <metadataStandardName>
+        <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+    </metadataStandardName>
+    <metadataStandardVersion>
+        <gco:CharacterString>2007</gco:CharacterString>
+    </metadataStandardVersion>
+    <spatialRepresentationInfo>
+        <MD_VectorSpatialRepresentation>
+            <geometricObjects>
+                <MD_GeometricObjects>
+                    <geometricObjectType>
+                        <MD_GeometricObjectTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="complex" codeSpace="ISOTC211/19115">complex</MD_GeometricObjectTypeCode>
+                    </geometricObjectType>
+                    <geometricObjectCount>
+                        <gco:Integer>251660</gco:Integer>
+                    </geometricObjectCount>
+                </MD_GeometricObjects>
+            </geometricObjects>
+        </MD_VectorSpatialRepresentation>
+    </spatialRepresentationInfo>
+    <identificationInfo>
+        <MD_DataIdentification>
+            <citation>
+                <CI_Citation>
+                    <title>
+                        <gco:CharacterString>BLM National Surface Management Agency Area Polygons - National Geospatial Data Asset (NGDA)</gco:CharacterString>
+                    </title>
+                    <date>
+                        <CI_Date>
+                            <date>
+                                <gco:Date>2022-07-18</gco:Date>
+                            </date>
+                            <dateType>
+                                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                            </dateType>
+                        </CI_Date>
+                    </date>
+                    <citedResponsibleParty>
+                        <CI_ResponsibleParty>
+                            <individualName>
+                                <gco:CharacterString>Bureau of Land Management</gco:CharacterString>
+                            </individualName>
+                            <role>
+                                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" codeSpace="ISOTC211/19115">publisher</CI_RoleCode>
+                            </role>
+                        </CI_ResponsibleParty>
+                    </citedResponsibleParty>
+                    <citedResponsibleParty>
+                        <CI_ResponsibleParty>
+                            <individualName>
+                                <gco:CharacterString>U.S. Department of the Interior, Bureau of Land Management (BLM)</gco:CharacterString>
+                            </individualName>
+                            <role>
+                                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
+                            </role>
+                        </CI_ResponsibleParty>
+                    </citedResponsibleParty>
+                    <citedResponsibleParty>
+                        <CI_ResponsibleParty>
+                            <organisationName>
+                                <gco:CharacterString>Compiled and maintained by the U.S. Department of Interior, Bureau of Land Management (BLM)</gco:CharacterString>
+                            </organisationName>
+                            <role>
+                                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
+                            </role>
+                        </CI_ResponsibleParty>
+                    </citedResponsibleParty>
+                    <citedResponsibleParty>
+                        <CI_ResponsibleParty>
+                            <organisationName>
+                                <gco:CharacterString>Bureau of Land Management</gco:CharacterString>
+                            </organisationName>
+                            <role>
+                                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" codeSpace="ISOTC211/19115">publisher</CI_RoleCode>
+                            </role>
+                        </CI_ResponsibleParty>
+                    </citedResponsibleParty>
+                </CI_Citation>
+            </citation>
+            <abstract>
+                <gco:CharacterString>The Surface Management Agency (SMA) Geographic Information System (GIS) dataset depicts Federal land for the United States and classifies this land by its active Federal surface managing agency. The SMA feature class covers the continental United States, Alaska, Hawaii, Puerto Rico, Guam, American Samoa and the Virgin Islands. A Federal SMA agency refers to a Federal agency with administrative jurisdiction over the surface of Federal lands. Jurisdiction over the land is defined when the land is either: Withdrawn by some administrative or legislative action, or Acquired or Exchanged by a Federal Agency. This layer is a dynamic assembly of spatial data layers maintained at various federal and local government offices. The GIS data contained in this dataset represents the polygon features that show the boundaries for Surface Management Agency and the surface extent of each Federal agency’s surface administrative jurisdiction. SMA data depicts current withdrawn areas for a particular agency and (when appropriate) includes land that was acquired or exchanged and is located outside of a withdrawal area for that agency. The SMA data do not illustrate land status ownership pattern boundaries or contain land ownership attribute details.
+
+The SMA Withdrawals feature class covers the continental United States, Alaska, Hawaii, Puerto Rico, Guam, American Samoa and the Virgin Islands. A Federal SMA Withdrawal is defined by formal actions that set aside, withhold, or reserve Federal land by statute or administrative order for public purposes. A withdrawal creates a title encumbrance on the land. Withdrawals must accomplish one or more of the following: A. Transfer total or partial jurisdiction of Federal land between Federal agencies. B. Close (segregate) Federal land to operation of all or some of the public land laws and/or mineral laws. C. Dedicate Federal land to a specific public purpose. There are four major categories of formal withdrawals: (1) Administrative, (2) Presidential Proclamations, (3) Congressional, and (4) Federal Power Act (FPA) or Federal Energy Regulatory Commission (FERC) Withdrawals. These SMA Withdrawals will include the present total extent of withdrawn areas rather than all of the individual withdrawal actions that created them over time. A Federal SMA agency refers to a Federal agency with administrative jurisdiction over the surface of Federal lands. Jurisdiction over the land is defined when the land is either: Withdrawn by some administrative or legislative action, or Acquired or Exchanged by a Federal Agency. This layer is a dynamic assembly of spatial data layers maintained at various federal and local government offices. The GIS data contained in this dataset represents the polygon features that show the boundaries for Surface Management Agency and the surface extent of each Federal agency’s surface administrative jurisdiction. SMA data depicts current withdrawn areas for a particular agency and (when appropriate) includes land that was acquired or exchanged and is located outside of a withdrawal area for that agency. The SMA data do not illustrate land status ownership pattern boundaries or contain land ownership attribute details.</gco:CharacterString>
+            </abstract>
+            <purpose>
+                <gco:CharacterString>The purpose of this dataset is to fulfill the public and Government’s need to know what agency is managing Federal land in a given area, and for use by BLM Staff for use in analysis and reports. This dataset is useful as a tool to determine and illustrate the boundaries of a particular Federal agency’s “managing” area and to quantify these areas in terms of geographic acreage.</gco:CharacterString>
+            </purpose>
+            <credit>
+                <gco:CharacterString>Bureau of Land Management</gco:CharacterString>
+            </credit>
+            <status>
+                <MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="ISOTC211/19115">completed</MD_ProgressCode>
+            </status>
+            <pointOfContact>
+                <CI_ResponsibleParty>
+                    <individualName>
+                        <gco:CharacterString>Mark Ames</gco:CharacterString>
+                    </individualName>
+                    <organisationName>
+                        <gco:CharacterString>Bureau of Land Management, Division of Lands Realty and Cadastral Survey (WO-350)</gco:CharacterString>
+                    </organisationName>
+                    <positionName>
+                        <gco:CharacterString>Realty Specialist</gco:CharacterString>
+                    </positionName>
+                    <contactInfo>
+                        <CI_Contact>
+                            <phone>
+                                <CI_Telephone>
+                                    <voice>
+                                        <gco:CharacterString>9706442603</gco:CharacterString>
+                                    </voice>
+                                </CI_Telephone>
+                            </phone>
+                            <address>
+                                <CI_Address>
+                                    <deliveryPoint>
+                                        <gco:CharacterString>Denver Federal Center</gco:CharacterString>
+                                    </deliveryPoint>
+                                    <city>
+                                        <gco:CharacterString>Denver</gco:CharacterString>
+                                    </city>
+                                    <administrativeArea>
+                                        <gco:CharacterString>CO</gco:CharacterString>
+                                    </administrativeArea>
+                                    <postalCode>
+                                        <gco:CharacterString>80225</gco:CharacterString>
+                                    </postalCode>
+                                    <country>
+                                        <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                                    </country>
+                                    <electronicMailAddress>
+                                        <gco:CharacterString>mames@blm.gov</gco:CharacterString>
+                                    </electronicMailAddress>
+                                </CI_Address>
+                            </address>
+                        </CI_Contact>
+                    </contactInfo>
+                    <role>
+                        <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</CI_RoleCode>
+                    </role>
+                </CI_ResponsibleParty>
+            </pointOfContact>
+            <resourceMaintenance>
+                <MD_MaintenanceInformation>
+                    <maintenanceAndUpdateFrequency>
+                        <MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="quarterly" codeSpace="ISOTC211/19115">quarterly</MD_MaintenanceFrequencyCode>
+                    </maintenanceAndUpdateFrequency>
+                </MD_MaintenanceInformation>
+            </resourceMaintenance>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Alaska</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Arizona</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>California</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Colorado</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Eastern States</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Idaho</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Montana</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Nevada</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>New Mexico</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Oregon</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Utah</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Wyoming</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>BLM-STATE</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Alaska</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Arizona</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>California</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Colorado</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Eastern States</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Idaho</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Montana</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Nevada</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>New Mexico</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Oregon</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Utah</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Wyoming</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>BLM-STATE</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Alaska</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Arizona</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>California</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Colorado</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Eastern States</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Idaho</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Montana</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Nevada</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>New Mexico</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Oregon</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Utah</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Wyoming</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>BLM-STATE</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Alaska</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Arizona</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>California</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Colorado</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Eastern States</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Idaho</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Montana</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Nevada</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>New Mexico</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Oregon</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Utah</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Wyoming</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>BLM-STATE</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Alaska</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Arizona</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>California</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Colorado</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Eastern States</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Idaho</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Montana</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Nevada</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>New Mexico</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Oregon</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Utah</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Wyoming</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>BLM-STATE</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Alaska</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Arizona</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>California</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Colorado</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Eastern States</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Idaho</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Montana</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Nevada</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>New Mexico</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Oregon</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Utah</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Wyoming</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>BLM-STATE</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Alaska</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Arizona</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>California</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Colorado</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Eastern States</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Idaho</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Montana</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Nevada</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>New Mexico</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Oregon</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Utah</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Wyoming</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>BLM-STATE</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Alaska</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Arizona</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>California</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Colorado</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Eastern States</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Idaho</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Montana</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Nevada</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>New Mexico</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Oregon</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Utah</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Wyoming</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>BLM-STATE</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Alaska</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Arizona</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>California</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Colorado</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Eastern States</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Idaho</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Montana</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Nevada</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>New Mexico</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Oregon</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Utah</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Wyoming</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>BLM-STATE</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Alaska</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Arizona</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>California</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Colorado</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Eastern States</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Idaho</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Montana</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Nevada</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>New Mexico</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Oregon</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Utah</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Wyoming</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>BLM-STATE</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Alaska</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Arizona</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>California</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Colorado</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Eastern States</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Idaho</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Montana</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Nevada</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>New Mexico</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Oregon</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Utah</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Wyoming</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>BLM-STATE</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Alaska</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Arizona</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>California</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Colorado</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Eastern States</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Idaho</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Montana</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Nevada</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>New Mexico</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Oregon</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Utah</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Wyoming</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>BLM-STATE</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>United States</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Western States</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>NONE</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>United States</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Western States</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>NONE</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Geospatial</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Management</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>BLM-THEME</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Geospatial</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Management</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>BLM-THEME</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Cadastre Theme</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>National Geospatial Data Asset</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NGDA</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NGDA188</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>NGDA Portfolio Themes</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Cadastre Theme</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>National Geospatial Data Asset</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NGDA</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NGDA188</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>NGDA Portfolio Themes</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Cadastre Theme</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>National Geospatial Data Asset</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NGDA</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NGDA188</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>NGDA Portfolio Themes</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Cadastre Theme</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>National Geospatial Data Asset</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NGDA</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NGDA188</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>NGDA Portfolio Themes</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Federal Land Stewardship</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Federal Lands</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Federal Surface Management</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Land Status</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Land Use Planning</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Lands</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Ownership</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Public Land</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>SMA</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Surface Management Agency</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>NONE</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Federal Land Stewardship</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Federal Lands</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Federal Surface Management</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Land Status</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Land Use Planning</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Lands</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Ownership</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Public Land</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>SMA</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Surface Management Agency</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>NONE</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Federal Land Stewardship</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Federal Lands</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Federal Surface Management</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Land Status</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Land Use Planning</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Lands</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Ownership</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Public Land</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>SMA</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Surface Management Agency</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>NONE</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Federal Land Stewardship</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Federal Lands</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Federal Surface Management</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Land Status</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Land Use Planning</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Lands</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Ownership</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Public Land</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>SMA</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Surface Management Agency</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>NONE</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Federal Land Stewardship</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Federal Lands</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Federal Surface Management</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Land Status</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Land Use Planning</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Lands</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Ownership</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Public Land</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>SMA</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Surface Management Agency</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>NONE</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Federal Land Stewardship</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Federal Lands</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Federal Surface Management</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Land Status</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Land Use Planning</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Lands</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Ownership</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Public Land</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>SMA</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Surface Management Agency</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>NONE</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Federal Land Stewardship</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Federal Lands</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Federal Surface Management</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Land Status</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Land Use Planning</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Lands</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Ownership</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Public Land</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>SMA</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Surface Management Agency</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>NONE</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Federal Land Stewardship</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Federal Lands</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Federal Surface Management</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Land Status</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Land Use Planning</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Lands</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Ownership</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Public Land</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>SMA</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Surface Management Agency</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>NONE</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Federal Land Stewardship</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Federal Lands</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Federal Surface Management</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Land Status</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Land Use Planning</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Lands</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Ownership</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Public Land</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>SMA</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Surface Management Agency</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>NONE</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Federal Land Stewardship</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Federal Lands</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Federal Surface Management</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Land Status</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Land Use Planning</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Lands</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Ownership</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Public Land</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>SMA</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Surface Management Agency</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>NONE</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Downloadable Data</gco:CharacterString>
+                    </keyword>
+                    <thesaurusName uuidref="723f6998-058e-11dc-8314-0800200c9a66"/>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <resourceConstraints>
+                <MD_Constraints>
+                    <useLimitation>
+                        <gco:CharacterString>These data are provided by Bureau of Land Management (BLM) "as is" and might contain errors or omissions. The User assumes the entire risk associated with its use of these data and bears all responsibility in determining whether these data are fit for the User’s intended use. The information contained in these data is dynamic and may change over time. The data are not better than the sources from which they were derived, and both scale and accuracy may vary across the data set. These data might not have the accuracy, resolution, completeness, timeliness, or other characteristics appropriate for applications that potential users of the data may contemplate. The User is encouraged to carefully consider the content of the metadata file associated with these data. These data are neither legal documents nor land surveys, and must not be used as such. Official records may be referenced at most BLM offices. Please report any errors in the data to the BLM office from which it was obtained. The BLM should be cited as the data source in any products derived from these data. Any Users wishing to modify the data should describe the types of modifications they have performed. The User should not misrepresent the data, nor imply that changes made were approved or endorsed by BLM. This data may be updated by the BLM without notification. 
+        
+        The SMA data contained in this dataset are extracted from Federal land status records. The official Federal land status records of the appropriate surface land managing agency should be consulted concerning ownership details including interest in the federal subsurface mineral estate. The geographic acreages contained in this dataset are not derived from legal documents associated with title documents or survey records. Rather, they are computed by mathematical programs.</gco:CharacterString>
+                    </useLimitation>
+                </MD_Constraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <useLimitation>
+                        <gco:CharacterString>The BLM assumes no responsibility for errors or omissions. No warranty is made by the BLM as to the accuracy, reliability, or completeness of these data for individual use or aggregate use with other data; nor shall the act of distribution to contractors, partners, or beyond, constitute any such warranty for individual or aggregate data use with other data. Although these data have been processed successfully on computers of BLM, no warranty, expressed or implied, is made by BLM regarding the use of these data on any other system, or for general or scientific purposes, nor does the fact of distribution constitute or imply any such warranty. In no event shall the BLM have any liability whatsoever for payment of any consequential, incidental, indirect, special, or tort damages of any kind, including, but not limited to, any loss of profits arising out of the use or reliance on the geographic data or arising out of the delivery, installation, operation, or support by BLM.</gco:CharacterString>
+                    </useLimitation>
+                    <accessConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </accessConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>None, these data are considered public domain.</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <accessConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </accessConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <useConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </useConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <accessConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </accessConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <useConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </useConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <spatialRepresentationType>
+                <MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector" codeSpace="ISOTC211/19115">vector</MD_SpatialRepresentationTypeCode>
+            </spatialRepresentationType>
+            <language>
+                <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+            </language>
+            <characterSet>
+                <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+            </characterSet>
+            <topicCategory>
+                <MD_TopicCategoryCode>planningCadastre</MD_TopicCategoryCode>
+            </topicCategory>
+            <environmentDescription>
+                <gco:CharacterString>Esri ArcGIS 10.1.1.3143</gco:CharacterString>
+            </environmentDescription>
+            <extent>
+                <EX_Extent>
+                    <geographicElement>
+                        <EX_GeographicBoundingBox>
+                            <westBoundLongitude>
+                                <gco:Decimal>-179.144809</gco:Decimal>
+                            </westBoundLongitude>
+                            <eastBoundLongitude>
+                                <gco:Decimal>179.774913</gco:Decimal>
+                            </eastBoundLongitude>
+                            <southBoundLatitude>
+                                <gco:Decimal>17.67376</gco:Decimal>
+                            </southBoundLatitude>
+                            <northBoundLatitude>
+                                <gco:Decimal>71.389488</gco:Decimal>
+                            </northBoundLatitude>
+                        </EX_GeographicBoundingBox>
+                    </geographicElement>
+                </EX_Extent>
+            </extent>
+            <extent>
+                <EX_Extent>
+                    <geographicElement>
+                        <EX_GeographicBoundingBox>
+                            <extentTypeCode>
+                                <gco:Boolean>true</gco:Boolean>
+                            </extentTypeCode>
+                            <westBoundLongitude>
+                                <gco:Decimal>-179.144809</gco:Decimal>
+                            </westBoundLongitude>
+                            <eastBoundLongitude>
+                                <gco:Decimal>179.774913</gco:Decimal>
+                            </eastBoundLongitude>
+                            <southBoundLatitude>
+                                <gco:Decimal>17.67376</gco:Decimal>
+                            </southBoundLatitude>
+                            <northBoundLatitude>
+                                <gco:Decimal>71.389488</gco:Decimal>
+                            </northBoundLatitude>
+                        </EX_GeographicBoundingBox>
+                    </geographicElement>
+                </EX_Extent>
+            </extent>
+            <extent>
+                <EX_Extent>
+                    <description>
+                        <gco:CharacterString>publication date</gco:CharacterString>
+                    </description>
+                    <temporalElement>
+                        <EX_TemporalExtent>
+                            <extent>
+                                <gml:TimeInstant gml:id="N66067">
+                                    <gml:timePosition>2017-11-03</gml:timePosition>
+                                </gml:TimeInstant>
+                            </extent>
+                        </EX_TemporalExtent>
+                    </temporalElement>
+                </EX_Extent>
+            </extent>
+            <extent>
+                <EX_Extent>
+                    <geographicElement>
+                        <EX_GeographicBoundingBox>
+                            <westBoundLongitude>
+                                <gco:Decimal>-179.144809</gco:Decimal>
+                            </westBoundLongitude>
+                            <eastBoundLongitude>
+                                <gco:Decimal>179.774913</gco:Decimal>
+                            </eastBoundLongitude>
+                            <southBoundLatitude>
+                                <gco:Decimal>17.67376</gco:Decimal>
+                            </southBoundLatitude>
+                            <northBoundLatitude>
+                                <gco:Decimal>71.389488</gco:Decimal>
+                            </northBoundLatitude>
+                        </EX_GeographicBoundingBox>
+                    </geographicElement>
+                </EX_Extent>
+            </extent>
+            <supplementalInformation>
+                <gco:CharacterString>A published revision of the Department Manual's Part 305: Departmental Science Effects, Chapter 3: Integrity of Scientific and Scholarly Activities (305 DM 3), effective December 16, 2014, is available online at https://elips.doi.gov/ELIPS/DocView.aspx?id=4056. Scholarly information considered in Departmental decision making must be robust, of the highest quality, and the result of as rigorous scientific and scholarly processes as can be achieved. Most importantly, it must be trustworthy. This policy helps us to achieve that standard (https://www.doi.gov/scientificintegrity)
+            
+            The goal of this work is to provide a current and consistent view of the Federal Surface Management Agency for federal lands in the United States. Non-Federal lands are represented in general terms, Undetermined (UND), Private (PVT), State (ST), and Local Government (LG). More detailed information on non-federal lands will need to be acquired from other sources. Foundational to the SMA data is the expectation that it topologically align where possible and appropriate with the official published version of Bureau of Land Management (BLM) Public Land Survey System (PLSS), and the Cadastral National Spatial Data Infrastructure (CAD NSDI) GIS Data. Relationships exist between SMA and the following core data sets: Special Public Purpose Withdrawals (SPP_WithdrawalAreas), Surface Management Agency Withdrawls (SMA_Withdrawls), BLM Master Title Plats (MTP), BLM Legacy Rehost 2000 (LR2000), BLM Control Documents (CDI), BLM Historical Indicies (HI), BLM Geographic Coordinate Database (GCDB), Non-BLM Public Land Survey Statistics (PLSS from other sources), Non-BLM plat or land status data, and Public Land Statistics. Complete information on the SMA Data Standard Definition and GIS acreage computation details is publically available via the following link: https://gis.blm.gov/EGISDownload/Docs/SMA_StandardizedDatasetReport.pdf</gco:CharacterString>
+            </supplementalInformation>
+        </MD_DataIdentification>
+    </identificationInfo>
+    <distributionInfo>
+        <MD_Distribution>
+            <distributor>
+                <MD_Distributor>
+                    <distributorContact>
+                        <CI_ResponsibleParty>
+                            <organisationName>
+                                <gco:CharacterString>Bureau of Land Management, National Operations Center (NOC)</gco:CharacterString>
+                            </organisationName>
+                            <positionName>
+                                <gco:CharacterString>Data Standards Implementation Manager</gco:CharacterString>
+                            </positionName>
+                            <contactInfo>
+                                <CI_Contact>
+                                    <phone>
+                                        <CI_Telephone>
+                                            <voice>
+                                                <gco:CharacterString>(303)236-6806</gco:CharacterString>
+                                            </voice>
+                                        </CI_Telephone>
+                                    </phone>
+                                    <address>
+                                        <CI_Address>
+                                            <deliveryPoint>
+                                                <gco:CharacterString>Bldg. 50, Denver Federal Center</gco:CharacterString>
+                                            </deliveryPoint>
+                                            <city>
+                                                <gco:CharacterString>Denver</gco:CharacterString>
+                                            </city>
+                                            <administrativeArea>
+                                                <gco:CharacterString>CO</gco:CharacterString>
+                                            </administrativeArea>
+                                            <postalCode>
+                                                <gco:CharacterString>80225</gco:CharacterString>
+                                            </postalCode>
+                                            <country>
+                                                <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                                            </country>
+                                            <electronicMailAddress>
+                                                <gco:CharacterString>jshouldis@blm.gov</gco:CharacterString>
+                                            </electronicMailAddress>
+                                        </CI_Address>
+                                    </address>
+                                    <hoursOfService>
+                                        <gco:CharacterString>8:00am - 5:00pm MDT Monday-Friday</gco:CharacterString>
+                                    </hoursOfService>
+                                </CI_Contact>
+                            </contactInfo>
+                            <role>
+                                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="ISOTC211/19115">distributor</CI_RoleCode>
+                            </role>
+                        </CI_ResponsibleParty>
+                    </distributorContact>
+                    <distributionOrderProcess>
+                        <MD_StandardOrderProcess>
+                            <fees>
+                                <gco:CharacterString>None. No fees are applicable for obtaining the data set.</gco:CharacterString>
+                            </fees>
+                            <plannedAvailableDateTime>
+                                <gco:DateTime>2017-11-03T00:00:00</gco:DateTime>
+                            </plannedAvailableDateTime>
+                            <orderingInstructions>
+                                <gco:CharacterString>Data are only available through the Bureau of Land Management. Data may be disseminated on public website for internal and external users.</gco:CharacterString>
+                            </orderingInstructions>
+                        </MD_StandardOrderProcess>
+                    </distributionOrderProcess>
+                </MD_Distributor>
+            </distributor>
+            <distributor>
+                <MD_Distributor>
+                    <distributorContact>
+                        <CI_ResponsibleParty>
+                            <organisationName>
+                                <gco:CharacterString>Bureau of Land Management, National Operations Center (NOC)</gco:CharacterString>
+                            </organisationName>
+                            <positionName>
+                                <gco:CharacterString>Data Standards Implementation Manager</gco:CharacterString>
+                            </positionName>
+                            <contactInfo>
+                                <CI_Contact>
+                                    <phone>
+                                        <CI_Telephone>
+                                            <voice>
+                                                <gco:CharacterString>(303)236-6806</gco:CharacterString>
+                                            </voice>
+                                        </CI_Telephone>
+                                    </phone>
+                                    <address>
+                                        <CI_Address>
+                                            <deliveryPoint>
+                                                <gco:CharacterString>Bldg. 50, Denver Federal Center</gco:CharacterString>
+                                            </deliveryPoint>
+                                            <city>
+                                                <gco:CharacterString>Denver</gco:CharacterString>
+                                            </city>
+                                            <administrativeArea>
+                                                <gco:CharacterString>CO</gco:CharacterString>
+                                            </administrativeArea>
+                                            <postalCode>
+                                                <gco:CharacterString>80225</gco:CharacterString>
+                                            </postalCode>
+                                            <country>
+                                                <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                                            </country>
+                                            <electronicMailAddress>
+                                                <gco:CharacterString>jshouldis@blm.gov</gco:CharacterString>
+                                            </electronicMailAddress>
+                                        </CI_Address>
+                                    </address>
+                                    <hoursOfService>
+                                        <gco:CharacterString>8:00am - 5:00pm MDT Monday-Friday</gco:CharacterString>
+                                    </hoursOfService>
+                                </CI_Contact>
+                            </contactInfo>
+                            <role>
+                                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="ISOTC211/19115">distributor</CI_RoleCode>
+                            </role>
+                        </CI_ResponsibleParty>
+                    </distributorContact>
+                    <distributionOrderProcess>
+                        <MD_StandardOrderProcess>
+                            <fees>
+                                <gco:CharacterString>None. No fees are applicable for obtaining the data set.</gco:CharacterString>
+                            </fees>
+                            <plannedAvailableDateTime>
+                                <gco:DateTime>2017-11-03T00:00:00</gco:DateTime>
+                            </plannedAvailableDateTime>
+                            <orderingInstructions>
+                                <gco:CharacterString>Data are only available through the Bureau of Land Management. Data may be disseminated on public website for internal and external users.</gco:CharacterString>
+                            </orderingInstructions>
+                        </MD_StandardOrderProcess>
+                    </distributionOrderProcess>
+                    <distributorFormat>
+                        <MD_Format>
+                            <name>
+                                <gco:CharacterString>BLM National SMA Limited Scale</gco:CharacterString>
+                            </name>
+                            <version gco:nilReason="missing"/>
+                            <specification>
+                                <gco:CharacterString>http://www.geoplatform.gov/spec/esri-map-rest</gco:CharacterString>
+                            </specification>
+                        </MD_Format>
+                    </distributorFormat>
+                    <distributorTransferOptions>
+                        <MD_DigitalTransferOptions>
+                            <onLine>
+                                <CI_OnlineResource>
+                                    <linkage>
+                                        <URL>https://gis.blm.gov/arcgis/rest/services/lands/BLM_Natl_SMA_LimitedScale/MapServer</URL>
+                                    </linkage>
+                                </CI_OnlineResource>
+                            </onLine>
+                        </MD_DigitalTransferOptions>
+                    </distributorTransferOptions>
+                </MD_Distributor>
+            </distributor>
+            <distributor>
+                <MD_Distributor>
+                    <distributorContact>
+                        <CI_ResponsibleParty>
+                            <organisationName>
+                                <gco:CharacterString>Bureau of Land Management, National Operations Center (NOC)</gco:CharacterString>
+                            </organisationName>
+                            <positionName>
+                                <gco:CharacterString>Data Standards Implementation Manager</gco:CharacterString>
+                            </positionName>
+                            <contactInfo>
+                                <CI_Contact>
+                                    <phone>
+                                        <CI_Telephone>
+                                            <voice>
+                                                <gco:CharacterString>(303)236-6806</gco:CharacterString>
+                                            </voice>
+                                        </CI_Telephone>
+                                    </phone>
+                                    <address>
+                                        <CI_Address>
+                                            <deliveryPoint>
+                                                <gco:CharacterString>Bldg. 50, Denver Federal Center</gco:CharacterString>
+                                            </deliveryPoint>
+                                            <city>
+                                                <gco:CharacterString>Denver</gco:CharacterString>
+                                            </city>
+                                            <administrativeArea>
+                                                <gco:CharacterString>CO</gco:CharacterString>
+                                            </administrativeArea>
+                                            <postalCode>
+                                                <gco:CharacterString>80225</gco:CharacterString>
+                                            </postalCode>
+                                            <country>
+                                                <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                                            </country>
+                                            <electronicMailAddress>
+                                                <gco:CharacterString>jshouldis@blm.gov</gco:CharacterString>
+                                            </electronicMailAddress>
+                                        </CI_Address>
+                                    </address>
+                                    <hoursOfService>
+                                        <gco:CharacterString>8:00am - 5:00pm MDT Monday-Friday</gco:CharacterString>
+                                    </hoursOfService>
+                                </CI_Contact>
+                            </contactInfo>
+                            <role>
+                                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="ISOTC211/19115">distributor</CI_RoleCode>
+                            </role>
+                        </CI_ResponsibleParty>
+                    </distributorContact>
+                    <distributionOrderProcess>
+                        <MD_StandardOrderProcess>
+                            <fees>
+                                <gco:CharacterString>None. No fees are applicable for obtaining the data set.</gco:CharacterString>
+                            </fees>
+                            <plannedAvailableDateTime>
+                                <gco:DateTime>2017-11-03T00:00:00</gco:DateTime>
+                            </plannedAvailableDateTime>
+                            <orderingInstructions>
+                                <gco:CharacterString>Data are only available through the Bureau of Land Management. Data may be disseminated on public website for internal and external users.</gco:CharacterString>
+                            </orderingInstructions>
+                        </MD_StandardOrderProcess>
+                    </distributionOrderProcess>
+                    <distributorFormat>
+                        <MD_Format>
+                            <name>
+                                <gco:CharacterString>BLM National SMA BLM Only</gco:CharacterString>
+                            </name>
+                            <version gco:nilReason="missing"/>
+                            <specification>
+                                <gco:CharacterString>http://www.geoplatform.gov/spec/esri-map-rest</gco:CharacterString>
+                            </specification>
+                        </MD_Format>
+                    </distributorFormat>
+                    <distributorTransferOptions>
+                        <MD_DigitalTransferOptions>
+                            <onLine>
+                                <CI_OnlineResource>
+                                    <linkage>
+                                        <URL>https://gis.blm.gov/arcgis/rest/services/lands/BLM_Natl_SMA_Cached_BLM_Only/MapServer</URL>
+                                    </linkage>
+                                </CI_OnlineResource>
+                            </onLine>
+                        </MD_DigitalTransferOptions>
+                    </distributorTransferOptions>
+                </MD_Distributor>
+            </distributor>
+            <distributor>
+                <MD_Distributor>
+                    <distributorContact>
+                        <CI_ResponsibleParty>
+                            <organisationName>
+                                <gco:CharacterString>Bureau of Land Management, National Operations Center (NOC)</gco:CharacterString>
+                            </organisationName>
+                            <positionName>
+                                <gco:CharacterString>Data Standards Implementation Manager</gco:CharacterString>
+                            </positionName>
+                            <contactInfo>
+                                <CI_Contact>
+                                    <phone>
+                                        <CI_Telephone>
+                                            <voice>
+                                                <gco:CharacterString>(303)236-6806</gco:CharacterString>
+                                            </voice>
+                                        </CI_Telephone>
+                                    </phone>
+                                    <address>
+                                        <CI_Address>
+                                            <deliveryPoint>
+                                                <gco:CharacterString>Bldg. 50, Denver Federal Center</gco:CharacterString>
+                                            </deliveryPoint>
+                                            <city>
+                                                <gco:CharacterString>Denver</gco:CharacterString>
+                                            </city>
+                                            <administrativeArea>
+                                                <gco:CharacterString>CO</gco:CharacterString>
+                                            </administrativeArea>
+                                            <postalCode>
+                                                <gco:CharacterString>80225</gco:CharacterString>
+                                            </postalCode>
+                                            <country>
+                                                <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                                            </country>
+                                            <electronicMailAddress>
+                                                <gco:CharacterString>jshouldis@blm.gov</gco:CharacterString>
+                                            </electronicMailAddress>
+                                        </CI_Address>
+                                    </address>
+                                    <hoursOfService>
+                                        <gco:CharacterString>8:00am - 5:00pm MDT Monday-Friday</gco:CharacterString>
+                                    </hoursOfService>
+                                </CI_Contact>
+                            </contactInfo>
+                            <role>
+                                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="ISOTC211/19115">distributor</CI_RoleCode>
+                            </role>
+                        </CI_ResponsibleParty>
+                    </distributorContact>
+                    <distributionOrderProcess>
+                        <MD_StandardOrderProcess>
+                            <fees>
+                                <gco:CharacterString>None. No fees are applicable for obtaining the data set.</gco:CharacterString>
+                            </fees>
+                            <plannedAvailableDateTime>
+                                <gco:DateTime>2017-11-03T00:00:00</gco:DateTime>
+                            </plannedAvailableDateTime>
+                            <orderingInstructions>
+                                <gco:CharacterString>Data are only available through the Bureau of Land Management. Data may be disseminated on public website for internal and external users.</gco:CharacterString>
+                            </orderingInstructions>
+                        </MD_StandardOrderProcess>
+                    </distributionOrderProcess>
+                    <distributorFormat>
+                        <MD_Format>
+                            <name>
+                                <gco:CharacterString>BLM National SMA with Private and Unknown</gco:CharacterString>
+                            </name>
+                            <version gco:nilReason="missing"/>
+                            <specification>
+                                <gco:CharacterString>http://www.geoplatform.gov/spec/esri-map-rest</gco:CharacterString>
+                            </specification>
+                        </MD_Format>
+                    </distributorFormat>
+                    <distributorTransferOptions>
+                        <MD_DigitalTransferOptions>
+                            <onLine>
+                                <CI_OnlineResource>
+                                    <linkage>
+                                        <URL>https://gis.blm.gov/arcgis/rest/services/lands/BLM_Natl_SMA_Cached_with_PriUnk/MapServer</URL>
+                                    </linkage>
+                                </CI_OnlineResource>
+                            </onLine>
+                        </MD_DigitalTransferOptions>
+                    </distributorTransferOptions>
+                </MD_Distributor>
+            </distributor>
+            <distributor>
+                <MD_Distributor>
+                    <distributorContact>
+                        <CI_ResponsibleParty>
+                            <organisationName>
+                                <gco:CharacterString>Bureau of Land Management, National Operations Center (NOC)</gco:CharacterString>
+                            </organisationName>
+                            <positionName>
+                                <gco:CharacterString>Data Standards Implementation Manager</gco:CharacterString>
+                            </positionName>
+                            <contactInfo>
+                                <CI_Contact>
+                                    <phone>
+                                        <CI_Telephone>
+                                            <voice>
+                                                <gco:CharacterString>(303)236-6806</gco:CharacterString>
+                                            </voice>
+                                        </CI_Telephone>
+                                    </phone>
+                                    <address>
+                                        <CI_Address>
+                                            <deliveryPoint>
+                                                <gco:CharacterString>Bldg. 50, Denver Federal Center</gco:CharacterString>
+                                            </deliveryPoint>
+                                            <city>
+                                                <gco:CharacterString>Denver</gco:CharacterString>
+                                            </city>
+                                            <administrativeArea>
+                                                <gco:CharacterString>CO</gco:CharacterString>
+                                            </administrativeArea>
+                                            <postalCode>
+                                                <gco:CharacterString>80225</gco:CharacterString>
+                                            </postalCode>
+                                            <country>
+                                                <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                                            </country>
+                                            <electronicMailAddress>
+                                                <gco:CharacterString>jshouldis@blm.gov</gco:CharacterString>
+                                            </electronicMailAddress>
+                                        </CI_Address>
+                                    </address>
+                                    <hoursOfService>
+                                        <gco:CharacterString>8:00am - 5:00pm MDT Monday-Friday</gco:CharacterString>
+                                    </hoursOfService>
+                                </CI_Contact>
+                            </contactInfo>
+                            <role>
+                                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="ISOTC211/19115">distributor</CI_RoleCode>
+                            </role>
+                        </CI_ResponsibleParty>
+                    </distributorContact>
+                    <distributionOrderProcess>
+                        <MD_StandardOrderProcess>
+                            <fees>
+                                <gco:CharacterString>None. No fees are applicable for obtaining the data set.</gco:CharacterString>
+                            </fees>
+                            <plannedAvailableDateTime>
+                                <gco:DateTime>2017-11-03T00:00:00</gco:DateTime>
+                            </plannedAvailableDateTime>
+                            <orderingInstructions>
+                                <gco:CharacterString>Data are only available through the Bureau of Land Management. Data may be disseminated on public website for internal and external users.</gco:CharacterString>
+                            </orderingInstructions>
+                        </MD_StandardOrderProcess>
+                    </distributionOrderProcess>
+                    <distributorFormat>
+                        <MD_Format>
+                            <name>
+                                <gco:CharacterString>BLM National SMA without Private and Unknown</gco:CharacterString>
+                            </name>
+                            <version gco:nilReason="missing"/>
+                            <specification>
+                                <gco:CharacterString>http://www.geoplatform.gov/spec/esri-map-rest</gco:CharacterString>
+                            </specification>
+                        </MD_Format>
+                    </distributorFormat>
+                    <distributorTransferOptions>
+                        <MD_DigitalTransferOptions>
+                            <onLine>
+                                <CI_OnlineResource>
+                                    <linkage>
+                                        <URL>https://gis.blm.gov/arcgis/rest/services/lands/BLM_Natl_SMA_Cached_without_PriUnk/MapServer</URL>
+                                    </linkage>
+                                </CI_OnlineResource>
+                            </onLine>
+                        </MD_DigitalTransferOptions>
+                    </distributorTransferOptions>
+                </MD_Distributor>
+            </distributor>
+            <transferOptions>
+                <MD_DigitalTransferOptions>
+                    <onLine>
+                        <CI_OnlineResource>
+                            <linkage>
+                                <URL>https://gis.blm.gov/arcgis/rest/services/lands/BLM_Natl_SMA_Cached_without_PriUnk/MapServer</URL>
+                            </linkage>
+                        </CI_OnlineResource>
+                    </onLine>
+                    <onLine>
+                        <CI_OnlineResource>
+                            <linkage>
+                                <URL>https://gis.blm.gov/arcgis/rest/services/lands/BLM_Natl_SMA_LimitedScale/MapServer</URL>
+                            </linkage>
+                        </CI_OnlineResource>
+                    </onLine>
+                    <onLine>
+                        <CI_OnlineResource>
+                            <linkage>
+                                <URL>https://gis.blm.gov/arcgis/rest/services/lands/BLM_Natl_SMA_Cached_BLM_Only/MapServer</URL>
+                            </linkage>
+                        </CI_OnlineResource>
+                    </onLine>
+                    <onLine>
+                        <CI_OnlineResource>
+                            <linkage>
+                                <URL>https://gis.blm.gov/arcgis/rest/services/lands/BLM_Natl_SMA_Cached_with_PriUnk/MapServer</URL>
+                            </linkage>
+                        </CI_OnlineResource>
+                    </onLine>
+                    <onLine>
+                        <CI_OnlineResource>
+                            <linkage>
+                                <URL>https://gis.blm.gov/arcgis/rest/services/lands/BLM_Natl_SMA_Withdrawals/MapServer</URL>
+                            </linkage>
+                        </CI_OnlineResource>
+                    </onLine>
+                    <onLine>
+                        <CI_OnlineResource>
+                            <linkage>
+                                <URL>https://gis.blm.gov/arcgis/rest/services/lands/BLM_Natl_SMA_PriUnk_Only_NoAccess/MapServer</URL>
+                            </linkage>
+                        </CI_OnlineResource>
+                    </onLine>
+                </MD_DigitalTransferOptions>
+            </transferOptions>
+        </MD_Distribution>
+    </distributionInfo>
+    <dataQualityInfo>
+        <DQ_DataQuality>
+            <scope>
+                <DQ_Scope>
+                    <level>
+                        <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+                    </level>
+                </DQ_Scope>
+            </scope>
+            <report>
+                <DQ_QuantitativeAttributeAccuracy>
+                    <measureDescription>
+                        <gco:CharacterString>SMA is topologically aligned with PLSS CAD NSDI which has been through a series of quality checks to catch as many potential coding errors as possible. BLM-Nevada was unable to review their state-based SMA data set and certify that the data used in the creation of this data set was the most current and accurate.</gco:CharacterString>
+                    </measureDescription>
+                    <result gco:nilReason="missing"/>
+                </DQ_QuantitativeAttributeAccuracy>
+            </report>
+            <report>
+                <DQ_ConceptualConsistency>
+                    <measureDescription>
+                        <gco:CharacterString>Foundational to the SMA data is the expectation that it topologically align where possible and appropriate with the official published version of Bureau of Land Management (BLM) Public Land Survey System (PLSS) Cadastral National Spatial Data Infrastructure (CAD NSDI) GIS Data. Topology rules: SurfaceManagementAgency polys must not overlap.</gco:CharacterString>
+                    </measureDescription>
+                    <result gco:nilReason="missing"/>
+                </DQ_ConceptualConsistency>
+            </report>
+            <report>
+                <DQ_CompletenessOmission>
+                    <measureDescription>
+                        <gco:CharacterString>Data set is considered complete for the information presented. No Subsurface with this rendition. The completeness of the data can be determined by looking at the number of polygons that have been surveyed. If a polygon is identified as being either unsurveyed protracted or unsurveyed unprotracted, it has not been surveyed and will not have survey measurements. In other cases, the BLM was not able to completely abstract all the information from survey plats and notes due to the complexity of the data. Users are advised to read the rest of the metadata record carefully for additional details.</gco:CharacterString>
+                    </measureDescription>
+                    <result gco:nilReason="missing"/>
+                </DQ_CompletenessOmission>
+            </report>
+            <report>
+                <DQ_AbsoluteExternalPositionalAccuracy>
+                    <measureDescription>
+                        <gco:CharacterString>The spatial accuracy of the data can be found from the reliability and/or the error in X, Y coordinates contained in the PLSSPoints feature class. This represents the best estimate of spatial accuracy on a point-by-point basis. BLM-Nevada was unable to review their state-based SMA data set and certify that the data used in the creation of this data set was the most current and accurate.</gco:CharacterString>
+                    </measureDescription>
+                    <result gco:nilReason="missing"/>
+                </DQ_AbsoluteExternalPositionalAccuracy>
+            </report>
+            <lineage>
+                <LI_Lineage>
+                    <processStep>
+                        <LI_ProcessStep>
+                            <description>
+                                <gco:CharacterString>Collected the Surface Management Agency feature classes from each of the BLM State Offices, and related the attributes in the State Office feature classes to a standard attribute schema stored in master federal units attribute table.</gco:CharacterString>
+                            </description>
+                            <dateTime>
+                                <gco:DateTime>2018-06-21T00:00:00</gco:DateTime>
+                            </dateTime>
+                            <processor>
+                                <CI_ResponsibleParty>
+                                    <individualName>
+                                        <gco:CharacterString>Michael Sarhan</gco:CharacterString>
+                                    </individualName>
+                                    <organisationName>
+                                        <gco:CharacterString>Bureau of Land Management, National Operations Center</gco:CharacterString>
+                                    </organisationName>
+                                    <positionName>
+                                        <gco:CharacterString>Geospatial Data Analyst</gco:CharacterString>
+                                    </positionName>
+                                    <contactInfo>
+                                        <CI_Contact>
+                                            <phone>
+                                                <CI_Telephone>
+                                                    <voice>
+                                                        <gco:CharacterString>(303)236-6806</gco:CharacterString>
+                                                    </voice>
+                                                </CI_Telephone>
+                                            </phone>
+                                            <address>
+                                                <CI_Address>
+                                                    <deliveryPoint>
+                                                        <gco:CharacterString>Bldg. 50, Denver Federal Center</gco:CharacterString>
+                                                    </deliveryPoint>
+                                                    <city>
+                                                        <gco:CharacterString>Denver</gco:CharacterString>
+                                                    </city>
+                                                    <administrativeArea>
+                                                        <gco:CharacterString>CO</gco:CharacterString>
+                                                    </administrativeArea>
+                                                    <postalCode>
+                                                        <gco:CharacterString>80225</gco:CharacterString>
+                                                    </postalCode>
+                                                    <country>
+                                                        <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                                                    </country>
+                                                    <electronicMailAddress>
+                                                        <gco:CharacterString>msarhan@blm.gov</gco:CharacterString>
+                                                    </electronicMailAddress>
+                                                </CI_Address>
+                                            </address>
+                                        </CI_Contact>
+                                    </contactInfo>
+                                    <role>
+                                        <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115">processor</CI_RoleCode>
+                                    </role>
+                                </CI_ResponsibleParty>
+                            </processor>
+                        </LI_ProcessStep>
+                    </processStep>
+                    <processStep>
+                        <LI_ProcessStep>
+                            <description>
+                                <gco:CharacterString>Changes that are made to the Surface Management Agency data internally are reviewed for correctness before being applied externally. Correctness would include location and point attributes.</gco:CharacterString>
+                            </description>
+                            <dateTime>
+                                <gco:DateTime>2022-07-11T00:00:00</gco:DateTime>
+                            </dateTime>
+                            <processor>
+                                <CI_ResponsibleParty>
+                                    <individualName>
+                                        <gco:CharacterString>Spatial Data Coordinator</gco:CharacterString>
+                                    </individualName>
+                                    <organisationName>
+                                        <gco:CharacterString>BLM National Operations Center</gco:CharacterString>
+                                    </organisationName>
+                                    <positionName>
+                                        <gco:CharacterString>Spatial Data Coordinator</gco:CharacterString>
+                                    </positionName>
+                                    <contactInfo>
+                                        <CI_Contact>
+                                            <phone>
+                                                <CI_Telephone>
+                                                    <voice>
+                                                        <gco:CharacterString>(303)236-5445</gco:CharacterString>
+                                                    </voice>
+                                                    <facsimile>
+                                                        <gco:CharacterString>(303)236-3508</gco:CharacterString>
+                                                    </facsimile>
+                                                </CI_Telephone>
+                                            </phone>
+                                            <address>
+                                                <CI_Address>
+                                                    <deliveryPoint>
+                                                        <gco:CharacterString>Bldg. 50, Denver Federal Center</gco:CharacterString>
+                                                    </deliveryPoint>
+                                                    <city>
+                                                        <gco:CharacterString>Denver</gco:CharacterString>
+                                                    </city>
+                                                    <administrativeArea>
+                                                        <gco:CharacterString>CO</gco:CharacterString>
+                                                    </administrativeArea>
+                                                    <postalCode>
+                                                        <gco:CharacterString>80225</gco:CharacterString>
+                                                    </postalCode>
+                                                    <country>
+                                                        <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                                                    </country>
+                                                    <electronicMailAddress>
+                                                        <gco:CharacterString>scrowe@blm.gov</gco:CharacterString>
+                                                    </electronicMailAddress>
+                                                </CI_Address>
+                                            </address>
+                                        </CI_Contact>
+                                    </contactInfo>
+                                    <role>
+                                        <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115">processor</CI_RoleCode>
+                                    </role>
+                                </CI_ResponsibleParty>
+                            </processor>
+                        </LI_ProcessStep>
+                    </processStep>
+                    <source>
+                        <LI_Source>
+                            <description>
+                                <gco:CharacterString>Spatial and attribute information for land designated by the Bureau of Indian Affairs as American Indian Reservation</gco:CharacterString>
+                            </description>
+                            <scaleDenominator>
+                                <MD_RepresentativeFraction>
+                                    <denominator>
+                                        <gco:Integer>24000</gco:Integer>
+                                    </denominator>
+                                </MD_RepresentativeFraction>
+                            </scaleDenominator>
+                            <sourceCitation>
+                                <CI_Citation>
+                                    <title>
+                                        <gco:CharacterString>bia_ExportNAD83</gco:CharacterString>
+                                    </title>
+                                    <date gco:nilReason="missing"/>
+                                </CI_Citation>
+                            </sourceCitation>
+                        </LI_Source>
+                    </source>
+                    <source>
+                        <LI_Source>
+                            <description>
+                                <gco:CharacterString>Polygonal spatial data representing National Monuments</gco:CharacterString>
+                            </description>
+                            <scaleDenominator>
+                                <MD_RepresentativeFraction>
+                                    <denominator>
+                                        <gco:Integer>24000</gco:Integer>
+                                    </denominator>
+                                </MD_RepresentativeFraction>
+                            </scaleDenominator>
+                            <sourceCitation>
+                                <CI_Citation>
+                                    <title>
+                                        <gco:CharacterString>NLCS Boundaries</gco:CharacterString>
+                                    </title>
+                                    <date gco:nilReason="missing"/>
+                                </CI_Citation>
+                            </sourceCitation>
+                        </LI_Source>
+                    </source>
+                    <source>
+                        <LI_Source>
+                            <description>
+                                <gco:CharacterString>Spatial and attribute information for Fish and Wildlife Service refuges</gco:CharacterString>
+                            </description>
+                            <scaleDenominator>
+                                <MD_RepresentativeFraction>
+                                    <denominator>
+                                        <gco:Integer>24000</gco:Integer>
+                                    </denominator>
+                                </MD_RepresentativeFraction>
+                            </scaleDenominator>
+                            <sourceCitation>
+                                <CI_Citation>
+                                    <title>
+                                        <gco:CharacterString>Realty and Refuge Planning</gco:CharacterString>
+                                    </title>
+                                    <date gco:nilReason="missing"/>
+                                </CI_Citation>
+                            </sourceCitation>
+                        </LI_Source>
+                    </source>
+                    <source>
+                        <LI_Source>
+                            <description>
+                                <gco:CharacterString>Spatial and attribute information for National Park Service park boundaries</gco:CharacterString>
+                            </description>
+                            <scaleDenominator>
+                                <MD_RepresentativeFraction>
+                                    <denominator>
+                                        <gco:Integer>24000</gco:Integer>
+                                    </denominator>
+                                </MD_RepresentativeFraction>
+                            </scaleDenominator>
+                            <sourceCitation>
+                                <CI_Citation>
+                                    <title>
+                                        <gco:CharacterString>Current Administrative Boundaries of National Park System Units</gco:CharacterString>
+                                    </title>
+                                    <date gco:nilReason="missing"/>
+                                </CI_Citation>
+                            </sourceCitation>
+                        </LI_Source>
+                    </source>
+                    <source>
+                        <LI_Source>
+                            <description>
+                                <gco:CharacterString>Spatial and attribute information for BLM and state lands for the State of Utah</gco:CharacterString>
+                            </description>
+                            <scaleDenominator>
+                                <MD_RepresentativeFraction>
+                                    <denominator>
+                                        <gco:Integer>24000</gco:Integer>
+                                    </denominator>
+                                </MD_RepresentativeFraction>
+                            </scaleDenominator>
+                            <sourceCitation>
+                                <CI_Citation>
+                                    <title>
+                                        <gco:CharacterString>Surface Ownership for the State of Utah</gco:CharacterString>
+                                    </title>
+                                    <date gco:nilReason="missing"/>
+                                </CI_Citation>
+                            </sourceCitation>
+                        </LI_Source>
+                    </source>
+                    <source>
+                        <LI_Source>
+                            <description>
+                                <gco:CharacterString>Spatial and attribute information for BLM and state lands for the State of Oregon</gco:CharacterString>
+                            </description>
+                            <scaleDenominator>
+                                <MD_RepresentativeFraction>
+                                    <denominator>
+                                        <gco:Integer>24000</gco:Integer>
+                                    </denominator>
+                                </MD_RepresentativeFraction>
+                            </scaleDenominator>
+                            <sourceCitation>
+                                <CI_Citation>
+                                    <title>
+                                        <gco:CharacterString>Surface Ownership for the State of Oregon/Washington</gco:CharacterString>
+                                    </title>
+                                    <date gco:nilReason="missing"/>
+                                </CI_Citation>
+                            </sourceCitation>
+                        </LI_Source>
+                    </source>
+                    <source>
+                        <LI_Source>
+                            <description>
+                                <gco:CharacterString>Spatial and attribute information for BLM lands in the Eastern States</gco:CharacterString>
+                            </description>
+                            <scaleDenominator>
+                                <MD_RepresentativeFraction>
+                                    <denominator>
+                                        <gco:Integer>24000</gco:Integer>
+                                    </denominator>
+                                </MD_RepresentativeFraction>
+                            </scaleDenominator>
+                            <sourceCitation>
+                                <CI_Citation>
+                                    <title>
+                                        <gco:CharacterString>Public Domain Lands managed by BLM Eastern States Office</gco:CharacterString>
+                                    </title>
+                                    <date gco:nilReason="missing"/>
+                                </CI_Citation>
+                            </sourceCitation>
+                        </LI_Source>
+                    </source>
+                    <source>
+                        <LI_Source>
+                            <description>
+                                <gco:CharacterString>Spatial and attribute information for BLM and state lands for the State of Idaho</gco:CharacterString>
+                            </description>
+                            <scaleDenominator>
+                                <MD_RepresentativeFraction>
+                                    <denominator>
+                                        <gco:Integer>100000</gco:Integer>
+                                    </denominator>
+                                </MD_RepresentativeFraction>
+                            </scaleDenominator>
+                            <sourceCitation>
+                                <CI_Citation>
+                                    <title>
+                                        <gco:CharacterString>Surface Ownership for the State of Idaho</gco:CharacterString>
+                                    </title>
+                                    <date gco:nilReason="missing"/>
+                                </CI_Citation>
+                            </sourceCitation>
+                        </LI_Source>
+                    </source>
+                    <source>
+                        <LI_Source>
+                            <description>
+                                <gco:CharacterString>Spatial and attribute information for BLM and state lands for the State of Arizona</gco:CharacterString>
+                            </description>
+                            <scaleDenominator>
+                                <MD_RepresentativeFraction>
+                                    <denominator>
+                                        <gco:Integer>100000</gco:Integer>
+                                    </denominator>
+                                </MD_RepresentativeFraction>
+                            </scaleDenominator>
+                            <sourceCitation>
+                                <CI_Citation>
+                                    <title>
+                                        <gco:CharacterString>Surface Ownership for the State of Arizona</gco:CharacterString>
+                                    </title>
+                                    <date gco:nilReason="missing"/>
+                                </CI_Citation>
+                            </sourceCitation>
+                        </LI_Source>
+                    </source>
+                    <source>
+                        <LI_Source>
+                            <description>
+                                <gco:CharacterString>Spatial and attribute information for agencies other than BLM, NPS, USFS, BIA, and state managed lands</gco:CharacterString>
+                            </description>
+                            <sourceCitation>
+                                <CI_Citation>
+                                    <title>
+                                        <gco:CharacterString>Federal Lands of the United States</gco:CharacterString>
+                                    </title>
+                                    <date gco:nilReason="missing"/>
+                                </CI_Citation>
+                            </sourceCitation>
+                        </LI_Source>
+                    </source>
+                    <source>
+                        <LI_Source>
+                            <description>
+                                <gco:CharacterString>Spatial and attribute information for BLM and state lands for the State of Wyoming</gco:CharacterString>
+                            </description>
+                            <scaleDenominator>
+                                <MD_RepresentativeFraction>
+                                    <denominator>
+                                        <gco:Integer>24000</gco:Integer>
+                                    </denominator>
+                                </MD_RepresentativeFraction>
+                            </scaleDenominator>
+                            <sourceCitation>
+                                <CI_Citation>
+                                    <title>
+                                        <gco:CharacterString>Surface Ownership for the State of Wyoming</gco:CharacterString>
+                                    </title>
+                                    <date gco:nilReason="missing"/>
+                                </CI_Citation>
+                            </sourceCitation>
+                        </LI_Source>
+                    </source>
+                    <source>
+                        <LI_Source>
+                            <description>
+                                <gco:CharacterString>Spatial and attribute information for land managed by the US Forest Service</gco:CharacterString>
+                            </description>
+                            <scaleDenominator>
+                                <MD_RepresentativeFraction>
+                                    <denominator>
+                                        <gco:Integer>24000</gco:Integer>
+                                    </denominator>
+                                </MD_RepresentativeFraction>
+                            </scaleDenominator>
+                            <sourceCitation>
+                                <CI_Citation>
+                                    <title>
+                                        <gco:CharacterString>US Forest Service Ownership</gco:CharacterString>
+                                    </title>
+                                    <date gco:nilReason="missing"/>
+                                </CI_Citation>
+                            </sourceCitation>
+                        </LI_Source>
+                    </source>
+                    <source>
+                        <LI_Source>
+                            <description>
+                                <gco:CharacterString>Spatial and attribute information for BLM and State lands for the state of Washington</gco:CharacterString>
+                            </description>
+                            <scaleDenominator>
+                                <MD_RepresentativeFraction>
+                                    <denominator>
+                                        <gco:Integer>24000</gco:Integer>
+                                    </denominator>
+                                </MD_RepresentativeFraction>
+                            </scaleDenominator>
+                            <sourceCitation>
+                                <CI_Citation>
+                                    <title>
+                                        <gco:CharacterString>Surface Ownership for the State of Oregon/Washington</gco:CharacterString>
+                                    </title>
+                                    <date gco:nilReason="missing"/>
+                                </CI_Citation>
+                            </sourceCitation>
+                        </LI_Source>
+                    </source>
+                    <source>
+                        <LI_Source>
+                            <description>
+                                <gco:CharacterString>Spatial and attribute information for BLM and state lands for the State of Nevada</gco:CharacterString>
+                            </description>
+                            <scaleDenominator>
+                                <MD_RepresentativeFraction>
+                                    <denominator>
+                                        <gco:Integer>24000</gco:Integer>
+                                    </denominator>
+                                </MD_RepresentativeFraction>
+                            </scaleDenominator>
+                            <sourceCitation>
+                                <CI_Citation>
+                                    <title>
+                                        <gco:CharacterString>Surface Ownership for the State of Nevada</gco:CharacterString>
+                                    </title>
+                                    <date gco:nilReason="missing"/>
+                                </CI_Citation>
+                            </sourceCitation>
+                        </LI_Source>
+                    </source>
+                    <source>
+                        <LI_Source>
+                            <description>
+                                <gco:CharacterString>Spatial and attribute information for BLM and state lands for the State of New Mexico</gco:CharacterString>
+                            </description>
+                            <scaleDenominator>
+                                <MD_RepresentativeFraction>
+                                    <denominator>
+                                        <gco:Integer>100000</gco:Integer>
+                                    </denominator>
+                                </MD_RepresentativeFraction>
+                            </scaleDenominator>
+                            <sourceCitation>
+                                <CI_Citation>
+                                    <title>
+                                        <gco:CharacterString>Surface Ownership for the State of New Mexico</gco:CharacterString>
+                                    </title>
+                                    <date gco:nilReason="missing"/>
+                                </CI_Citation>
+                            </sourceCitation>
+                        </LI_Source>
+                    </source>
+                    <source>
+                        <LI_Source>
+                            <description>
+                                <gco:CharacterString>Spatial and attribute information for BLM lands for the state of Florida</gco:CharacterString>
+                            </description>
+                            <scaleDenominator>
+                                <MD_RepresentativeFraction>
+                                    <denominator>
+                                        <gco:Integer>24000</gco:Integer>
+                                    </denominator>
+                                </MD_RepresentativeFraction>
+                            </scaleDenominator>
+                            <sourceCitation>
+                                <CI_Citation>
+                                    <title>
+                                        <gco:CharacterString>Florida Public Lands - March 2007</gco:CharacterString>
+                                    </title>
+                                    <date>
+                                        <CI_Date>
+                                            <date>
+                                                <gco:Date>2007-03-29</gco:Date>
+                                            </date>
+                                            <dateType>
+                                                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                                            </dateType>
+                                        </CI_Date>
+                                    </date>
+                                </CI_Citation>
+                            </sourceCitation>
+                            <sourceExtent>
+                                <EX_Extent>
+                                    <description>
+                                        <gco:CharacterString>publication date</gco:CharacterString>
+                                    </description>
+                                    <temporalElement>
+                                        <EX_TemporalExtent>
+                                            <extent>
+                                                <gml:TimeInstant gml:id="N66674">
+                                                    <gml:timePosition>2007-03-29</gml:timePosition>
+                                                </gml:TimeInstant>
+                                            </extent>
+                                        </EX_TemporalExtent>
+                                    </temporalElement>
+                                </EX_Extent>
+                            </sourceExtent>
+                        </LI_Source>
+                    </source>
+                    <source>
+                        <LI_Source>
+                            <description>
+                                <gco:CharacterString>Spatial and attribute information for BLM and state lands for the State of Montana</gco:CharacterString>
+                            </description>
+                            <scaleDenominator>
+                                <MD_RepresentativeFraction>
+                                    <denominator>
+                                        <gco:Integer>100000</gco:Integer>
+                                    </denominator>
+                                </MD_RepresentativeFraction>
+                            </scaleDenominator>
+                            <sourceCitation>
+                                <CI_Citation>
+                                    <title>
+                                        <gco:CharacterString>Surface Ownership for the State of Montana</gco:CharacterString>
+                                    </title>
+                                    <date gco:nilReason="missing"/>
+                                </CI_Citation>
+                            </sourceCitation>
+                        </LI_Source>
+                    </source>
+                    <source>
+                        <LI_Source>
+                            <description>
+                                <gco:CharacterString>Spatial and attribute information for BLM and state lands for the State of California</gco:CharacterString>
+                            </description>
+                            <scaleDenominator>
+                                <MD_RepresentativeFraction>
+                                    <denominator>
+                                        <gco:Integer>100000</gco:Integer>
+                                    </denominator>
+                                </MD_RepresentativeFraction>
+                            </scaleDenominator>
+                            <sourceCitation>
+                                <CI_Citation>
+                                    <title>
+                                        <gco:CharacterString>Surface Ownership for the State of California</gco:CharacterString>
+                                    </title>
+                                    <date gco:nilReason="missing"/>
+                                </CI_Citation>
+                            </sourceCitation>
+                        </LI_Source>
+                    </source>
+                    <source>
+                        <LI_Source>
+                            <description>
+                                <gco:CharacterString>Spatial and attribute information for BLM and state lands for the State of Alaska</gco:CharacterString>
+                            </description>
+                            <scaleDenominator>
+                                <MD_RepresentativeFraction>
+                                    <denominator>
+                                        <gco:Integer>100000</gco:Integer>
+                                    </denominator>
+                                </MD_RepresentativeFraction>
+                            </scaleDenominator>
+                            <sourceCitation>
+                                <CI_Citation>
+                                    <title>
+                                        <gco:CharacterString>Surface Ownership for the State of Alaska</gco:CharacterString>
+                                    </title>
+                                    <date gco:nilReason="missing"/>
+                                </CI_Citation>
+                            </sourceCitation>
+                        </LI_Source>
+                    </source>
+                </LI_Lineage>
+            </lineage>
+        </DQ_DataQuality>
+    </dataQualityInfo>
+    <metadataMaintenance>
+        <MD_MaintenanceInformation>
+            <maintenanceAndUpdateFrequency>
+                <MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="unknown" codeSpace="ISOTC211/19115">unknown</MD_MaintenanceFrequencyCode>
+            </maintenanceAndUpdateFrequency>
+            <dateOfNextUpdate>
+                <gco:Date>2018-02-01</gco:Date>
+            </dateOfNextUpdate>
+            <maintenanceNote>
+                <gco:CharacterString>Last metadata review date: 20190823</gco:CharacterString>
+            </maintenanceNote>
+        </MD_MaintenanceInformation>
+    </metadataMaintenance>
+</MD_Metadata>

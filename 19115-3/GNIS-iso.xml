@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdb:MD_Metadata xmlns:cat="http://standards.iso.org/iso/19115/-3/cat/1.0" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gcx="http://standards.iso.org/iso/19115/-3/gcx/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mac="http://standards.iso.org/iso/19115/-3/mac/1.0" xmlns:mas="http://standards.iso.org/iso/19115/-3/mas/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mda="http://standards.iso.org/iso/19115/-3/mda/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mdq="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mdt="http://standards.iso.org/iso/19115/-3/mdt/1.0" xmlns:mex="http://standards.iso.org/iso/19115/-3/mex/1.0" xmlns:mmi="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:mpc="http://standards.iso.org/iso/19115/-3/mpc/1.0" xmlns:mrc="http://standards.iso.org/iso/19115/-3/mrc/1.0" xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:mrl="http://standards.iso.org/iso/19115/-3/mrl/1.0" xmlns:mrs="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:msr="http://standards.iso.org/iso/19115/-3/msr/1.0" xmlns:srv="http://standards.iso.org/iso/19115/-3/srv/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdt/2.0 https://schemas.isotc211.org/19115/-3/mdt/1.0/mdt.xsd">
+   <mdb:metadataIdentifier>
+      <mcc:MD_Identifier>
+         <mcc:code>
+            <gco:CharacterString>c1f58a1c-7d5d-44df-a186-65f386bf8518</gco:CharacterString>
+         </mcc:code>
+      </mcc:MD_Identifier>
+   </mdb:metadataIdentifier>
+   <mdb:defaultLocale>
+      <lan:PT_Locale>
+         <lan:language>
+            <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
+         </lan:language>
+         <lan:characterEncoding>
+            <lan:MD_CharacterSetCode codeList="codeListLocation#MD_CharacterSetCode" codeListValue="utf8">utf8</lan:MD_CharacterSetCode>
+         </lan:characterEncoding>
+      </lan:PT_Locale>
+   </mdb:defaultLocale>
+   <mdb:metadataScope>
+      <mdb:MD_MetadataScope>
+         <mdb:resourceScope>
+            <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="dataset">dataset</mcc:MD_ScopeCode>
+         </mdb:resourceScope>
+      </mdb:MD_MetadataScope>
+   </mdb:metadataScope>
+   <mdb:contact>
+      <cit:CI_Responsibility>
+         <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</cit:CI_RoleCode>
+         </cit:role>
+         <cit:party>
+            <cit:CI_Organisation>
+               <cit:name>
+                  <gco:CharacterString>National Geospatial-Intelligence Agency (NGA)</gco:CharacterString>
+               </cit:name>
+               <cit:contactInfo>
+                  <cit:CI_Contact>
+                     <cit:phone>
+                        <cit:CI_Telephone>
+                           <cit:number>
+                              <gco:CharacterString>1-571-557-5959</gco:CharacterString>
+                           </cit:number>
+                           <cit:numberType>
+                              <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode" codeListValue="voice">voice</cit:CI_TelephoneTypeCode>
+                           </cit:numberType>
+                        </cit:CI_Telephone>
+                     </cit:phone>
+                     <cit:address>
+                        <cit:CI_Address>
+                           <cit:deliveryPoint>
+                              <gco:CharacterString>MS N73 7500 GEOINT Drive</gco:CharacterString>
+                           </cit:deliveryPoint>
+                           <cit:city>
+                              <gco:CharacterString>Springfield</gco:CharacterString>
+                           </cit:city>
+                           <cit:administrativeArea>
+                              <gco:CharacterString>VA</gco:CharacterString>
+                           </cit:administrativeArea>
+                           <cit:postalCode>
+                              <gco:CharacterString>22150-7500</gco:CharacterString>
+                           </cit:postalCode>
+                           <cit:electronicMailAddress>
+                              <gco:CharacterString>geonames@nga.mil</gco:CharacterString>
+                           </cit:electronicMailAddress>
+                        </cit:CI_Address>
+                     </cit:address>
+                  </cit:CI_Contact>
+               </cit:contactInfo>
+            </cit:CI_Organisation>
+         </cit:party>
+      </cit:CI_Responsibility>
+   </mdb:contact>
+   <mdb:dateInfo>
+      <cit:CI_Date>
+         <cit:date>
+            <gco:DateTime>2022-09-13T00:00:00</gco:DateTime>
+         </cit:date>
+         <cit:dateType>
+            <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
+         </cit:dateType>
+      </cit:CI_Date>
+   </mdb:dateInfo>
+   <mdb:metadataStandard>
+      <cit:CI_Citation>
+         <cit:title>
+            <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
+         </cit:title>
+         <cit:edition>
+            <gco:CharacterString>ISO 19115:2003/Cor.1:2006(E)</gco:CharacterString>
+         </cit:edition>
+      </cit:CI_Citation>
+   </mdb:metadataStandard>
+   <mdb:identificationInfo>
+      <mri:MD_DataIdentification>
+         <mri:citation>
+            <cit:CI_Citation>
+               <cit:title>
+                  <gco:CharacterString>Geographic Names Server (GNS)</gco:CharacterString>
+               </cit:title>
+               <cit:date>
+                  <cit:CI_Date>
+                     <cit:date>
+                        <gco:DateTime>2022-07-05T00:00:00</gco:DateTime>
+                     </cit:date>
+                     <cit:dateType>
+                        <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+                     </cit:dateType>
+                  </cit:CI_Date>
+               </cit:date>
+               <cit:citedResponsibleParty>
+                  <cit:CI_Responsibility>
+                     <cit:role>
+                        <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="custodian">custodian</cit:CI_RoleCode>
+                     </cit:role>
+                     <cit:party>
+                        <cit:CI_Organisation>
+                           <cit:name>
+                              <gco:CharacterString>National Geospatial-Intelligence Agency (NGA)</gco:CharacterString>
+                           </cit:name>
+                           <cit:contactInfo>
+                              <cit:CI_Contact>
+                                 <cit:phone>
+                                    <cit:CI_Telephone>
+                                       <cit:number>
+                                          <gco:CharacterString>1-571-557-5959</gco:CharacterString>
+                                       </cit:number>
+                                       <cit:numberType>
+                                          <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode" codeListValue="voice">voice</cit:CI_TelephoneTypeCode>
+                                       </cit:numberType>
+                                    </cit:CI_Telephone>
+                                 </cit:phone>
+                                 <cit:address>
+                                    <cit:CI_Address>
+                                       <cit:deliveryPoint>
+                                          <gco:CharacterString>MS N73 7500 GEOINT Drive</gco:CharacterString>
+                                       </cit:deliveryPoint>
+                                       <cit:city>
+                                          <gco:CharacterString>Springfield</gco:CharacterString>
+                                       </cit:city>
+                                       <cit:administrativeArea>
+                                          <gco:CharacterString>VA</gco:CharacterString>
+                                       </cit:administrativeArea>
+                                       <cit:postalCode>
+                                          <gco:CharacterString>22150-7500</gco:CharacterString>
+                                       </cit:postalCode>
+                                       <cit:electronicMailAddress>
+                                          <gco:CharacterString>geonames@nga.mil</gco:CharacterString>
+                                       </cit:electronicMailAddress>
+                                    </cit:CI_Address>
+                                 </cit:address>
+                              </cit:CI_Contact>
+                           </cit:contactInfo>
+                        </cit:CI_Organisation>
+                     </cit:party>
+                  </cit:CI_Responsibility>
+               </cit:citedResponsibleParty>
+            </cit:CI_Citation>
+         </mri:citation>
+         <mri:abstract>
+            <gco:CharacterString>The Geographic Names Server (GNS) is the official repository of standard spellings of all foreign geographic names, sanctioned by the United States Board on Geographic Names (BGN). In addition to the current approved names of features, users may find variant and historical spellings, along with non-Roman script spellings. Each record contained within provides information on the feature's location, administrative division, and designation (e.g., populated place, stream, mountain). The GNS can be used for finding places, GIS data, cartography, and GEOINT products.</gco:CharacterString>
+         </mri:abstract>
+         <mri:purpose>
+            <gco:CharacterString>To support consumers in accessing to the toponymic information of the Geographic Names Database, containing official standard names approved by the United States Board on Geographic Names</gco:CharacterString>
+         </mri:purpose>
+         <mri:credit>
+            <gco:CharacterString>U.S. Board on Geographic Names (BGN)</gco:CharacterString>
+         </mri:credit>
+         <mri:status>
+            <mcc:MD_ProgressCode codeList="codeListLocation#MD_ProgressCode" codeListValue="completed">completed</mcc:MD_ProgressCode>
+         </mri:status>
+         <mri:spatialRepresentationType>
+            <mcc:MD_SpatialRepresentationTypeCode codeList="codeListLocation#MD_SpatialRepresentationTypeCode" codeListValue="point">point</mcc:MD_SpatialRepresentationTypeCode>
+         </mri:spatialRepresentationType>
+         <mri:topicCategory>
+            <mri:MD_TopicCategoryCode>location</mri:MD_TopicCategoryCode>
+         </mri:topicCategory>
+         <mri:extent>
+            <gex:EX_Extent id="boundingExtent">
+               <gex:geographicElement>
+                  <gex:EX_GeographicBoundingBox id="boundingGeographicBoundingBox">
+                     <gex:westBoundLongitude>
+                        <gco:Decimal>-180</gco:Decimal>
+                     </gex:westBoundLongitude>
+                     <gex:eastBoundLongitude>
+                        <gco:Decimal>180</gco:Decimal>
+                     </gex:eastBoundLongitude>
+                     <gex:southBoundLatitude>
+                        <gco:Decimal>-90</gco:Decimal>
+                     </gex:southBoundLatitude>
+                     <gex:northBoundLatitude>
+                        <gco:Decimal>90</gco:Decimal>
+                     </gex:northBoundLatitude>
+                  </gex:EX_GeographicBoundingBox>
+               </gex:geographicElement>
+               <gex:temporalElement>
+                  <gex:EX_TemporalExtent>
+                     <gex:extent>
+                        <gml:TimeInstant gml:id="tp_114854">
+                           <gml:description>ground condition</gml:description>
+                           <gml:timePosition>indeterminatePosition="now"</gml:timePosition>
+                        </gml:TimeInstant>
+                     </gex:extent>
+                  </gex:EX_TemporalExtent>
+               </gex:temporalElement>
+            </gex:EX_Extent>
+         </mri:extent>
+         <mri:resourceMaintenance>
+            <mmi:MD_MaintenanceInformation>
+               <mmi:maintenanceAndUpdateFrequency>
+                  <mmi:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</mmi:MD_MaintenanceFrequencyCode>
+               </mmi:maintenanceAndUpdateFrequency>
+            </mmi:MD_MaintenanceInformation>
+         </mri:resourceMaintenance>
+         <mri:descriptiveKeywords>
+            <mri:MD_Keywords>
+               <mri:keyword>
+                  <gco:CharacterString>National Geospatial Data Asset</gco:CharacterString>
+               </mri:keyword>
+               <mri:keyword>
+                  <gco:CharacterString>NGDA</gco:CharacterString>
+               </mri:keyword>
+               <mri:keyword>
+                  <gco:CharacterString>Cultural Resources Theme</gco:CharacterString>
+               </mri:keyword>
+               <mri:type>
+                  <mri:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</mri:MD_KeywordTypeCode>
+               </mri:type>
+               <mri:thesaurusName>
+                  <cit:CI_Citation>
+                     <cit:title>
+                        <gco:CharacterString>NGDA Portfolio Themes</gco:CharacterString>
+                     </cit:title>
+                     <cit:date>
+                        <cit:CI_Date>
+                           <cit:date>
+                              <gco:DateTime>2021-01-01T00:00:00</gco:DateTime>
+                           </cit:date>
+                           <cit:dateType>
+                              <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+                           </cit:dateType>
+                        </cit:CI_Date>
+                     </cit:date>
+                  </cit:CI_Citation>
+               </mri:thesaurusName>
+            </mri:MD_Keywords>
+         </mri:descriptiveKeywords>
+         <mri:descriptiveKeywords>
+            <mri:MD_Keywords>
+               <mri:keyword>
+                  <gco:CharacterString>names</gco:CharacterString>
+               </mri:keyword>
+               <mri:keyword>
+                  <gco:CharacterString>administrative divisions</gco:CharacterString>
+               </mri:keyword>
+               <mri:keyword>
+                  <gco:CharacterString>geographic names</gco:CharacterString>
+               </mri:keyword>
+               <mri:keyword>
+                  <gco:CharacterString>geographic features</gco:CharacterString>
+               </mri:keyword>
+               <mri:keyword>
+                  <gco:CharacterString>country codes</gco:CharacterString>
+               </mri:keyword>
+               <mri:keyword>
+                  <gco:CharacterString>language codes</gco:CharacterString>
+               </mri:keyword>
+               <mri:keyword>
+                  <gco:CharacterString>place names</gco:CharacterString>
+               </mri:keyword>
+               <mri:type>
+                  <mri:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</mri:MD_KeywordTypeCode>
+               </mri:type>
+               <mri:thesaurusName>
+                  <cit:CI_Citation>
+                     <cit:title>
+                        <gco:CharacterString>none</gco:CharacterString>
+                     </cit:title>
+                     <cit:date gco:nilReason="unknown"/>
+                  </cit:CI_Citation>
+               </mri:thesaurusName>
+            </mri:MD_Keywords>
+         </mri:descriptiveKeywords>
+         <mri:descriptiveKeywords>
+            <mri:MD_Keywords>
+               <mri:keyword>
+                  <gco:CharacterString>international</gco:CharacterString>
+               </mri:keyword>
+               <mri:keyword>
+                  <gco:CharacterString>global</gco:CharacterString>
+               </mri:keyword>
+               <mri:type>
+                  <mri:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place">place</mri:MD_KeywordTypeCode>
+               </mri:type>
+               <mri:thesaurusName>
+                  <cit:CI_Citation>
+                     <cit:title>
+                        <gco:CharacterString>none</gco:CharacterString>
+                     </cit:title>
+                     <cit:date gco:nilReason="unknown"/>
+                  </cit:CI_Citation>
+               </mri:thesaurusName>
+            </mri:MD_Keywords>
+         </mri:descriptiveKeywords>
+         <mri:resourceConstraints>
+            <mco:MD_Constraints>
+               <mco:useLimitation>
+                  <gco:CharacterString>There are no licensing requirements or restrictions in place for the use of the GNS data. However, we recommend using the following citation to identify the GNS as a source: Toponymic information is based on the Geographic Names Database, containing official standard names approved by the United States Board on Geographic Names and maintained by the National Geospatial-Intelligence Agency. More information is available at the Resources link at www.nga.mil. The National Geospatial-Intelligence Agency name, initials, and seal are protected by 10 United States Code - Section 425</gco:CharacterString>
+               </mco:useLimitation>
+            </mco:MD_Constraints>
+         </mri:resourceConstraints>
+         <mri:resourceConstraints>
+            <mco:MD_LegalConstraints>
+               <mco:useConstraints>
+                  <mco:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</mco:MD_RestrictionCode>
+               </mco:useConstraints>
+               <mco:otherConstraints>
+                  <gco:CharacterString>The names, variants, and associated data may not reflect the views of the United States Government on the sovereignty over geographic features. NGA is not responsible for third party uses of GNS feature coordinates.</gco:CharacterString>
+               </mco:otherConstraints>
+            </mco:MD_LegalConstraints>
+         </mri:resourceConstraints>
+         <mri:defaultLocale>
+            <lan:PT_Locale>
+               <lan:language>
+                  <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
+               </lan:language>
+               <lan:characterEncoding gco:nilReason="unknown"/>
+            </lan:PT_Locale>
+         </mri:defaultLocale>
+      </mri:MD_DataIdentification>
+   </mdb:identificationInfo>
+   <mdb:distributionInfo>
+      <mrd:MD_Distribution>
+         <mrd:distributionFormat>
+            <mrd:MD_Format>
+               <mrd:formatSpecificationCitation>
+                  <cit:CI_Citation>
+                     <cit:title>
+                        <gco:CharacterString>website with searchable interface</gco:CharacterString>
+                     </cit:title>
+                     <cit:alternateTitle/>
+                     <cit:date gco:nilReason="unknown"/>
+                     <cit:edition>
+                        <gco:CharacterString>2022</gco:CharacterString>
+                     </cit:edition>
+                     <cit:identifier>
+                        <mcc:MD_Identifier>
+                           <mcc:code>
+                              <gco:CharacterString>website with searchable interface</gco:CharacterString>
+                           </mcc:code>
+                        </mcc:MD_Identifier>
+                     </cit:identifier>
+                  </cit:CI_Citation>
+               </mrd:formatSpecificationCitation>
+            </mrd:MD_Format>
+         </mrd:distributionFormat>
+         <mrd:distributor>
+            <mrd:MD_Distributor>
+               <mrd:distributorContact>
+                  <cit:CI_Responsibility>
+                     <cit:role>
+                        <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="distributor">distributor</cit:CI_RoleCode>
+                     </cit:role>
+                     <cit:party>
+                        <cit:CI_Organisation>
+                           <cit:name>
+                              <gco:CharacterString>National Geospatial-Intelligence Agency (NGA)</gco:CharacterString>
+                           </cit:name>
+                           <cit:contactInfo>
+                              <cit:CI_Contact>
+                                 <cit:phone>
+                                    <cit:CI_Telephone>
+                                       <cit:number>
+                                          <gco:CharacterString>1-571-557-5959</gco:CharacterString>
+                                       </cit:number>
+                                       <cit:numberType>
+                                          <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode" codeListValue="voice">voice</cit:CI_TelephoneTypeCode>
+                                       </cit:numberType>
+                                    </cit:CI_Telephone>
+                                 </cit:phone>
+                                 <cit:address>
+                                    <cit:CI_Address>
+                                       <cit:deliveryPoint>
+                                          <gco:CharacterString>MS N73 7500 GEOINT Drive</gco:CharacterString>
+                                       </cit:deliveryPoint>
+                                       <cit:city>
+                                          <gco:CharacterString>Springfield</gco:CharacterString>
+                                       </cit:city>
+                                       <cit:administrativeArea>
+                                          <gco:CharacterString>VA</gco:CharacterString>
+                                       </cit:administrativeArea>
+                                       <cit:postalCode>
+                                          <gco:CharacterString>22150-7500</gco:CharacterString>
+                                       </cit:postalCode>
+                                       <cit:electronicMailAddress>
+                                          <gco:CharacterString>geonames@nga.mil</gco:CharacterString>
+                                       </cit:electronicMailAddress>
+                                    </cit:CI_Address>
+                                 </cit:address>
+                              </cit:CI_Contact>
+                           </cit:contactInfo>
+                        </cit:CI_Organisation>
+                     </cit:party>
+                  </cit:CI_Responsibility>
+               </mrd:distributorContact>
+               <mrd:distributionOrderProcess>
+                  <mrd:MD_StandardOrderProcess>
+                     <mrd:fees>
+                        <gco:CharacterString>None</gco:CharacterString>
+                     </mrd:fees>
+                  </mrd:MD_StandardOrderProcess>
+               </mrd:distributionOrderProcess>
+            </mrd:MD_Distributor>
+         </mrd:distributor>
+         <mrd:transferOptions>
+            <mrd:MD_DigitalTransferOptions>
+               <mrd:onLine>
+                  <cit:CI_OnlineResource>
+                     <cit:linkage>
+                        <gco:CharacterString>https://geonames.nga.mil/geonames/GNSHome/</gco:CharacterString>
+                     </cit:linkage>
+                     <cit:name>
+                        <gco:CharacterString>Geographic Names Server</gco:CharacterString>
+                     </cit:name>
+                     <cit:description>
+                        <gco:CharacterString>Database of standard spellings of all foreign geographic names, sanctioned by the United States Board on Geographic Names (BGN)</gco:CharacterString>
+                     </cit:description>
+                     <cit:function>
+                        <cit:CI_OnLineFunctionCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</cit:CI_OnLineFunctionCode>
+                     </cit:function>
+                  </cit:CI_OnlineResource>
+               </mrd:onLine>
+            </mrd:MD_DigitalTransferOptions>
+         </mrd:transferOptions>
+      </mrd:MD_Distribution>
+   </mdb:distributionInfo>
+</mdb:MD_Metadata>

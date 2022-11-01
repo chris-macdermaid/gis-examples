@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdb:MD_Metadata xmlns:cat="http://standards.iso.org/iso/19115/-3/cat/1.0" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gcx="http://standards.iso.org/iso/19115/-3/gcx/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mac="http://standards.iso.org/iso/19115/-3/mac/1.0" xmlns:mas="http://standards.iso.org/iso/19115/-3/mas/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mda="http://standards.iso.org/iso/19115/-3/mda/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mdq="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mdt="http://standards.iso.org/iso/19115/-3/mdt/1.0" xmlns:mex="http://standards.iso.org/iso/19115/-3/mex/1.0" xmlns:mmi="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:mpc="http://standards.iso.org/iso/19115/-3/mpc/1.0" xmlns:mrc="http://standards.iso.org/iso/19115/-3/mrc/1.0" xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:mrl="http://standards.iso.org/iso/19115/-3/mrl/1.0" xmlns:mrs="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:msr="http://standards.iso.org/iso/19115/-3/msr/1.0" xmlns:srv="http://standards.iso.org/iso/19115/-3/srv/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdt/2.0 https://schemas.isotc211.org/19115/-3/mdt/1.0/mdt.xsd">
+   <mdb:metadataIdentifier>
+      <mcc:MD_Identifier>
+         <mcc:code>
+            <gco:CharacterString>tl_2021_us_county.shp.iso.xml</gco:CharacterString>
+         </mcc:code>
+      </mcc:MD_Identifier>
+   </mdb:metadataIdentifier>
+   <mdb:defaultLocale>
+      <lan:PT_Locale>
+         <lan:language>
+            <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
+         </lan:language>
+         <lan:characterEncoding>
+            <lan:MD_CharacterSetCode codeList="codeListLocation#MD_CharacterSetCode" codeListValue="utf8">utf8</lan:MD_CharacterSetCode>
+         </lan:characterEncoding>
+      </lan:PT_Locale>
+   </mdb:defaultLocale>
+   <mdb:parentMetadata uuidref="series_tl_2021_county.shp.iso.xml"/>
+   <mdb:metadataScope>
+      <mdb:MD_MetadataScope>
+         <mdb:resourceScope>
+            <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="dataset">dataset</mcc:MD_ScopeCode>
+         </mdb:resourceScope>
+      </mdb:MD_MetadataScope>
+   </mdb:metadataScope>
+   <mdb:contact>
+      <cit:CI_Responsibility>
+         <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</cit:CI_RoleCode>
+         </cit:role>
+         <cit:party>
+            <cit:CI_Organisation>
+               <cit:name>
+                  <gco:CharacterString>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Spatial Data Collection and Products Branch</gco:CharacterString>
+               </cit:name>
+               <cit:contactInfo>
+                  <cit:CI_Contact>
+                     <cit:phone>
+                        <cit:CI_Telephone>
+                           <cit:number>
+                              <gco:CharacterString>301-763-1128</gco:CharacterString>
+                           </cit:number>
+                           <cit:numberType>
+                              <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode" codeListValue="voice">voice</cit:CI_TelephoneTypeCode>
+                           </cit:numberType>
+                        </cit:CI_Telephone>
+                     </cit:phone>
+                     <cit:phone>
+                        <cit:CI_Telephone>
+                           <cit:number>
+                              <gco:CharacterString>301-763-4710</gco:CharacterString>
+                           </cit:number>
+                           <cit:numberType>
+                              <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode" codeListValue="facsimile">facsimile</cit:CI_TelephoneTypeCode>
+                           </cit:numberType>
+                        </cit:CI_Telephone>
+                     </cit:phone>
+                     <cit:address>
+                        <cit:CI_Address>
+                           <cit:deliveryPoint>
+                              <gco:CharacterString>4600 Silver Hill Road, Stop 7400</gco:CharacterString>
+                           </cit:deliveryPoint>
+                           <cit:city>
+                              <gco:CharacterString>Washington</gco:CharacterString>
+                           </cit:city>
+                           <cit:administrativeArea>
+                              <gco:CharacterString>DC</gco:CharacterString>
+                           </cit:administrativeArea>
+                           <cit:postalCode>
+                              <gco:CharacterString>20233-7400</gco:CharacterString>
+                           </cit:postalCode>
+                           <cit:country>
+                              <gco:CharacterString>United States</gco:CharacterString>
+                           </cit:country>
+                           <cit:electronicMailAddress>
+                              <gco:CharacterString>geo.geography@census.gov</gco:CharacterString>
+                           </cit:electronicMailAddress>
+                        </cit:CI_Address>
+                     </cit:address>
+                  </cit:CI_Contact>
+               </cit:contactInfo>
+            </cit:CI_Organisation>
+         </cit:party>
+      </cit:CI_Responsibility>
+   </mdb:contact>
+   <mdb:dateInfo>
+      <cit:CI_Date>
+         <cit:date>
+            <gco:DateTime>2020-05-23T00:00:00</gco:DateTime>
+         </cit:date>
+         <cit:dateType>
+            <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
+         </cit:dateType>
+      </cit:CI_Date>
+   </mdb:dateInfo>
+   <mdb:metadataStandard>
+      <cit:CI_Citation>
+         <cit:title>
+            <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
+         </cit:title>
+         <cit:edition>
+            <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+         </cit:edition>
+      </cit:CI_Citation>
+   </mdb:metadataStandard>
+   <mdb:spatialRepresentationInfo>
+      <msr:MD_VectorSpatialRepresentation>
+         <msr:geometricObjects>
+            <msr:MD_GeometricObjects>
+               <msr:geometricObjectType>
+                  <msr:MD_GeometricObjectTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="complex"/>
+               </msr:geometricObjectType>
+               <msr:geometricObjectCount>
+                  <gco:Integer>3234</gco:Integer>
+               </msr:geometricObjectCount>
+            </msr:MD_GeometricObjects>
+         </msr:geometricObjects>
+      </msr:MD_VectorSpatialRepresentation>
+   </mdb:spatialRepresentationInfo>
+   <mdb:referenceSystemInfo>
+      <mrs:MD_ReferenceSystem uuid="65f8b220-95ed-11e0-aa80-0800200c9a66">
+         <mrs:referenceSystemIdentifier>
+            <mcc:MD_Identifier>
+               <mcc:authority>
+                  <cit:CI_Citation>
+                     <cit:title>
+                        <gco:CharacterString>North American Datum of 1983</gco:CharacterString>
+                     </cit:title>
+                     <cit:alternateTitle>
+                        <gco:CharacterString>NAD83</gco:CharacterString>
+                     </cit:alternateTitle>
+                     <cit:date>
+                        <cit:CI_Date>
+                           <cit:date>
+                              <gco:Date>2007-01-19</gco:Date>
+                           </cit:date>
+                           <cit:dateType>
+                              <cit:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision"/>
+                           </cit:dateType>
+                        </cit:CI_Date>
+                     </cit:date>
+                     <cit:citedResponsibleParty/>
+                     <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                           <cit:linkage>
+                              <gco:CharacterString>https://spatialreference.org/ref/epsg/4269/gml/</gco:CharacterString>
+                           </cit:linkage>
+                           <cit:name>
+                              <gco:CharacterString>NAD83</gco:CharacterString>
+                           </cit:name>
+                           <cit:description>
+                              <gco:CharacterString>Link to Geographic Markup Language (GML) description of reference system.</gco:CharacterString>
+                           </cit:description>
+                           <cit:function>
+                              <cit:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+                           </cit:function>
+                        </cit:CI_OnlineResource>
+                     </cit:onlineResource>
+                  </cit:CI_Citation>
+               </mcc:authority>
+               <mcc:code>
+                  <gco:CharacterString>urn:ogc:def:crs:EPSG::4269</gco:CharacterString>
+               </mcc:code>
+            </mcc:MD_Identifier>
+         </mrs:referenceSystemIdentifier>
+      </mrs:MD_ReferenceSystem>
+   </mdb:referenceSystemInfo>
+   <mdb:identificationInfo>
+      <mri:MD_DataIdentification>
+         <mri:citation>
+            <cit:CI_Citation>
+               <cit:title>
+                  <gco:CharacterString>TIGER/Line Shapefile, Current, Nation, U.S., Current County and Equivalents National Shapefile</gco:CharacterString>
+               </cit:title>
+               <cit:alternateTitle>
+                  <gco:CharacterString>TIGER/Line Shapefile, 2021, Nation, County and Equivalents</gco:CharacterString>
+               </cit:alternateTitle>
+               <cit:date>
+                  <cit:CI_Date>
+                     <cit:date>
+                        <gco:DateTime>2021-01-01T00:00:00</gco:DateTime>
+                     </cit:date>
+                     <cit:dateType>
+                        <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+                     </cit:dateType>
+                  </cit:CI_Date>
+               </cit:date>
+               <cit:identifier>
+                  <mcc:MD_Identifier>
+                     <mcc:code>
+                        <gco:CharacterString>tl_2021_us_county</gco:CharacterString>
+                     </mcc:code>
+                  </mcc:MD_Identifier>
+               </cit:identifier>
+               <cit:identifier>
+                  <mcc:MD_Identifier>
+                     <mcc:code>
+                        <gco:CharacterString>https://app.test.ditd.census.gov/meta/existing/decennial/GEO/GPMB/TIGERline/TEST_TIGER2022/Curent_19115/tl_2021_us_county.shp.iso.xml</gco:CharacterString>
+                     </mcc:code>
+                  </mcc:MD_Identifier>
+               </cit:identifier>
+               <cit:citedResponsibleParty>
+                  <cit:CI_Responsibility>
+                     <cit:role>
+                        <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</cit:CI_RoleCode>
+                     </cit:role>
+                     <cit:party>
+                        <cit:CI_Organisation>
+                           <cit:name>
+                              <gco:CharacterString>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Spatial Data Collection and Products Branch</gco:CharacterString>
+                           </cit:name>
+                           <cit:contactInfo>
+                              <cit:CI_Contact>
+                                 <cit:phone>
+                                    <cit:CI_Telephone>
+                                       <cit:number>
+                                          <gco:CharacterString>301-763-1128</gco:CharacterString>
+                                       </cit:number>
+                                       <cit:numberType>
+                                          <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode" codeListValue="voice">voice</cit:CI_TelephoneTypeCode>
+                                       </cit:numberType>
+                                    </cit:CI_Telephone>
+                                 </cit:phone>
+                                 <cit:phone>
+                                    <cit:CI_Telephone>
+                                       <cit:number>
+                                          <gco:CharacterString>301-763-4710</gco:CharacterString>
+                                       </cit:number>
+                                       <cit:numberType>
+                                          <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode" codeListValue="facsimile">facsimile</cit:CI_TelephoneTypeCode>
+                                       </cit:numberType>
+                                    </cit:CI_Telephone>
+                                 </cit:phone>
+                                 <cit:address>
+                                    <cit:CI_Address>
+                                       <cit:deliveryPoint>
+                                          <gco:CharacterString>4600 Silver Hill Road, Stop 7400</gco:CharacterString>
+                                       </cit:deliveryPoint>
+                                       <cit:city>
+                                          <gco:CharacterString>Washington</gco:CharacterString>
+                                       </cit:city>
+                                       <cit:administrativeArea>
+                                          <gco:CharacterString>DC</gco:CharacterString>
+                                       </cit:administrativeArea>
+                                       <cit:postalCode>
+                                          <gco:CharacterString>20233-7400</gco:CharacterString>
+                                       </cit:postalCode>
+                                       <cit:country>
+                                          <gco:CharacterString>United States</gco:CharacterString>
+                                       </cit:country>
+                                       <cit:electronicMailAddress>
+                                          <gco:CharacterString>geo.geography@census.gov</gco:CharacterString>
+                                       </cit:electronicMailAddress>
+                                    </cit:CI_Address>
+                                 </cit:address>
+                              </cit:CI_Contact>
+                           </cit:contactInfo>
+                        </cit:CI_Organisation>
+                     </cit:party>
+                  </cit:CI_Responsibility>
+               </cit:citedResponsibleParty>
+               <cit:presentationForm>
+                  <cit:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital">mapDigital</cit:CI_PresentationFormCode>
+               </cit:presentationForm>
+            </cit:CI_Citation>
+         </mri:citation>
+         <mri:abstract>
+            <gco:CharacterString>The TIGER/Line shapefiles and related database files (.dbf) are an extract of selected geographic and cartographic information from the U.S. Census Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB).  The MTDB represents a seamless national file with no overlaps or gaps between parts, however, each TIGER/Line shapefile is designed to stand alone as an independent data set, or they can be combined to cover the entire nation.
+ The primary legal divisions of most states are termed counties.  In Louisiana, these divisions are known as parishes.  In Alaska, which has no counties, the equivalent entities are the organized boroughs, city and boroughs, municipalities, and for the unorganized area, census areas.  The latter are delineated cooperatively for statistical purposes by the State of Alaska and the Census Bureau.  In four states (Maryland, Missouri, Nevada, and Virginia), there are one or more incorporated places that are independent of any county organization and thus constitute primary divisions of their states.  These incorporated places are known as independent cities and are treated as equivalent entities for purposes of data presentation.  The District of Columbia and Guam have no primary divisions, and each area is considered an equivalent entity for purposes of data presentation.  The Census Bureau treats the following entities as equivalents of counties for purposes of data presentation: Municipios in Puerto Rico, Districts and Islands in American Samoa, Municipalities in the Commonwealth of the Northern Mariana Islands, and Islands in the U.S. Virgin Islands.  The entire area of the United States, Puerto Rico, and the Island Areas is covered by counties or equivalent entities.
+The boundaries for counties and equivalent entities are mostly as of January 1, 2020, as reported through the Census Bureau's Boundary and Annexation Survey (BAS).</gco:CharacterString>
+         </mri:abstract>
+         <mri:purpose>
+            <gco:CharacterString>The Census Bureau releases extracts of the MAF/TIGER database in the form of TIGER/Line Shapefiles for others to use in geographic information systems (GIS) or for other geographic applications.</gco:CharacterString>
+         </mri:purpose>
+         <mri:status>
+            <mcc:MD_ProgressCode codeList="codeListLocation#MD_ProgressCode" codeListValue="completed">completed</mcc:MD_ProgressCode>
+         </mri:status>
+         <mri:pointOfContact>
+            <cit:CI_Responsibility>
+               <cit:role>
+                  <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</cit:CI_RoleCode>
+               </cit:role>
+               <cit:party>
+                  <cit:CI_Organisation>
+                     <cit:name>
+                        <gco:CharacterString>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Spatial Data Collection and Products Branch</gco:CharacterString>
+                     </cit:name>
+                     <cit:contactInfo>
+                        <cit:CI_Contact>
+                           <cit:phone>
+                              <cit:CI_Telephone>
+                                 <cit:number>
+                                    <gco:CharacterString>301-763-1128</gco:CharacterString>
+                                 </cit:number>
+                                 <cit:numberType>
+                                    <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode" codeListValue="voice">voice</cit:CI_TelephoneTypeCode>
+                                 </cit:numberType>
+                              </cit:CI_Telephone>
+                           </cit:phone>
+                           <cit:phone>
+                              <cit:CI_Telephone>
+                                 <cit:number>
+                                    <gco:CharacterString>301-763-4710</gco:CharacterString>
+                                 </cit:number>
+                                 <cit:numberType>
+                                    <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode" codeListValue="facsimile">facsimile</cit:CI_TelephoneTypeCode>
+                                 </cit:numberType>
+                              </cit:CI_Telephone>
+                           </cit:phone>
+                           <cit:address>
+                              <cit:CI_Address>
+                                 <cit:deliveryPoint>
+                                    <gco:CharacterString>4600 Silver Hill Road, Stop 7400</gco:CharacterString>
+                                 </cit:deliveryPoint>
+                                 <cit:city>
+                                    <gco:CharacterString>Washington</gco:CharacterString>
+                                 </cit:city>
+                                 <cit:administrativeArea>
+                                    <gco:CharacterString>DC</gco:CharacterString>
+                                 </cit:administrativeArea>
+                                 <cit:postalCode>
+                                    <gco:CharacterString>20233-7400</gco:CharacterString>
+                                 </cit:postalCode>
+                                 <cit:country>
+                                    <gco:CharacterString>United States</gco:CharacterString>
+                                 </cit:country>
+                                 <cit:electronicMailAddress>
+                                    <gco:CharacterString>geo.geography@census.gov</gco:CharacterString>
+                                 </cit:electronicMailAddress>
+                              </cit:CI_Address>
+                           </cit:address>
+                        </cit:CI_Contact>
+                     </cit:contactInfo>
+                  </cit:CI_Organisation>
+               </cit:party>
+            </cit:CI_Responsibility>
+         </mri:pointOfContact>
+         <mri:spatialRepresentationType>
+            <mcc:MD_SpatialRepresentationTypeCode codeList="codeListLocation#MD_SpatialRepresentationTypeCode" codeListValue="vector">vector</mcc:MD_SpatialRepresentationTypeCode>
+         </mri:spatialRepresentationType>
+         <mri:topicCategory>
+            <mri:MD_TopicCategoryCode>boundaries</mri:MD_TopicCategoryCode>
+         </mri:topicCategory>
+         <mri:extent>
+            <gex:EX_Extent id="boundingExtent">
+               <gex:geographicElement>
+                  <gex:EX_GeographicBoundingBox id="boundingGeographicBoundingBox">
+                     <gex:westBoundLongitude>
+                        <gco:Decimal>-178.443593</gco:Decimal>
+                     </gex:westBoundLongitude>
+                     <gex:eastBoundLongitude>
+                        <gco:Decimal>146.154418</gco:Decimal>
+                     </gex:eastBoundLongitude>
+                     <gex:southBoundLatitude>
+                        <gco:Decimal>-14.601813</gco:Decimal>
+                     </gex:southBoundLatitude>
+                     <gex:northBoundLatitude>
+                        <gco:Decimal>71.439786</gco:Decimal>
+                     </gex:northBoundLatitude>
+                  </gex:EX_GeographicBoundingBox>
+               </gex:geographicElement>
+               <gex:temporalElement>
+                  <gex:EX_TemporalExtent id="boundingTemporalExtent">
+                     <gex:extent>
+                        <gml:TimePeriod gml:id="boundingTemporalExtentA">
+                           <gml:description>publication date</gml:description>
+                           <gml:beginPosition>2021-06</gml:beginPosition>
+                           <gml:endPosition>2022-08</gml:endPosition>
+                        </gml:TimePeriod>
+                     </gex:extent>
+                  </gex:EX_TemporalExtent>
+               </gex:temporalElement>
+            </gex:EX_Extent>
+         </mri:extent>
+         <mri:resourceMaintenance>
+            <mmi:MD_MaintenanceInformation>
+               <mmi:maintenanceAndUpdateFrequency>
+                  <mmi:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="notPlanned"/>
+               </mmi:maintenanceAndUpdateFrequency>
+            </mmi:MD_MaintenanceInformation>
+         </mri:resourceMaintenance>
+         <mri:graphicOverview>
+            <mcc:MD_BrowseGraphic>
+               <mcc:fileName>
+                  <gco:CharacterString>https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;LAYERS=Counties,Counties_Labels19364&amp;STYLES=default,default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326&amp;BBOX=+37.9649,-85.7590,+38.2928,-85.0133&amp;WIDTH=256&amp;HEIGHT=256</gco:CharacterString>
+               </mcc:fileName>
+               <mcc:fileDescription>
+                  <gco:CharacterString>URL for the TIGERWeb Mapping Service</gco:CharacterString>
+               </mcc:fileDescription>
+               <mcc:fileType>
+                  <gco:CharacterString>URL</gco:CharacterString>
+               </mcc:fileType>
+            </mcc:MD_BrowseGraphic>
+         </mri:graphicOverview>
+         <mri:descriptiveKeywords>
+            <mri:MD_Keywords>
+               <mri:keyword>
+                  <gco:CharacterString>Nation</gco:CharacterString>
+               </mri:keyword>
+               <mri:keyword>
+                  <gco:CharacterString>Polygon</gco:CharacterString>
+               </mri:keyword>
+               <mri:keyword>
+                  <gco:CharacterString>County</gco:CharacterString>
+               </mri:keyword>
+               <mri:keyword>
+                  <gco:CharacterString>Borough</gco:CharacterString>
+               </mri:keyword>
+               <mri:keyword>
+                  <gco:CharacterString>Parish</gco:CharacterString>
+               </mri:keyword>
+               <mri:keyword>
+                  <gco:CharacterString>Municipio</gco:CharacterString>
+               </mri:keyword>
+               <mri:type>
+                  <mri:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme"/>
+               </mri:type>
+               <mri:thesaurusName>
+                  <cit:CI_Citation>
+                     <cit:title>
+                        <gco:CharacterString>None</gco:CharacterString>
+                     </cit:title>
+                     <cit:date gco:nilReason="unknown"/>
+                  </cit:CI_Citation>
+               </mri:thesaurusName>
+            </mri:MD_Keywords>
+         </mri:descriptiveKeywords>
+         <mri:descriptiveKeywords>
+            <mri:MD_Keywords>
+               <mri:keyword>
+                  <gco:CharacterString>United States</gco:CharacterString>
+               </mri:keyword>
+               <mri:keyword>
+                  <gco:CharacterString>U.S.</gco:CharacterString>
+               </mri:keyword>
+               <mri:type>
+                  <mri:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place"/>
+               </mri:type>
+               <mri:thesaurusName>
+                  <cit:CI_Citation>
+                     <cit:title>
+                        <gco:CharacterString>ISO 3166 codes for the representation of names of countries and their subdivisions. </gco:CharacterString>
+                     </cit:title>
+                     <cit:date gco:nilReason="unknown"/>
+                  </cit:CI_Citation>
+               </mri:thesaurusName>
+            </mri:MD_Keywords>
+         </mri:descriptiveKeywords>
+         <mri:resourceConstraints>
+            <mco:MD_LegalConstraints>
+               <mco:accessConstraints>
+                  <mco:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions"/>
+               </mco:accessConstraints>
+               <mco:useConstraints>
+                  <mco:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions"/>
+               </mco:useConstraints>
+               <mco:otherConstraints>
+                  <gco:CharacterString>Access constraints: None</gco:CharacterString>
+               </mco:otherConstraints>
+               <mco:otherConstraints>
+                  <gco:CharacterString>Use Constraints: The TIGER/Line Shapefile products are not copyrighted however TIGER/Line and Census TIGER are registered trademarks of the U.S. Census Bureau. These products are free to use in a product or publication, however acknowledgement must be given to the U.S. Census Bureau as the source.
+The boundary information in the TIGER/Line Shapefiles are for statistical data collection and tabulation purposes only; their depiction and designation for statistical purposes does not constitute a determination of jurisdictional authority or rights of ownership or entitlement and they are not legal land descriptions. Coordinates in the TIGER/Line shapefiles have six implied decimal places, but the positional accuracy of these coordinates is not as great as the six decimal places suggest.</gco:CharacterString>
+               </mco:otherConstraints>
+            </mco:MD_LegalConstraints>
+         </mri:resourceConstraints>
+         <mri:associatedResource>
+            <mri:MD_AssociatedResource>
+               <mri:name>
+                  <cit:CI_Citation>
+                     <cit:title>
+                        <gco:CharacterString>Series Information for Current County and Equivalent National Shapefile TIGER/Line Shapefiles, Current</gco:CharacterString>
+                     </cit:title>
+                     <cit:date>
+                        <cit:CI_Date>
+                           <cit:date>
+                              <gco:DateTime>2021-01-01T00:00:00</gco:DateTime>
+                           </cit:date>
+                           <cit:dateType>
+                              <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+                           </cit:dateType>
+                        </cit:CI_Date>
+                     </cit:date>
+                     <cit:identifier>
+                        <mcc:MD_Identifier>
+                           <mcc:code>
+                              <gco:CharacterString>series_tl_2021_county</gco:CharacterString>
+                           </mcc:code>
+                        </mcc:MD_Identifier>
+                     </cit:identifier>
+                     <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                           <cit:role>
+                              <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</cit:CI_RoleCode>
+                           </cit:role>
+                           <cit:party>
+                              <cit:CI_Organisation>
+                                 <cit:name>
+                                    <gco:CharacterString>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Spatial Data Collection and Products Branch</gco:CharacterString>
+                                 </cit:name>
+                                 <cit:contactInfo>
+                                    <cit:CI_Contact>
+                                       <cit:phone>
+                                          <cit:CI_Telephone>
+                                             <cit:number>
+                                                <gco:CharacterString>301-763-1128</gco:CharacterString>
+                                             </cit:number>
+                                             <cit:numberType>
+                                                <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode" codeListValue="voice">voice</cit:CI_TelephoneTypeCode>
+                                             </cit:numberType>
+                                          </cit:CI_Telephone>
+                                       </cit:phone>
+                                       <cit:phone>
+                                          <cit:CI_Telephone>
+                                             <cit:number>
+                                                <gco:CharacterString>301-763-4710</gco:CharacterString>
+                                             </cit:number>
+                                             <cit:numberType>
+                                                <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode" codeListValue="facsimile">facsimile</cit:CI_TelephoneTypeCode>
+                                             </cit:numberType>
+                                          </cit:CI_Telephone>
+                                       </cit:phone>
+                                       <cit:address>
+                                          <cit:CI_Address>
+                                             <cit:deliveryPoint>
+                                                <gco:CharacterString>4600 Silver Hill Road, Stop 7400</gco:CharacterString>
+                                             </cit:deliveryPoint>
+                                             <cit:city>
+                                                <gco:CharacterString>Washington</gco:CharacterString>
+                                             </cit:city>
+                                             <cit:administrativeArea>
+                                                <gco:CharacterString>DC</gco:CharacterString>
+                                             </cit:administrativeArea>
+                                             <cit:postalCode>
+                                                <gco:CharacterString>20233-7400</gco:CharacterString>
+                                             </cit:postalCode>
+                                             <cit:country>
+                                                <gco:CharacterString>United States</gco:CharacterString>
+                                             </cit:country>
+                                             <cit:electronicMailAddress>
+                                                <gco:CharacterString>geo.geography@census.gov</gco:CharacterString>
+                                             </cit:electronicMailAddress>
+                                          </cit:CI_Address>
+                                       </cit:address>
+                                    </cit:CI_Contact>
+                                 </cit:contactInfo>
+                              </cit:CI_Organisation>
+                           </cit:party>
+                        </cit:CI_Responsibility>
+                     </cit:citedResponsibleParty>
+                     <cit:presentationForm>
+                        <cit:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital"/>
+                     </cit:presentationForm>
+                  </cit:CI_Citation>
+               </mri:name>
+               <mri:associationType></mri:associationType>
+            </mri:MD_AssociatedResource>
+         </mri:associatedResource>
+         <mri:defaultLocale>
+            <lan:PT_Locale>
+               <lan:language>
+                  <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
+               </lan:language>
+               <lan:characterEncoding>
+                  <lan:MD_CharacterSetCode codeList="codeListLocation#MD_CharacterSetCode" codeListValue="utf8">utf8</lan:MD_CharacterSetCode>
+               </lan:characterEncoding>
+            </lan:PT_Locale>
+         </mri:defaultLocale>
+         <mri:environmentDescription>
+            <gco:CharacterString>The TIGER/Line shapefiles contain geographic data only and do not include display mapping software or statistical data.  For information on how to use the TIGER/Line shapefile data with specific software package users shall contact the company that produced the software.</gco:CharacterString>
+         </mri:environmentDescription>
+      </mri:MD_DataIdentification>
+   </mdb:identificationInfo>
+   <mdb:contentInfo>
+      <mrc:MD_FeatureCatalogueDescription>
+         <mrc:includedWithDataset>
+            <gco:Boolean>1</gco:Boolean>
+         </mrc:includedWithDataset>
+         <mrc:featureTypes>
+            <mrc:MD_FeatureTypeInfo>
+               <mrc:featureTypeName>
+                  <gco:ScopedName codeSpace="unknown">Counties and Equivalent Entities</gco:ScopedName>
+               </mrc:featureTypeName>
+            </mrc:MD_FeatureTypeInfo>
+         </mrc:featureTypes>
+         <mrc:featureCatalogueCitation>
+            <cit:CI_Citation>
+               <cit:title>
+                  <gco:CharacterString>Feature Catalog for the Current Counties and Equivalent Entities TIGER/Line Shapefile</gco:CharacterString>
+               </cit:title>
+               <cit:date>
+                  <cit:CI_Date>
+                     <cit:date>
+                        <gco:DateTime>2021-01-01T00:00:00</gco:DateTime>
+                     </cit:date>
+                     <cit:dateType>
+                        <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+                     </cit:dateType>
+                  </cit:CI_Date>
+               </cit:date>
+               <cit:citedResponsibleParty>
+                  <cit:CI_Responsibility>
+                     <cit:role>
+                        <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</cit:CI_RoleCode>
+                     </cit:role>
+                     <cit:party>
+                        <cit:CI_Organisation>
+                           <cit:name>
+                              <gco:CharacterString>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Spatial Data Collection and Products Branch</gco:CharacterString>
+                           </cit:name>
+                           <cit:contactInfo>
+                              <cit:CI_Contact>
+                                 <cit:phone>
+                                    <cit:CI_Telephone>
+                                       <cit:number>
+                                          <gco:CharacterString>301-763-1128</gco:CharacterString>
+                                       </cit:number>
+                                       <cit:numberType>
+                                          <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode" codeListValue="voice">voice</cit:CI_TelephoneTypeCode>
+                                       </cit:numberType>
+                                    </cit:CI_Telephone>
+                                 </cit:phone>
+                                 <cit:phone>
+                                    <cit:CI_Telephone>
+                                       <cit:number>
+                                          <gco:CharacterString>301-763-4710</gco:CharacterString>
+                                       </cit:number>
+                                       <cit:numberType>
+                                          <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode" codeListValue="facsimile">facsimile</cit:CI_TelephoneTypeCode>
+                                       </cit:numberType>
+                                    </cit:CI_Telephone>
+                                 </cit:phone>
+                                 <cit:address>
+                                    <cit:CI_Address>
+                                       <cit:deliveryPoint>
+                                          <gco:CharacterString>4600 Silver Hill Road, Stop 7400</gco:CharacterString>
+                                       </cit:deliveryPoint>
+                                       <cit:city>
+                                          <gco:CharacterString>Washington</gco:CharacterString>
+                                       </cit:city>
+                                       <cit:administrativeArea>
+                                          <gco:CharacterString>DC</gco:CharacterString>
+                                       </cit:administrativeArea>
+                                       <cit:postalCode>
+                                          <gco:CharacterString>20233-7400</gco:CharacterString>
+                                       </cit:postalCode>
+                                       <cit:country>
+                                          <gco:CharacterString>United States</gco:CharacterString>
+                                       </cit:country>
+                                       <cit:electronicMailAddress>
+                                          <gco:CharacterString>geo.geography@census.gov</gco:CharacterString>
+                                       </cit:electronicMailAddress>
+                                    </cit:CI_Address>
+                                 </cit:address>
+                              </cit:CI_Contact>
+                           </cit:contactInfo>
+                        </cit:CI_Organisation>
+                     </cit:party>
+                  </cit:CI_Responsibility>
+               </cit:citedResponsibleParty>
+               <cit:otherCitationDetails>
+                  <gco:CharacterString>https://app.test.ditd.census.gov/meta/existing/decennial/GEO/GPMB/TIGERline/TEST_TIGER2022/Curent_19110/tl_2021_us_county.shp.ea.iso.xml</gco:CharacterString>
+               </cit:otherCitationDetails>
+            </cit:CI_Citation>
+         </mrc:featureCatalogueCitation>
+      </mrc:MD_FeatureCatalogueDescription>
+   </mdb:contentInfo>
+   <mdb:distributionInfo>
+      <mrd:MD_Distribution>
+         <mrd:distributionFormat>
+            <mrd:MD_Format>
+               <mrd:formatSpecificationCitation>
+                  <cit:CI_Citation>
+                     <cit:title>
+                        <gco:CharacterString>ZIP</gco:CharacterString>
+                     </cit:title>
+                     <cit:alternateTitle/>
+                     <cit:date gco:nilReason="unknown"/>
+                     <cit:edition gco:nilReason="unknown"/>
+                     <cit:identifier>
+                        <mcc:MD_Identifier>
+                           <mcc:code>
+                              <gco:CharacterString>ZIP</gco:CharacterString>
+                           </mcc:code>
+                        </mcc:MD_Identifier>
+                     </cit:identifier>
+                  </cit:CI_Citation>
+               </mrd:formatSpecificationCitation>
+            </mrd:MD_Format>
+         </mrd:distributionFormat>
+         <mrd:distributor>
+            <mrd:MD_Distributor>
+               <mrd:distributorContact>
+                  <cit:CI_Responsibility>
+                     <cit:role>
+                        <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="distributor">distributor</cit:CI_RoleCode>
+                     </cit:role>
+                     <cit:party>
+                        <cit:CI_Organisation>
+                           <cit:name>
+                              <gco:CharacterString>U.S. Department of Commerce, U.S. Census Bureau, 
+       Geography Division, Spatial Data Collection and Products Branch
+      </gco:CharacterString>
+                           </cit:name>
+                           <cit:contactInfo>
+                              <cit:CI_Contact>
+                                 <cit:phone>
+                                    <cit:CI_Telephone>
+                                       <cit:number>
+                                          <gco:CharacterString>301-763-1128</gco:CharacterString>
+                                       </cit:number>
+                                       <cit:numberType>
+                                          <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode" codeListValue="voice">voice</cit:CI_TelephoneTypeCode>
+                                       </cit:numberType>
+                                    </cit:CI_Telephone>
+                                 </cit:phone>
+                                 <cit:phone>
+                                    <cit:CI_Telephone>
+                                       <cit:number>
+                                          <gco:CharacterString>301-763-4710</gco:CharacterString>
+                                       </cit:number>
+                                       <cit:numberType>
+                                          <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode" codeListValue="facsimile">facsimile</cit:CI_TelephoneTypeCode>
+                                       </cit:numberType>
+                                    </cit:CI_Telephone>
+                                 </cit:phone>
+                                 <cit:address>
+                                    <cit:CI_Address>
+                                       <cit:deliveryPoint>
+                                          <gco:CharacterString>4600 Silver Hill Road, Stop 7400</gco:CharacterString>
+                                       </cit:deliveryPoint>
+                                       <cit:city>
+                                          <gco:CharacterString>Washington</gco:CharacterString>
+                                       </cit:city>
+                                       <cit:administrativeArea>
+                                          <gco:CharacterString>DC</gco:CharacterString>
+                                       </cit:administrativeArea>
+                                       <cit:postalCode>
+                                          <gco:CharacterString>20233-7400</gco:CharacterString>
+                                       </cit:postalCode>
+                                       <cit:country>
+                                          <gco:CharacterString>United States</gco:CharacterString>
+                                       </cit:country>
+                                       <cit:electronicMailAddress>
+                                          <gco:CharacterString>geo.geography@census.gov</gco:CharacterString>
+                                       </cit:electronicMailAddress>
+                                    </cit:CI_Address>
+                                 </cit:address>
+                              </cit:CI_Contact>
+                           </cit:contactInfo>
+                        </cit:CI_Organisation>
+                     </cit:party>
+                  </cit:CI_Responsibility>
+               </mrd:distributorContact>
+               <mrd:distributionOrderProcess>
+                  <mrd:MD_StandardOrderProcess>
+                     <mrd:fees>
+                        <gco:CharacterString>The online copy of the TIGER/Line Shapefiles may be accessed without charge.</gco:CharacterString>
+                     </mrd:fees>
+                  </mrd:MD_StandardOrderProcess>
+               </mrd:distributionOrderProcess>
+            </mrd:MD_Distributor>
+         </mrd:distributor>
+         <mrd:transferOptions>
+            <mrd:MD_DigitalTransferOptions>
+               <mrd:onLine>
+                  <cit:CI_OnlineResource>
+                     <cit:linkage>
+                        <gco:CharacterString>http://www2.census.gov/geo/tiger/TIGER2021/COUNTY/tl_2021_us_county.zip</gco:CharacterString>
+                     </cit:linkage>
+                     <cit:applicationProfile>
+                        <gco:CharacterString>Shapefile Zip File</gco:CharacterString>
+                     </cit:applicationProfile>
+                     <cit:name>
+                        <gco:CharacterString>tl_2021_us_county.zip</gco:CharacterString>
+                     </cit:name>
+                     <cit:description>
+                        <gco:CharacterString>The TIGER/Line Shapefiles are the fully supported, core geographic product from the U.S. Census Bureau. They are extracts of selected geographic and cartographic information from the U.S. Census Bureau's Master Address File/Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) database. </gco:CharacterString>
+                     </cit:description>
+                     <cit:function>
+                        <cit:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnlineFunctionCode" codeListValue="download"/>
+                     </cit:function>
+                  </cit:CI_OnlineResource>
+               </mrd:onLine>
+            </mrd:MD_DigitalTransferOptions>
+         </mrd:transferOptions>
+         <mrd:transferOptions>
+            <mrd:MD_DigitalTransferOptions>
+               <mrd:onLine>
+                  <cit:CI_OnlineResource>
+                     <cit:linkage>
+                        <gco:CharacterString>https://app.test.ditd.census.gov/meta/existing/decennial/GEO/GPMB/TIGERline/TEST_TIGER2022/Curent_19110/tl_2021_us_county.shp.ea.iso.xml</gco:CharacterString>
+                     </cit:linkage>
+                     <cit:applicationProfile>
+                        <gco:CharacterString>XML</gco:CharacterString>
+                     </cit:applicationProfile>
+                     <cit:name>
+                        <gco:CharacterString>tl_2021_us_county.shp.ea.iso.xml</gco:CharacterString>
+                     </cit:name>
+                     <cit:description>
+                        <gco:CharacterString>Entity and attribute file</gco:CharacterString>
+                     </cit:description>
+                     <cit:function>
+                        <cit:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnlineFunctionCode" codeListValue="download"/>
+                     </cit:function>
+                  </cit:CI_OnlineResource>
+               </mrd:onLine>
+            </mrd:MD_DigitalTransferOptions>
+         </mrd:transferOptions>
+         <mrd:transferOptions>
+            <mrd:MD_DigitalTransferOptions>
+               <mrd:onLine>
+                  <cit:CI_OnlineResource>
+                     <cit:linkage>
+                        <gco:CharacterString>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Current/MapServer</gco:CharacterString>
+                     </cit:linkage>
+                     <cit:applicationProfile>
+                        <gco:CharacterString>https://www.ogc.org/standards/wms</gco:CharacterString>
+                     </cit:applicationProfile>
+                     <cit:name>
+                        <gco:CharacterString>TIGERweb/tigerWMS_Current (MapServer)</gco:CharacterString>
+                     </cit:name>
+                     <cit:description>
+                        <gco:CharacterString>The Open Geospatial Consortium, Inc. (OGC) Web Map Service interface standard (WMS) provides a simple HTTP interface for requesting geo-registered map images from our geospatial database. The response to the request is one or more geo-registered map images that can be displayed in a browser or WMS client application. By gaining access to our data through our WMS, users can produce maps containing TIGERweb layers combined with layers from other servers.</gco:CharacterString>
+                     </cit:description>
+                     <cit:function>
+                        <cit:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnlineFunctionCode" codeListValue="search"/>
+                     </cit:function>
+                  </cit:CI_OnlineResource>
+               </mrd:onLine>
+            </mrd:MD_DigitalTransferOptions>
+         </mrd:transferOptions>
+         <mrd:transferOptions>
+            <mrd:MD_DigitalTransferOptions>
+               <mrd:onLine>
+                  <cit:CI_OnlineResource>
+                     <cit:linkage>
+                        <gco:CharacterString>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer</gco:CharacterString>
+                     </cit:linkage>
+                     <cit:applicationProfile>
+                        <gco:CharacterString>https://geoservices.github.io</gco:CharacterString>
+                     </cit:applicationProfile>
+                     <cit:name>
+                        <gco:CharacterString>TIGERweb/State_County (MapServer)</gco:CharacterString>
+                     </cit:name>
+                     <cit:description>
+                        <gco:CharacterString>The GeoServices REST Specification provides a way for Web clients to communicate with geographic information system (GIS) servers through Representational State Transfer (REST) technology.</gco:CharacterString>
+                     </cit:description>
+                     <cit:function>
+                        <cit:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnlineFunctionCode" codeListValue="search"/>
+                     </cit:function>
+                  </cit:CI_OnlineResource>
+               </mrd:onLine>
+            </mrd:MD_DigitalTransferOptions>
+         </mrd:transferOptions>
+      </mrd:MD_Distribution>
+   </mdb:distributionInfo>
+   <mdb:dataQualityInfo>
+      <mdq:DQ_DataQuality>
+         <mdq:scope>
+            <mcc:MD_Scope>
+               <mcc:level>
+                  <mcc:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset"/>
+               </mcc:level>
+            </mcc:MD_Scope>
+         </mdq:scope>
+         <mdq:report>
+            <mdq:DQ_ConceptualConsistency>
+               <mdq:measure>
+                  <mdq:DQ_MeasureReference>
+                     <mdq:measureDescription>
+                        <gco:CharacterString>
+					The Census Bureau performed automated tests to ensure logical consistency and limits of shapefiles.Â  Segments making up the outer and inner boundaries of a polygon tie end-to-end to completely enclose the area.Â  All polygons are tested for closure.
+					The Census Bureau uses its internally developed geographic update system to enhance and modify spatial and attribute data in the Census MAF/TIGER database.  Standard geographic codes, such as FIPS codes for states, counties, municipalities, county subdivisions, places, American Indian/Alaska Native/Native Hawaiian areas, and congressional districts are used when encoding spatial entities.  The Census Bureau performed spatial data tests for logical consistency of the codes during the compilation of the original Census MAF/TIGER database files.  Most of the codes for geographic entities except states, counties, urban areas, Core Based Statistical Areas (CBSAs), American Indian Areas (AIAs), and congressional districts were provided to the Census Bureau by the USGS, the agency responsible for maintaining the Geographic Names Information System (GNIS).  Feature attribute information has been examined but has not been fully tested for consistency. 
+					For the TIGER/Line Shapefiles, the Point and Vector Object Count for the G-polygon SDTS Point and Vector Object Type reflects the number of records in the shapefile attribute table.  For multi-polygon features, only one attribute record exists for each multi-polygon rather than one attribute record per individual G-polygon component of the multi-polygon feature. TIGER/Line Shapefile multi-polygons are an exception to the G-polygon object type classification. Therefore, when multi-polygons exist in a shapefile, the object count will be less than the actual number of G-polygons.					
+				</gco:CharacterString>
+                     </mdq:measureDescription>
+                  </mdq:DQ_MeasureReference>
+               </mdq:measure>
+               <mdq:result gco:nilReason="unknown"/>
+            </mdq:DQ_ConceptualConsistency>
+         </mdq:report>
+         <mdq:report>
+            <mdq:DQ_CompletenessOmission>
+               <mdq:evaluationMethod>
+                  <mdq:DQ_FullInspection>
+                     <mdq:evaluationMethodDescription>
+                        <gco:CharacterString>Data completeness of the TIGER/Line Shapefiles reflects the contents of the Census MAF/TIGER database at the time the TIGER/Line Shapefiles were created.</gco:CharacterString>
+                     </mdq:evaluationMethodDescription>
+                     <mdq:evaluationProcedure/>
+                  </mdq:DQ_FullInspection>
+               </mdq:evaluationMethod>
+               <mdq:result gco:nilReason="unknown"/>
+               <mdq:result gco:nilReason="unknown"/>
+            </mdq:DQ_CompletenessOmission>
+         </mdq:report>
+         <mdq:report>
+            <mdq:DQ_CompletenessCommission>
+               <mdq:evaluationMethod>
+                  <mdq:DQ_FullInspection>
+                     <mdq:evaluationMethodDescription>
+                        <gco:CharacterString>Data completeness of the TIGER/Line Shapefiles reflects the contents of the Census MAF/TIGER database at the time the TIGER/Line Shapefiles were created.</gco:CharacterString>
+                     </mdq:evaluationMethodDescription>
+                     <mdq:evaluationProcedure/>
+                  </mdq:DQ_FullInspection>
+               </mdq:evaluationMethod>
+               <mdq:result gco:nilReason="unknown"/>
+               <mdq:result gco:nilReason="unknown"/>
+            </mdq:DQ_CompletenessCommission>
+         </mdq:report>
+      </mdq:DQ_DataQuality>
+   </mdb:dataQualityInfo>
+   <mdb:metadataMaintenance>
+      <mmi:MD_MaintenanceInformation>
+         <mmi:maintenanceAndUpdateFrequency>
+            <mmi:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="annually"/>
+         </mmi:maintenanceAndUpdateFrequency>
+         <mmi:maintenanceNote>
+            <gco:CharacterString>This was transformed from the Census Bureau Geospatial Product Metadata Content Standard.</gco:CharacterString>
+         </mmi:maintenanceNote>
+         <mmi:maintenanceNote>
+            <gco:CharacterString>This dataset is currently a National Geospatial Data Asset (NGDA). Next year, this dataset will be edited to remove all NGDA related metadata tags.</gco:CharacterString>
+         </mmi:maintenanceNote>
+      </mmi:MD_MaintenanceInformation>
+   </mdb:metadataMaintenance>
+</mdb:MD_Metadata>
