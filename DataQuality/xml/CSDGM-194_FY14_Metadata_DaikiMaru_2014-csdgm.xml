@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.ncei.noaa.gov/data/oceans/coris/data/CoRIS/fgdc_schema_coris/fgdc-std-001-1998.xsd">
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>
+          Pacific Islands Regional Office (PIRO), National Marine Fisheries Service (NMFS), National Oceanic and Atmospheric Administration (NOAA)
+        </origin>
+				<pubdate>
+          20150129
+        </pubdate>
+				<title>
+          Assessment of Daiki Maru Grounding, Spanish Steps, Orote Peninsula, Outer Apra Harbor, Guam.  2014.
+        </title>
+				<geoform>
+          spreadsheet
+        </geoform>
+
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>
+        
+PIRO Fishery Biologist with local agency partners from Guam Environmental Protection Agency and University of Guam Marine Laboratory gathered photographic and GPS data to document impacts to the reef and evaluate removal methods.
+      </abstract>
+			<purpose>
+        Assessment of injuries caused by Daiki Maru ship grounding (February 13, 2014).
+      </purpose>
+			<supplinf>
+        Maximum depth was 3.5 meters. 
+      </supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>
+            20140221
+          </begdate>
+					<enddate>
+            20140530
+          </enddate>
+				</rngdates>
+			</timeinfo>
+			<current>
+        Ground Condition
+      </current>
+		</timeperd>
+		<status>
+			<progress>
+        Complete
+      </progress>
+			<update>
+        None
+      </update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>
+          144.622002
+        </westbc>
+				<eastbc>
+          144.627414
+        </eastbc>
+				<northbc>
+           13.450323
+        </northbc>
+				<southbc>
+           13.447338
+        </southbc>
+			</bounding>
+		</spdom>
+		<keywords><theme><themekt>NCEI Geoportal Filter</themekt><themekey>CoRIS_Metadata</themekey></theme>
+			<theme>
+				<themekt>Habitat Conservation</themekt>
+				<themekey>Pacific Islands Regional Office</themekey>
+				<themekey>1221</themekey>
+			</theme>
+						<theme>
+				<themekt>CRCP Project</themekt>
+				<themekey>194</themekey>
+				<themekey>NMFS Pacific Islands Regional Coral Coordinator - Guam</themekey>
+			</theme>
+			<theme>
+				<themekt>
+          None
+        </themekt>
+				<themekey>
+          Marine Ecosystem
+        </themekey>
+				<themekey>
+          Grounding
+        </themekey>
+				<themekey>
+          Coral
+        </themekey>
+				<themekey>
+          Coral Reef Ecosystem
+        </themekey>
+				<themekey>
+          Benthic Cover
+        </themekey>
+				<themekey>
+          Guam
+        </themekey>
+				<themekey>
+          Pre-Assessment
+        </themekey>
+			</theme>
+			<theme>
+				<themekt>
+          CoRIS Discovery Thesaurus
+        </themekt>
+				<themekey>
+          Numeric Data Sets &gt; Biology
+        </themekey>
+			</theme>
+			<theme>
+				<themekt>
+          CoRIS Theme Thesaurus
+        </themekt>
+				<themekey>
+          EARTH SCIENCE &gt; Oceans &gt; Coastal Processes &gt; Coral Reefs
+        </themekey>
+				<themekey>
+          EARTH SCIENCE &gt; Oceans &gt; Coastal Processes &gt; Coral Reefs &gt; Coral reef ecology
+        </themekey>
+				<themekey>
+          EARTH SCIENCE &gt; Biosphere &gt; Zoology &gt; Corals &gt; Reef monitoring and assessment
+        </themekey>
+				<themekey>
+          EARTH SCIENCE &gt; Biosphere &gt; Zoology &gt; Corals &gt; Reef monitoring and assessment &gt; Rapid assessment studies
+        </themekey>
+			</theme>
+			<theme>
+				<themekt>
+          ISO 19115 Topic Category
+        </themekt>
+				<themekey>
+          biota
+        </themekey>
+				<themekey>
+          002
+        </themekey>
+			</theme>
+			<place>
+				<placekt>
+          None
+        </placekt>
+				<placekey>
+          Marianas
+        </placekey>
+				<placekey>
+          Guam
+        </placekey>
+			</place>
+			<place>
+				<placekt>
+          CoRIS Place Thesaurus
+        </placekt>
+				<placekey>
+          OCEAN BASIN &gt; Pacific Ocean &gt; Western Pacific Ocean &gt; Guam &gt; Guam (13N144E0000)
+        </placekey>
+				<placekey>
+          COUNTRY/TERRITORY &gt; United States of America &gt; Guam &gt; Guam (13N144E0000)
+        </placekey>
+			</place>
+			<place>
+				<placekt>
+          CoRIS Region
+        </placekt>
+				<placekey>
+          Guam
+        </placekey>
+			</place>
+		</keywords>
+		<accconst>
+      None
+    </accconst>
+		<useconst>
+      Please cite Habitat Conservation Division,
+              Pacific Islands Regional Office, National Marine
+              Fisheries Service, National Oceanic and Atmospheric Administration, when using data.
+    </useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>
+            Guam Field Office, Pacific Islands Regional Office (PIRO), National Marine Fisheries Service (NMFS), National Oceanic and Atmospheric Administration (NOAA)
+          </cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>
+            mailing and physical address
+          </addrtype>
+					<address>NOAA Fisheries</address>
+					<address>Guam Field Office</address>
+					<address>770 East Sunset Blvd. Suite 170</address>
+					<city>
+            Tiyan
+          </city>
+					<state>
+            GU
+          </state>
+					<postal>96913</postal>
+					<country>
+            USA
+          </country>
+				</cntaddr>
+				<cntvoice>671 646-1904</cntvoice>
+				<cntfax>671 646-1906</cntfax>
+				<cntemail>
+          valerie.brown@noaa.gov
+        </cntemail>
+				<cntinst>
+          e-mail preferred
+        </cntinst>
+			</cntinfo>
+		</ptcontac>
+		<datacred>
+      Valerie Brown, Habitat Conservation Division,  Pacific
+              Islands Regional Office, NOAA National Marine Fisheries
+              Service
+    </datacred>
+		<secinfo>
+			<secsys>
+        Not applicable
+      </secsys>
+			<secclass>
+        Unclassified
+      </secclass>
+			<sechandl>
+        Not applicable
+      </sechandl>
+		</secinfo>
+		<native>
+      Oracle
+    </native>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>
+        The observations were made by PIRO HCD Fishery Biologist and biologists from Guam Environmental Protection Agency and University of Guam Marine Laboratory.  Conditions were marginal and it was difficult to collect detailed data.  GPS coordinates for photos may be up to 10m off due to conditions. 
+      </attraccr>
+		</attracc>
+		<logic>
+	Photographers tried to stay as close to the GPS as possible, but had to keep some distance due to waves.
+       </logic>
+		<complete>
+      The survey sites were selected based on safe access.  The team was unable to access some areas.
+    </complete>
+		<posacc>
+			<horizpa>
+				<horizpar>
+          GPS Unit
+        </horizpar>
+				<qhorizpa>
+					<horizpav>
+            1
+          </horizpav>
+					<horizpae>
+            Instrument parameters
+          </horizpae>
+				</qhorizpa>
+			</horizpa>
+			<vertacc>
+				<vertaccr>   Instrument parameters
+				
+				</vertaccr>
+			</vertacc>
+
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdesc>
+         Compact digital point and shoot cameras and housings were used by individual observers to document biota and damage at the site.  Cameras and GPS units were synced prior to survey. GPS units were towed on floats and kept as close to the cameras as possible given conditions.  Original photo and GPS data were downloaded and stored on DVD and hard drive.  Copies of photos and GPS data were post-processed using RoboGEO.  Photos were tagged with GPS coordinates and photos and GPS tracks were converted into shapefiles and Google Earth .kml files.
+        </procdesc>
+				<procdate>
+          Unknown
+        </procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spref>
+		<horizsys>
+			<geograph>
+				<latres>
+          0.0001
+        </latres>
+				<longres>
+          0.0001
+        </longres>
+				<geogunit>Decimal degrees
+        </geogunit>
+			</geograph>
+			<geodetic>
+				<horizdn>
+          World Geodetic System 1984 (WGS84)
+        </horizdn>
+				<ellips>
+          Geodetic Reference System 80 (GRS80)
+        </ellips>
+				<semiaxis>
+          6378137
+        </semiaxis>
+				<denflat>
+          298.2572236
+        </denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>
+            Guam Field Office, Habitat Conservation Division, Pacific Islands Regional Office (PIRO), National Marine Fisheries Service (NMFS), National Oceanic and Atmospheric Administration (NOAA)
+          </cntorg>
+				</cntorgp>
+				<cntpos>
+          Data Manager
+        </cntpos>
+				<cntaddr>
+					<addrtype>
+            mailing and physical address
+          </addrtype>
+					<address>NOAA Fisheries</address>
+					<address>Guam Field Office</address>
+					<address>770 East Sunset Blvd. Suite 170</address>
+					<city>
+            Tiyan
+          </city>
+					<state>
+            GU
+          </state>
+					<postal>96913</postal>
+					<country>
+            USA
+          </country>
+				</cntaddr>
+				<cntvoice>671 646-1904</cntvoice>
+				<cntfax>671 646-1906</cntfax>
+				<cntemail>
+          valerie.brown@noaa.gov
+        </cntemail>
+				<cntinst>
+          e-mail preferred
+        </cntinst>
+			</cntinfo>
+		</distrib>
+		<resdesc>
+      Offline Data
+    </resdesc>
+		<distliab>
+      While every effort has been made to ensure that these data are
+              accurate and reliable within the limits of the current state of
+              the art, NOAA cannot assume liability for any damages caused by
+              errors or omissions in the data, nor as a result of the failure of
+              the data to function on a particular system. NOAA makes no
+              warranty, expressed or implied, nor does the fact of distribution
+              constitute such a warranty.
+    </distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>
+           jpg (photographs)
+          </formname>
+				</digtinfo>
+				<digtopt>
+					<offoptn>
+						<offmedia>
+              CD-ROM or email
+            </offmedia>
+						<recfmt>
+              ISO 9660
+            </recfmt>
+					</offoptn>
+				</digtopt>
+			</digform>
+						<digform>
+				<digtinfo>
+					<formname>
+           txt (tab delimited text files)
+          </formname>
+				</digtinfo>
+				<digtopt>
+					<offoptn>
+						<offmedia>
+              CD-ROM or email
+            </offmedia>
+						<recfmt>
+              ISO 9660
+            </recfmt>
+					</offoptn>
+				</digtopt>
+			</digform>
+						<digform>
+				<digtinfo>
+					<formname>
+           kml (Google Earth)
+          </formname>
+				</digtinfo>
+				<digtopt>
+					<offoptn>
+						<offmedia>
+              CD-ROM or email
+            </offmedia>
+						<recfmt>
+              ISO 9660
+            </recfmt>
+					</offoptn>
+				</digtopt>
+			</digform>
+						<digform>
+				<digtinfo>
+					<formname>
+           shp (Esri Shapefile)
+          </formname>
+				</digtinfo>
+				<digtopt>
+					<offoptn>
+						<offmedia>
+              CD-ROM or email
+            </offmedia>
+						<recfmt>
+              ISO 9660
+            </recfmt>
+					</offoptn>
+				</digtopt>
+			</digform>
+			<fees>
+        None if receiving the data online
+      </fees>
+		</stdorder>
+		<custom>
+      Contact Val Brown for information
+    </custom>
+		<techpreq>
+      Contact Val Brown for information
+    </techpreq>
+	</distinfo>
+	<metainfo>
+		<metd>20200329</metd>
+
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>
+            Habitat Conservation Division, Pacific Islands Regional Office (PIRO), National Marine Fisheries Service (NMFS), National Oceanic and Atmospheric Administration (NOAA)
+          </cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>
+            mailing and physical address
+          </addrtype>
+					<address>NOAA Fisheries</address>
+					<address>Guam Field Office</address>
+					<address>770 East Sunset Blvd, Suite 170</address>
+					<city>
+            Tiyan
+          </city>
+					<state>
+            GU
+          </state>
+					<postal>96913</postal>
+					<country>
+            USA
+          </country>
+				</cntaddr>
+				<cntvoice>671 646-1904</cntvoice>
+				<cntfax>671 646-1906</cntfax>
+				<cntemail>
+          valerie.brown@noaa.gov
+        </cntemail>
+				<cntinst>
+          e-mail preferred
+        </cntinst>
+			</cntinfo>
+		</metc>
+		<metstdn>
+      FGDC Content Standard for Digital Geospatial Metadata
+    </metstdn>
+		<metstdv>
+      FGDC-STD-001-1998
+    </metstdv>
+	</metainfo>
+<coris>
+	<cormdlk>https://www.coris.noaa.gov/metadata/records/html/194_FY14_Metadata_DaikiMaru_2014.html</cormdlk>
+	<cortrkid>7461</cortrkid>
+</coris>
+</metadata>

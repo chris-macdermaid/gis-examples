@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Bureau of Ocean Energy Management, Geospatial Services Division</origin>
+<pubdate>20060210</pubdate>
+<title>
+Digital Offshore Cadastre (DOC) - Pacific83 - Official Protraction
+Diagram (OPD) Outlines
+</title>
+<geoform>Map</geoform>
+<serinfo>
+<sername>Digital Offshore Cadastre</sername>
+<issue>current</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Sterling, Virginia</pubplace>
+<publish>Bureau of Ocean Energy Management, Geospatial Services Division</publish>
+</pubinfo>
+<onlink>https://www.boem.gov/PC-PROTLMT.zip</onlink>
+<onlink>https://www.boem.gov/Oil-and-Gas-Energy-Program/Mapping-and-Data/Pacific.aspx</onlink>
+<onlink>https://gis.boem.gov/arcgis/rest/services/BOEM_BSEE/MMC_Layers/MapServer/10</onlink>
+<lworkcit>
+<citeinfo>
+<origin>Bureau of Ocean Energy Management, Geospatial Services Division</origin>
+<pubdate>200205</pubdate>
+<title>
+Technical Information Management System (TIMS), Mapping
+System, Block and Boundary Component
+</title>
+<geoform>Map</geoform>
+<pubinfo>
+<pubplace>Sterling, Virginia</pubplace>
+<publish>
+Bureau of Ocean Energy Management, Mapping and Boundary
+Branch
+</publish>
+</pubinfo>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>
+This data set contains Official Protraction Diagram (OPD) outlines
+in ESRI Arc/Info export and Arc/View shape file formats for the BOEM
+Pacific Region.  The use of OPD s makes it easier to refer to individual
+blocks within a region or planning area.  Further information on the
+historic development of OPD s can be found in OCS Report BOEM 99-0006:
+Boundary Development on the Outer Continental Shelf.
+Because GIS projection and topology functions can change or
+generalize coordinates, these GIS files are NOT an OFFICIAL record for
+the exact OPD boundaries.  Only the paper OPD or a digital image of
+them serve as OFFICIAL records.
+</abstract>
+<purpose>
+Official Protraction Diagrams and other cadastre information the
+BOEM produces are generated in accordance with 30 Code of Federal
+Regulations (CFR)556.8 subpart A (formerly CFR 30 256.8 subpart A (2010))
+to support Federal land ownership and mineral resource management.
+</purpose>
+<supplinf>
+The BOEM is making its existing cadastre data
+available at https://www.boem.gov/Oil-and-Gas-Energy-Program/Mapping-and-Data/Index.aspx and on CD-ROM.  These data
+will include digital images of BOEM data at the regional, planning area,
+Official Protraction Diagram (OPD), and Supplemental Official OCS Block
+Diagram (SOBD) levels and digital spatial data in Arc/Info export or
+Arc/View shape format at the regional or planning area levels.
+</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>200205</caldate>
+</sngdate>
+</timeinfo>
+<current>Publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>As needed</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-130.26</westbc>
+<eastbc>-117.18</eastbc>
+<northbc>48.51</northbc>
+<southbc>30.10</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>Offshore</themekey>
+<themekey>Cadastre</themekey>
+<themekey>Official Protraction Diagram, OPD</themekey>
+<themekey>Lease blocks</themekey>
+<themekey>Outer Continental Shelf, OCS</themekey>
+<themekey>OCS blocks</themekey>
+<themekey>Bureau of Ocean Energy Management, BOEM</themekey>
+<themekey>Oil and gas</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>USA</placekey>
+<placekey>Pacific Ocean</placekey>
+<placekey>Exclusive Economic Zone, EEZ</placekey>
+<placekey>California, CA</placekey>
+<placekey>Oregon, OR</placekey>
+<placekey>Washington, WA</placekey>
+</place>
+</keywords>
+<accconst>
+None. The Block and Boundary data is in the public
+domain.
+</accconst>
+<useconst>
+The data was developed within the U.S. Government; no
+proprietary rights may be attached to them nor may they be sold to the
+U.S. Government as part of any procurement of ADP products or services.
+</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>
+Bureau of Ocean Energy Management, Mapping and Boundary
+Branch
+</cntorg>
+<cntper>Branch Chief, Geospatial Services Division</cntper>
+</cntorgp>
+<cntpos>Branch Chief</cntpos>
+<cntaddr>
+<addrtype>Mailing address</addrtype>
+<address>45600 Woodland Road</address>
+
+<city>Sterling</city>
+<state>Virginia</state>
+<postal>20166</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(703) 787-1312</cntvoice>
+<cntfax>(703) 787-1165</cntfax>
+<cntemail></cntemail>
+<cntemail>boemosr-gsd@boem.gov</cntemail>
+<hours>8:00am-6:00pm ET</hours>
+</cntinfo>
+</ptcontac>
+<browse>
+<browsen>https://www.boem.gov/sites/default/files/oil-and-gas-energy-program/Mapping-and-Data/Pacific-files/pc_full_protractions.jpg</browsen>
+<browsed>
+An image of the BOEM Pacific Region
+Official Protraction Diagram (OPD) Outlines GIS data file.
+</browsed>
+<browset>GIF</browset>
+</browse>
+<native>
+Coverages were created in Arc/Info version
+7.0.4 on a Sun Sparc Station 10 running Solaris 2.5.1
+</native>
+<crossref>
+<citeinfo>
+<origin>Bureau of Ocean Energy Management, Geospatial Services Division</origin>
+<pubdate>1997-2002</pubdate>
+<title>Supplemental Official OCS Block Diagrams (SOBD s)</title>
+<edition>current version</edition>
+<geoform>Diagram</geoform>
+<pubinfo>
+<pubplace>Sterling, Virginia</pubplace>
+<publish>Bureau of Ocean Energy Management, Geospatial Services Division</publish>
+</pubinfo>
+<othercit>
+SOBD s contain additional coordinate and area
+calculations for individual blocks.
+</othercit>
+<onlink>https://www.boem.gov/Oil-and-Gas-Energy-Program/Mapping-and-Data/Index.aspx</onlink>
+<lworkcit>
+<citeinfo>
+<origin>Bureau of Ocean Energy Management, Geospatial Services Division</origin>
+<pubdate>200111</pubdate>
+<title>
+Technical Information Management System (TIMS), Mapping
+System, Block and Boundary Component
+</title>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>
+Bureau of Ocean Energy Management, Pacific Region, Leasing
+Activities Section
+</origin>
+<pubdate>Unpublished material</pubdate>
+<title>Leases</title>
+<pubinfo>
+<pubplace>Camarillo, California</pubplace>
+<publish>
+Bureau of Ocean Energy Management, Pacific Region, Leasing
+Activities Section
+</publish>
+</pubinfo>
+<othercit>
+This Oracle database contains current
+information on the status of Federal leases.
+</othercit>
+<lworkcit>
+<citeinfo>
+<origin>Bureau of Ocean Energy Management</origin>
+<pubdate>2002</pubdate>
+<title>
+Technical Information Management System (TIMS), Lease
+Administration Component
+</title>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</crossref>
+</idinfo>
+<dataqual>
+<logic>
+Coordinates for OCS blocks and projected
+boundaries are calculated quantities and have been defined to be correct
+to 3 decimal places of a meter.  The OPD polygon coverage was
+topologically cleaned with Arc/Info s  CLEAN  command using a fuzzy
+tolerance of 0.000002 applied to the coverage in longitude/latitude
+coordinates.
+</logic>
+<complete>
+All NAD83 Federal Pacific Ocean offshore protraction
+diagram (OPD) boundaries are shown.
+</complete>
+<posacc>
+<horizpa>
+<horizpar>
+Official protraction diagram
+(OPD) corners are calculated values to 3 decimal places of a meter.
+However, GIS functions which build topology, change projection, etc.
+may degrade coordinate values.  For that reason, these GIS files are
+NOT an OFFICIAL record.
+</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Bureau of Ocean Energy Management, Geospatial Services Division</origin>
+<pubdate>2002</pubdate>
+<title>TIMS, Mapping Syetem, Block and Boundary Component</title>
+<geoform>Map</geoform>
+<pubinfo>
+<pubplace>Sterling, Virginia</pubplace>
+<publish>
+Bureau of Ocean Energy Management, Mapping and Boundary
+Branch
+</publish>
+</pubinfo>
+</citeinfo>
+</srccite>
+<typesrc>Computer program</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>2002</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>Publication date</srccurr>
+</srctime>
+<srccitea>BOEM, TIMS</srccitea>
+<srccontr>
+Coordinates of the protraction diagram corners were
+taken from TIMS.
+</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>
+The source data for the OCS protraction diagram
+coverage (OPD) is a theoretical mathematical derivation.  In-house
+computer programs are used to generate the boundaries for each
+diagram.
+</procdesc>
+<srcused>BOEM, TIMS</srcused>
+<procdate>20031112</procdate>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>
+Bureau of Ocean Energy Management, Mapping and
+Boundary Branch
+</cntorg>
+<cntper></cntper>
+</cntorgp>
+<cntpos>Branch Chief</cntpos>
+<cntaddr>
+<addrtype>Mailing address</addrtype>
+<address>45600 Woodland Road</address>
+<city>Sterling</city>
+<state>Virginia</state>
+<postal>20166</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(703) 787-1312</cntvoice>
+<cntfax>(703) 787-1165</cntfax>
+<cntemail></cntemail>
+<cntemail>boemosr-gsd@boem.gov</cntemail>
+<hours>8:00am-6:00pm ET</hours>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<indspref>U.S. Pacific Outer Continental Shelf (OCS)</indspref>
+<direct>Vector</direct>
+</spdoinfo>
+<spref>
+<horizsys>
+<geograph>
+<latres>0.00000001</latres>
+<longres>0.00000001</longres>
+<geogunit>Decimal degrees</geogunit>
+</geograph>
+<geodetic>
+<horizdn>North American Datum 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137 m</semiaxis>
+<denflat>298.25722210088</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<overview>
+<eaover>
+The shape files contain the following
+entities:  Shape:      Polygon
+Area:       Size of polygon in ESRI coverage units
+Perimeter:  Perimeter of polygon in ESRI coverage units
+Protrac_:   Internal ESRI number
+Protrac_id: Internal ESRI number
+BOEM_region: BOEM region code (P = Pacific)
+Prot_numbe: BOEM OPD identification number
+Prot_aprv:  BOEM OPD approval date (day-month-year)
+Prot_name:  BOEM OPD/map name
+Proj_zone:  OPD UTM map projection zone code (9 = 132W to
+126W longitude, 10 = 126W to 120W longitude, 11 =
+120W to 114W longitude)
+</eaover>
+<eadetcit>Bureau of Ocean Energy Management</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>
+Bureau of Ocean Energy Management, Mapping and
+Boundary Branch
+</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing address</addrtype>
+<address>45600 Woodland Road</address>
+
+<city>Sterling</city>
+<state>Virginia</state>
+<postal>20166</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(703) 787-1312</cntvoice>
+<cntfax>(703) 787-1165</cntfax>
+<cntemail>boemosr-gsd@boem.gov</cntemail>
+<hours>8:00am-6:00pm ET</hours>
+</cntinfo>
+</distrib>
+<resdesc>Digital Offshore Cadastre</resdesc>
+<distliab>
+As is.  No responsibility is assumed for the
+correctness of this data.
+</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>ARCE</formname>
+<formvern>7.0.4</formvern>
+<transize>69 Kbytes</transize>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>https://www.boem.gov/Oil-and-Gas-Energy-Program/Mapping-and-Data/Index.aspx</networkr>
+</networka>
+</computer>
+<accinstr>
+From the GIS Files section of the webpage, click on the shapefile
+you wish to download.  The downloaded file will need to be unzipped.
+</accinstr>
+<oncomp>
+Dell Pentium server running
+Windows NT 4.0
+</oncomp>
+</onlinopt>
+</digtopt>
+</digform>
+<digform>
+<digtinfo>
+<formname>ASHP</formname>
+<formvern>3</formvern>
+<transize>61 Kbytes</transize>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>https://www.boem.gov/Oil-and-Gas-Energy-Program/Mapping-and-Data/Index.aspx</networkr>
+</networka>
+</computer>
+<accinstr>
+From the GIS Files section of the webpage, click on the shapefile
+you wish to download.  The downloaded file will need to be unzipped.
+</accinstr>
+<oncomp>
+Dell Pentium server running
+Windows NT 4.0
+</oncomp>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20210201</metd>
+<metrd>20170805</metrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>
+Bureau of Ocean Energy Management, Mapping and
+Boundary Branch
+</cntorg>
+<cntper></cntper>
+</cntorgp>
+<cntpos>Branch Chief</cntpos>
+<cntaddr>
+<addrtype>Mailing address</addrtype>
+<address>45600 Woodland Road</address>
+
+<city>Sterling</city>
+<state>Virginia</state>
+<postal>20166</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(703) 787-1312</cntvoice>
+<cntfax>(703) 787-1165</cntfax>
+<cntemail></cntemail>
+<cntemail>boemosr-gsd@boem.gov</cntemail>
+<hours>8:00am - 6:00pm ET</hours>
+</cntinfo>
+</metc>
+<metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>Local time</mettc>
+</metainfo>
+</metadata>

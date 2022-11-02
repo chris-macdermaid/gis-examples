@@ -1,0 +1,428 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Fish and Wildlife Service</origin>
+        <pubdate>20220501</pubdate>
+        <title>USFWS National Wetlands Inventory </title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Washington, D.C.</pubplace>
+          <publish>U.S. Fish and Wildlife Service</publish>
+        </pubinfo>
+        <onlink>https://www.fws.gov/wetlands</onlink>
+        <onlink>https://www.fws.gov/wetlands/Data/Mapper.html</onlink>
+        <onlink>https://www.fws.gov/wetlands/data/Data-Download.html</onlink>
+        <onlink>https://www.fws.gov/wetlands/Data/KML/Wetlands-Data.kml</onlink>
+        <onlink>https://www.fws.gov/wetlandsmapservice/services/Wetlands/MapServer/WMSServer</onlink>
+        <onlink>https://www.fws.gov/wetlandsmapservice/rest/services</onlink>
+        <onlink>https://www.fws.gov/wetlands/Data/Wetlands-Product-Summary.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data set represents the extent, approximate location and type of wetlands and deepwater habitats in the United States and its Territories.  These data delineate the areal extent of wetlands and surface waters as defined by Cowardin et al. (1979), which  represents a biological definition of wetlands and deepwater habitats. There is no attempt to define the limits of proprietary jurisdiction of any Federal, State, or local government, or to establish the geographical scope of the regulatory programs of government agencies.
+
+Some wetland habitats may be under represented or excluded in certain areas because of the limitations of aerial imagery as the primary data source used to detect wetlands.   These habitats include seagrasses or submerged aquatic vegetation that are found in the intertidal and subtidal zones of estuaries and near shore coastal waters and also some deepwater reef communities (coral or tuberficid worm reefs).  These habitats, because of their depth and water clarity, go undetected by most aerial imagery.     
+
+By policy, the Service also excludes certain types of "farmed wetlands" as may be defined by the Food Security Act or that do not coincide with the Cowardin et al. definition.  Contact the Service's Regional Wetland Coordinator for additional information on what types of farmed wetlands are included on wetland maps. This dataset should be used in conjunction with the Wetlands_Project_Metadata layer, which contains project boundaries, specific wetlands mapping procedures and information on dates, scales and emulsion of imagery used to map the wetlands within specific project boundaries.
+</abstract>
+      <purpose>The present goal of the Service is to provide the citizens of the United States and its Trust Territories with current geospatially referenced information on the status, extent, characteristics and functions of wetlands, riparian, deepwater and related aquatic habitats to promote the understanding and conservation of these resources.</purpose>
+      <supplinf>Digital wetlands data are intended for use with base maps and digital aerial photography at a scale of 1:12,000 or smaller. Due to the scale, the primary intended use is for regional and watershed data display and analysis, rather than specific project data analysis. Due to the quantity and complexity of the data it is recommended the data not be displayed at scales smaller than 1:250,000.  For representation of the data at small scales, such as national or state level, we recommend using the Wetlands Raster service to display generalized wetlands. Visit https://www.fws.gov/wetlands/Data/Web-Map-Services.html for information on the Wetlands Raster service. 
+
+NWI map products were neither designed nor intended to represent legal or regulatory products. Questions or comments regarding the interpretation or classification of wetlands or deepwater habitats can be addressed by visiting https://www.fws.gov/wetlands/FAQs.html These data were developed in conjunction with the publication Cowardin, L.M., V. Carter, F.C. Golet, and E.T. LaRoe. 1979. Classification of Wetlands and Deepwater Habitats of the United States. U.S. Department of the Interior, Fish and Wildlife Service, Washington, DC. FWS/OBS-79/31. Alpha-numeric map codes have been developed to correspond to the wetland and deepwater classifications described. For more information on the wetland classification codes visit http://www.fws.gov/wetlands/Data/Wetland-Codes.html.  
+
+Wetland mapping conducted in WA, OR, CA, NV and ID prior to 2012 and most other projects mapped prior to 2015 were augmented to improve representation of all surface water features.  This augmentation was conducted by retaining the wetland and deepwater polygons that compose the NWI data layer and reintroducing any linear wetland or surface water features that were orphaned from the original NWI hard copy maps by converting them to narrow polygonal features. Additionally, the data are supplemented with hydrography data, buffered to become polygonal features, as a secondary source for any single-line stream features in areas where NWI did not have features mapped. The linear hydrography dataset used to augment these areas was the U.S. Geological Survey's National Hydrography Dataset (NHD).  Specific information on the NHD version used can be found in the 'comments' field of the Wetlands_Project_Metadata feature class for these older data areas.
+
+The U.S. Fish and Wildlife Service uses data standards to increase the quality and compatibility of its data. The standards used for the wetlands data can be found at: https://www.fws.gov/wetlands/Data/Data-Standards.html and include the FGDC Wetlands Mapping Standard, FGDC-STD-015-2009.  Note that coastline delineations were drawn to follow the extent of wetland or deepwater features as described by this project and may not match the coastline shown in other base maps. Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government. Although this Federal Geographic Data Committee-compliant and  ISO 19115: Geographic information metadata file is intended to document the data set in nonproprietary form, as well as in Arc/INFO format, this metadata file may include some Arc/INFO-specific terminology.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20220501</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>See Supplemental Info</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>biannually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>144.60000</westbc>
+        <eastbc>-64.54958</eastbc>
+        <northbc>71.99633</northbc>
+        <southbc>13.16667</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>biota</themekey>
+        <themekey>environment</themekey>
+        <themekey>inlandWaters</themekey>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>oceans</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>wetlands</themekey>
+        <themekey>deepwater habitats</themekey>
+        <themekey>hydrography</themekey>
+        <themekey>surface water</themekey>
+        <themekey>swamps</themekey>
+        <themekey>marshes	</themekey>
+        <themekey>bogs</themekey>
+        <themekey>fens</themekey>
+        <themekey>coastal waters</themekey>
+        <themekey>National Wetlands Inventory</themekey>
+        <themekey>NWI</themekey>
+        <themekey>U.S. Fish and Wildlife Service</themekey>
+        <themekey>USFWS</themekey>
+      </theme>
+      <theme>
+        <themekt>NGDA  Portfolio Themes</themekt>
+        <themekey>NGDA</themekey>
+        <themekey>National Geospatial Data Asset</themekey>
+        <themekey>Water Inland Theme</themekey>
+        <themekey>Water Oceans and Coasts Theme</themekey>
+      </theme>
+      <place>
+        <placekt>Common geographic areas</placekt>
+        <placekey>United States of America</placekey>
+        <placekey>Guam</placekey>
+        <placekey>Puerto Rico</placekey>
+        <placekey>Saipan</placekey>
+        <placekey>Virgin Islands of the United States</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None. Precautions - Federal, state, and local regulatory agencies with jurisdiction over wetlands may define and describe wetlands in a different manner than that used in this inventory. There is no attempt, in either the design or products of this inventory, to define the limits of proprietary jurisdiction of any Federal, state, or local government or to establish the geographical scope of the regulatory programs of government agencies. Persons intending to engage in activities involving modifications within or adjacent to wetland areas should seek the advice of appropriate federal, state, or local agencies concerning specified agency regulatory programs and proprietary jurisdictions that may affect such activities. Acknowledgement of the U.S. Fish and Wildlife Service and (or) the National Wetlands Inventory would be appreciated in products derived from these data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Fish and Wildlife Service</cntorg>
+        </cntorgp>
+        <cntpos>National Wetlands Inventory Program</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>505 Science Drive</address>
+          <city>Madison</city>
+          <state>WI</state>
+          <postal>53711</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>608-238-9333</cntvoice>
+        <cntfax>608-238-9351</cntfax>
+        <cntemail>wetlands_team@fws.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+<browsen>https://www.fws.gov/wetlands/system/images/NWI-browse-image.jpg</browsen>
+<browsed>Example of National Wetlands Inventory data representing wetland and deepwater habitats of the U.S.</browsed>
+<browset>JPEG</browset>
+</browse>
+    <native>Microsoft Windows 10; Esri ArcGIS 10.7.1.4959</native>
+    <crossref>
+      <citeinfo>
+        <origin>Federal Geographic Data Committee - Wetlands Subcommitte</origin>
+        <pubdate>20130801</pubdate>
+        <title>Classification of Wetlands and Deepwater Habitats of the United States </title>
+        <edition>2</edition>
+        <geoform>publication</geoform>
+        <pubinfo>
+          <pubplace>Washington, D.C.  USA</pubplace>
+          <publish>U.S. Fish and Wildlife Service</publish>
+        </pubinfo>
+        <othercit>Adapted from Cowardin, Carter, Golet and LaRoe (1979)</othercit>
+        <onlink>https://www.fws.gov/wetlands/documents/Classification-of-Wetlands-and-Deepwater-Habitats-of-the-United-States-2013.pdf</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Data accuracy is ensured using standard review procedures including visual inspection as well as automated verification routines.  Automated verification is designed to address specific geospatial errors, digital anomalies and logic checks.  Quality of the attribute information varies with age and mapping protocols used when individual maps were prepared.</attraccr>
+      <qattracc>
+        <attraccv>100%</attraccv>
+	<attracce>All polygons are attributed.</attracce>
+      </qattracc>
+    </attracc>
+    <logic>Polygon and chain-node topology are present. Every polygon has a label.</logic>
+    <complete>This data set represents the extent of wetlands and deepwater habitats that can be determined with the use of remotely sensed data and within the time frame for which the maps were produced. Wetlands are shown in all of the 50 states, the District of Columbia, Puerto Rico, the Virgin Islands, Guam and Saipan.  The accuracy of image interpretation depends on the quality of the imagery, the experience of the image analysts, the amount and quality of the collateral data, and the amount of ground truth verification work conducted.  
+
+There is a margin error inherent in the use of imagery, thus detailed on-the-ground inspection of any particular site, may result in revision of the wetland boundaries or classification, established through image analysis.
+
+Wetlands or other mapped features may have changed since the date or the imagery and/or field work.  There may be occasional differences in polygon boundaries or classifications between the information depicted on the map and the actual conditions on site.</complete>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Fish and Wildlife Service</origin>
+            <pubdate>20220501</pubdate>
+            <title>Wetlands and Deepwater Habitats of the United States</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>U.S. Fish and Wildlife Service</publish>
+            </pubinfo>
+            <onlink>https://www.fws.gov/wetlands/index.html</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>Digital file and hard copy paper</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>19770101</begdate>
+              <enddate>20220501</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>National Wetlands Inventory</srccitea>
+        <srccontr>Spatial information</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Original stable base hard copy maps of wetland and deepwater habitats were created based on USGS state and quadrangle boundaries.  These maps were converted to digital files using various software packages (WAMS, ARC and others).  The digital files were stored as ESRI Import/Export files corresponding to a single 1:24,000 USGS quadrangle.  These digital files were imported and converted to ESRI Coverage format and checked for topological and attribute errors.  All coverages were converted from a UTM map projection to an Alber's Equal Area map projection and the horizontal datum was converted from NAD27 to NAD83 were necessary.  Polygons attributed as "Uplands" were removed from the dataset and polygons were merged at quadrangle boundaries where the quadrangle line divided polygons with the same attribute.  The data was loaded into a seamless SDE geodatabase for the conterminous United States.  These steps were conducted using both Arc Macro Language (AML) and ArcMap editing tools.  All point data from the original ESRI Coverages were buffered by 11.28 meters (1/10 of an acre) and incorporated into this polygon feature class.
+
+Further data improvements included the conversion of all old wetland codes including 'OW' to 'UB', 'BB' to 'US', 'FL' to 'US', and 'SB' to 'US' except for 'R4SB' codes. Old Water Regimes were also changed, 'W' to 'A', 'Y' to 'C' and 'Z' to 'H'.  All polygons labeled as 'OUT', 'No Data' and 'NP' were removed from the database.</procdesc>
+        <procdate>2004</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>In areas of legacy wetlands data (pre-2012) a process was implemented to augment the data to improve the representation of narrow linear habitat features to more closely reflect the current Federal Wetland Mapping Standards. This was done by retaining the wetland and deepwater polygons that compose the legacy NWI digital wetlands spatial data layer and reintroducing any linear wetland or surface water features that were orphaned from the original NWI hard copy maps by converting them to narrow polygonal features. Additionally, the data were supplemented with hydrography data (high resolution NHD 931v210 or 931v220), buffered to become polygonal features, as a secondary source for any single-line stream features not mapped by the NWI and to complete segmented connections. Specific information on the NHD version used to augment the data can be found in the 'comments' field of the Wetlands_Project_Metadata feature class. The data augmentation was derived using an ESRI Data Model with 481 logical and topological processes. Linear NWI features retained their original NWI Code and were buffered to specific widths based on the following rules: Palustrine = 6m, Riverine Perennial = 8m, Riverine Intermittent = 6m, Marine, Estuarine and Lacustrine = 8m. The NHDFlowline features were buffered to the width based on the FType field using the following general rules: CanalDitch = 4m, Intermittent = 6m and Perennial = 6m. The NHDFlowline features were coded with NWI Codes based on the following general rules: CanalDitch/aqueduct = R5UBFr, CanalDitch/all others = R5UBFx, Intermittent Stream = R4SBC, Perennial Stream = R5UBH. Further refinement of the NWI Codes was implemented based on spatial intersect with known NWI features and specific FCode information from the NHD dataset. Topological modifications were conducted to remove overlapping features. In general, buffered NWI linears were clipped into NWI polygons and both the NWI polygons and buffered NWI linears were used to erase buffered NHDFlowlines. Further topological refinements were conducted within the buffered linear feature layers based on intersections with known NWI features and using a hierarchy based on NWI Code Sub-system and Water Regime. For more specific information on the logical and topological processes involved in deriving this dataset visit: https://www.fws.gov/wetlands/Data/Wetlands-Product-Summary.html</procdesc>
+        <procdate>20160101</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>This dataset is continually being improved and updated in various areas of the Nation and posted to the Wetlands Mapper on a biannual basis. Updates are reflected on the Wetlands Mapper and in data downloads in October and May of each year. To ensure you have the most up to date information, please refer to the published date in the metadata, the location of new data on the Projects Mapper and download new data regularly. The Wetlands Project Metadata feature class may also include a URL to link to a document that identifies project specific techniques, source imagery and conventions used for that specific project. All data additions comply with the FGDC Wetlands Mapping Standard, FGDC-STD-015-2009 and the Wetlands Classification Standard, which can be found at: https://www.fws.gov/wetlands/Data/Data-Standards.html.</procdesc>
+        <procdate>20201001</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>G-polygon</sdtstype>
+        <ptvctcnt>35416519</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Mercator_Auxiliary_Sphere</mapprojn>
+          <transmer>
+            <sfctrmer>1.0</sfctrmer>
+            <longcm>0.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>0.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000156</absres>
+            <ordres>0.000156</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>GCS_WGS_1984</horizdn>
+        <ellips>WGS_1984</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Wetlands</enttypl>
+        <enttypd>Geospaital data</enttypd>
+        <enttypds>U.S. Fish and Wildlife Service</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Polygon</edomv>
+            <edomvd>2-dimensional element.</edomvd>
+            <edomvds>ESRI GIS software</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ATTRIBUTE</attrlabl>
+        <attrdef>Alphanumeric code identifying the wetland classification of the polygon.</attrdef>
+        <attrdefs>https://www.fws.gov/wetlands/Data/Wetland-Codes.html</attrdefs>
+        <attrdomv><udom>The wetland classification codes are a series of letter and number codes that have been developed to adapt the national wetland classification system to map form. These alpha-numeric codes correspond to the classification nomenclature (Cowardin et al. 1979) that best describes the habitat. (for example, PFO1A). For information on the wetland codes visit: https://www.fws.gov/wetlands/Data/Wetland-Codes.html.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv><udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+  <attrlabl>WETLAND_TYPE</attrlabl><attrdef>General description of the wetland based on the Cowardin wetland classification.</attrdef><attrdefs>https://www.fws.gov/wetlands/Data/Mapper-Wetlands-Legend.html</attrdefs><attrdomv>
+    <edom>
+      <edomv>Estuarine and Marine Deepwater</edomv>
+      <edomvd>Open water estuary, bay, sound, open ocean.  Estuarine and Marine subtidal water (E1, M1).</edomvd>
+      <edomvds>https://www.fws.gov/wetlands/Data/Mapper-Wetlands-Legend.html</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>Estuarine and Marine Wetland</edomv>
+      <edomvd>Vegetated and non-vegetated brackish and saltwater marsh, shrubs, beach, bar, shoal or flat.  Estuarine intertidal and Marine intertidal wetland (E2, M2).</edomvd>
+      <edomvds>https://www.fws.gov/wetlands/Data/Mapper-Wetlands-Legend.html</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>Freshwater Emergent Wetland</edomv>
+      <edomvd>Herbaceous marsh, fen, swale and wet meadow.  Palustrine emergent (PEM).</edomvd>
+      <edomvds>https://www.fws.gov/wetlands/Data/Mapper-Wetlands-Legend.html</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>Freshwater Forested/Shrub Wetland</edomv>
+      <edomvd>Forested swamp or wetland shrub bog or wetland.  Palustrine forested and/or Palustrine shrub (PFO, PSS).</edomvd>
+      <edomvds>https://www.fws.gov/wetlands/Data/Mapper-Wetlands-Legend.html</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>Freshwater Pond</edomv>
+      <edomvd>Pond.  Palustrine unconsolidated bottom, Palustrine aquatic bed (PUB, PAB).</edomvd>
+      <edomvds>https://www.fws.gov/wetlands/Data/Mapper-Wetlands-Legend.html</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>Lake</edomv>
+      <edomvd>Lake or reservoir basin.  Lacustrine wetland and deepwater (L).</edomvd>
+      <edomvds>https://www.fws.gov/wetlands/Data/Mapper-Wetlands-Legend.html</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>Other</edomv>
+      <edomvd>Farmed wetland, saline seep and other miscellaneous wetland.  Palustrine wetland (Misc. types, PUS, Pf..)</edomvd>
+      <edomvds>https://www.fws.gov/wetlands/Data/Mapper-Wetlands-Legend.html</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>Riverine</edomv>
+      <edomvd>River or stream channel.  Riverine wetland and deepwater (R).</edomvd>
+      <edomvds>https://www.fws.gov/wetlands/Data/Mapper-Wetlands-Legend.html</edomvds>
+    </edom>
+  </attrdomv>
+</attr>
+      <attr>
+        <attrlabl>ACRES</attrlabl>
+        <attrdef>Area of the polygon in acres.</attrdef>
+        <attrdefs>Calculated in an Albers Equal Area projection using ESRI's geometry calculator.</attrdefs>
+        <attrdomv><udom>Numerical value in decimal form. </udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GLOBALID</attrlabl>
+        <attrdef>A field of type UUID (Universal Unique Identifier) in which values are automatically assigned by the geodatabase when a row is created. The GlobalID field is necessary for maintaining object uniqueness across replicas.</attrdef>
+        <attrdefs>Auto generated by the geodatabase when a row is created.</attrdefs>
+        <attrdomv><udom>Unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv><udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv><udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Fish and Wildlife Service</cntorg>
+        </cntorgp>
+        <cntpos>National Wetlands Inventory</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>505 Science Drive</address>
+          <city>Madison</city>
+          <state>WI</state>
+          <postal>53711</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>608-238-9333</cntvoice>
+        <cntfax>608-238-9351</cntfax>
+        <cntemail>wetlands_team@fws.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>Although these data have been processed successfully on a computer system at the U.S. Fish and Wildlife Service, no warranty expressed or implied is made by the U.S. Fish and Wildlife Service regarding the utility of the data on any other system, nor shall the act of distribution constitute any such warranty. No responsibility is assumed by the U.S. Fish and Wildlife Service in the use of these data.</distliab>
+    <stdorder>
+      <digform><digtinfo>
+          <formname>JavaScript</formname>
+        </digtinfo>
+        <digtopt><onlinopt><computer><networka><networkr>https://www.fws.gov/wetlands/Data/Mapper.html</networkr></networka></computer></onlinopt></digtopt></digform>
+      <fees>There is no charge for the online option.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20201001</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Fish and Wildlife Service</cntorg>
+        </cntorgp>
+        <cntpos>National Wetlands Inventory Program</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>505 Science Drive</address>
+          <city>Madison</city>
+          <state>WI</state>
+          <postal>53711</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>608-238-9333</cntvoice>
+        <cntfax>608-238-9351</cntfax>
+        <cntemail>wetlands_team@fws.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metsi>
+      <metscs>None</metscs>
+      <metsc>Unclassified</metsc>
+      <metshd>None</metshd>
+    </metsi>
+    <metextns>
+      <onlink>https://www.fws.gov/wetlands/Data/metadata.html</onlink>
+    </metextns>
+  </metainfo>
+</metadata>
