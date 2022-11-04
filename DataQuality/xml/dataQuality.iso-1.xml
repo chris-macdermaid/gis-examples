@@ -886,7 +886,9 @@
         <mdq:report>
            <mdq:DQ_AbsoluteExternalPositionalAccuracy>
               <mdq:measure>
+                 
                  <mdq:DQ_MeasureReference>
+                    
                     <mdq:nameOfMeasure><gco:CharacterString>Horizontal Positional Accuracy Report</gco:CharacterString></mdq:nameOfMeasure>
                  </mdq:DQ_MeasureReference>
               </mdq:measure>
@@ -918,8 +920,81 @@
            </mdq:DQ_AbsoluteExternalPositionalAccuracy>
         </mdq:report>
         
-        <!-- Horizontal Positional Accuracy Assessment (qhorizpa) -->
+        <!-- with Horizontal Positional Accuracy Assessment (qhorizpa)
+        <dataqual>
+		    <attracc>
+		      <attraccr>The observations were made by PIRO HCD Fishery Biologist and biologists from Guam Environmental Protection Agency and University of Guam Marine Laboratory.  Conditions were marginal and it was difficult to collect detailed data.  GPS coordinates for photos may be up to 10m off due to conditions.</attraccr>
+		    </attracc>
+		    <logic>Photographers tried to stay as close to the GPS as possible, but had to keep some distance due to waves.</logic>
+		    <complete>The survey sites were selected based on safe access.  The team was unable to access some areas.</complete>
+          <posacc>
+            <horizpa>
+              <horizpar>GPS Unit</horizpar>
+                <qhorizpa>
+                  <horizpav>1</horizpav>
+                  <horizpae>Instrument parameters</horizpae>
+                </qhorizpa>
+            </horizpa>
+            <vertacc>
+              <vertaccr>Instrument parameters</vertaccr>
+            </vertacc>
+          </posacc>
+          <lineage>
+			   <procstep>
+			     <procdesc>Compact digital point and shoot cameras and housings were used by individual observers to document biota and damage at the site.  Cameras and GPS units were synced prior to survey. GPS units were towed on floats and kept as close to the cameras as possible given conditions.  Original photo and GPS data were downloaded and stored on DVD and hard drive.  Copies of photos and GPS data were post-processed using RoboGEO.  Photos were tagged with GPS coordinates and photos and GPS tracks were converted into shapefiles and Google Earth .kml files.</procdesc>
+		        <procdate>Unknown</procdate>
+			   </procstep>
+		    </lineage>
+	     </dataqual>
+        -->
+        <mdq:report>
+           <mdq:DQ_AbsoluteExternalPositionalAccuracy>
+              <mdq:evaluationMethod>
+                 <mdq:DQ_EvaluationMethod>
+                    <mdq:evaluationMethodDescription><gco:CharacterString>GPS Unit</gco:CharacterString></mdq:evaluationMethodDescription>
+                 </mdq:DQ_EvaluationMethod>
+              </mdq:evaluationMethod>
+              <mdq:measure>                 
+                 <mdq:DQ_MeasureReference>
+                    <mdq:nameOfMeasure><gco:CharacterString>Horizontal Positional Accuracy Report</gco:CharacterString></mdq:nameOfMeasure>
+                    <mdq:measureDescription><gco:CharacterString>Instrument parameters</gco:CharacterString></mdq:measureDescription>
+                 </mdq:DQ_MeasureReference>
+              </mdq:measure>
+              <mdq:result>
+                 <mdq:DQ_QuantitativeResult>
+                    <mdq:value>
+                       <gco:Record>1</gco:Record>
+                    </mdq:value>
+                 </mdq:DQ_QuantitativeResult>
+              </mdq:result>
+           </mdq:DQ_AbsoluteExternalPositionalAccuracy>
+        </mdq:report>
         
+               
+        <!-- Coverage Is this represented in CSDGM? -->
+        <mdq:report>
+           <mdq:DQ_AbsoluteExternalPositionalAccuracy>
+              <mdq:measure>
+                 <mdq:DQ_MeasureReference>
+                    <mdq:nameOfMeasure><gco:CharacterString>Vertical Positional Accuracy Report</gco:CharacterString></mdq:nameOfMeasure>
+                 </mdq:DQ_MeasureReference>
+              </mdq:measure>
+              <mdq:result>
+                 <mdq:QE_CoverageResult>
+                    <mdq:spatialRepresentationType></mdq:spatialRepresentationType>
+                    <mdq:resultFile></mdq:resultFile>
+                    <mdq:resultSpatialRepresentation></mdq:resultSpatialRepresentation>
+                    <mdq:resultContentDescription></mdq:resultContentDescription>
+                    <mdq:resultFormat></mdq:resultFormat>
+                 </mdq:QE_CoverageResult>
+                 <mdq:DQ_DescriptiveResult>
+                    <mdq:statement>
+                       <gco:CharacterString>Official protraction diagram (OPD) corners are calculated values to 3 decimal places of a meter. However, GIS functions which build topology, change projection, etc.may degrade coordinate values.  For that reason, these GIS files are NOT an OFFICIAL record</gco:CharacterString>
+                    </mdq:statement>
+                 </mdq:DQ_DescriptiveResult>
+              </mdq:result>
+           </mdq:DQ_AbsoluteExternalPositionalAccuracy>
+        </mdq:report>
                
      </mdq:DQ_DataQuality>
    </mdb:dataQualityInfo>
