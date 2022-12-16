@@ -18,7 +18,13 @@ curl -X POST -H "X-XSRF-TOKEN: $TOKEN" --user $CATALOGUSER:$CATALOGPASS -b /tmp/
 
 #After authenticated run authenticated API calls
 
-#Delete cached formatter cache
-curl -X DELETE "http://localhost:8080/geonetwork/srv/api/0.1/formatters/cache" \
-  -H "accept: */*" -H "X-XSRF-TOKEN: $TOKEN" \
-  --user $CATALOGUSER:$CATALOGPASS  -b /tmp/cookie
+#Delete cached formatter cache success is a 204 response
+#curl -v -X DELETE "$CATALOG/srv/api/0.1/formatters/cache" \
+#  -H "accept: */*" -H "X-XSRF-TOKEN: $TOKEN" \
+#  --user $CATALOGUSER:$CATALOGPASS  -b /tmp/cookie
+
+#Re-index a record by UUID success is {"success":true,"count":1}
+export UUID=de1bbc0a-440c-590a-8df6-a0581bf8b20e
+
+curl -v -X GET "$CATALOG/srv/api/0.1/records/index?uuids=$UUID" \
+  -H  "accept: application/json"  -H "X-XSRF-TOKEN: $TOKEN"   --user $CATALOGUSER:$CATALOGPASS  -b /tmp/cookie
